@@ -1,0 +1,77 @@
+{
+ "groups": [
+  {
+   "title": "The Levenson Self-Report Psychopathy Scale (LSRP)",
+   "intro": "The LSRP was developed by Michael Levenson, Kent Kiehl and Cory Fitzpatrick (1995) to assess psychopathic traits in non-institutionalized samples.",
+   "items": [
+    {
+     "name": "Levenson Self-Report Psychopathy Scale (LSRP)",
+     "sub": "The scale (Word document)",
+     "url": "assets/files/Levensons-Self-Report-Psychopathy-Scale.doc"
+    },
+    {
+     "name": "LSRP scoring codebook",
+     "sub": "Coding guide for the scale (RTF)",
+     "url": "assets/files/LSRP_psychopathy-codebook.rtf"
+    },
+    {
+     "name": "Levenson's Antisocial Action Scale",
+     "sub": "Word document",
+     "url": "assets/files/Levensons-Antisocial-Action-Scale.doc"
+    },
+    {
+     "name": "The original article",
+     "sub": "Levenson, Kiehl & Fitzpatrick (1995), Journal of Personality and Social Psychology, 68(1), 151-158 (PDF)",
+     "url": "assets/files/levenson_kiehl_fitzpatrick_JPSP_1995.pdf"
+    },
+    {
+     "name": "LSRP: Chinese translation",
+     "sub": "Shou et al., 2016 (PDF)",
+     "url": "assets/files/LSRP_Chinese_Translation_Shou-et-al-2016.pdf"
+    },
+    {
+     "name": "LSRP: German translation",
+     "sub": "Dericiglu et al., 2024 (PowerPoint)",
+     "url": "assets/files/LSRP_German_Translation_Dericiglu-et-al-2024.ppt"
+    },
+    {
+     "name": "SRP-III: Spanish adaptation",
+     "sub": "Gomez-Leal et al., 2019 (PDF)",
+     "url": "assets/files/SRP_III_Spanish_Adaptation_Gomez-Leal-et-al-2019.pdf"
+    }
+   ]
+  },
+  {
+   "title": "Reading and reference",
+   "intro": "",
+   "items": [
+    {
+     "name": "Psychopathy (Scholarpedia)",
+     "sub": "Kiehl & Lushing (2014), a peer-reviewed encyclopedia entry",
+     "url": "http://www.scholarpedia.org/article/Psychopathy"
+    },
+    {
+     "name": "psychopathwhisperer.com",
+     "sub": "Dr. Kiehl's site reviewing psychopathy research for general readers",
+     "url": "http://www.psychopathwhisperer.com/"
+    },
+    {
+     "name": "Hare Psychopathy Checklist-Revised (PCL-R)",
+     "sub": "Robert Hare's site; Dr. Kiehl is a certified trainer for clinical use of the PCL-R",
+     "url": "http://www.hare.org/welcome/"
+    },
+    {
+     "name": "MacArthur Foundation Research Network on Law and Neuroscience",
+     "sub": "Dr. Kiehl was an original member of the Law and Neuroscience Project",
+     "url": "http://www.lawneuro.org/"
+    }
+   ]
+  },
+  {
+   "title": "Software and hardware",
+   "intro": "Tools Dr. Kiehl has developed or helped to develop (from the CV).",
+   "from_cv": "software",
+   "items": []
+  }
+ ]
+}

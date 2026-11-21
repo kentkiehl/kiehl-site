@@ -1,0 +1,199 @@
+{
+ "intro": "The laboratory uses brain imaging to study the mental disorders most often found in the justice system, above all psychopathy, and asks how that knowledge can improve prediction, treatment and the law. Much of the work is done inside prisons and treatment facilities with a mobile MRI scanner.",
+ "overview": {
+  "title": "Clinical cognitive neuroscience, taken to where the participants are",
+  "paragraphs": [
+   "Kent Kiehl's research uses functional and structural MRI, EEG and event-related potentials, genetics and detailed clinical assessment to understand psychopathy and related conditions, including psychotic disorders, traumatic brain injury, substance use disorders and paraphilias.",
+   "No prison in the United States has an MRI scanner, so the laboratory designed and built a mobile MRI system and brings it to correctional and forensic facilities. Every participant also contributes behavioral, neuropsychological, psychiatric and genetic data and consents to lifetime follow-up. Gathered under 12 NIH R01 awards, these data form the largest forensic neuroimaging repository in the world.",
+   "The lab's aim is to identify the brain systems that drive addiction, impulsive and antisocial behavior, and poor treatment response, and then to use those systems as targets for treatments that improve health and lives. Each theme below links to the matching papers in the publications database."
+  ]
+ },
+ "themes": [
+  {
+   "id": "psychopathy",
+   "title": "Psychopathy and the brain",
+   "tags": "topic=psychopathy",
+   "question": "What is different about the brains of people with psychopathic traits?",
+   "paragraphs": [
+    "This work began with the first fMRI study of criminal psychopaths, which reported limbic abnormalities during affective processing (Kiehl et al., 2001, Biological Psychiatry), and with event-related potential studies implicating the temporal lobe. A 2006 review in Psychiatry Research proposed that psychopathy reflects dysfunction of the paralimbic system.",
+    "Later studies with the mobile scanner tested these ideas in large incarcerated samples, relating psychopathic traits to gray matter in paralimbic regions, to white-matter pathways such as the uncinate fasciculus, to functional network connectivity, and to brain responses during moral judgment, empathy, reward and error monitoring. One recent collaboration examined cortical structure in relation to empathy and psychopathy in 800 incarcerated men."
+   ]
+  },
+  {
+   "id": "mobile-mri",
+   "title": "The Mind Mobile MRI System",
+   "tags": "topic=antisocial_violence&approach=structural_mri,connectivity",
+   "question": "How do you scan thousands of people who cannot come to the lab?",
+   "paragraphs": [
+    "Kiehl designed and built a one-of-a-kind mobile MRI system, delivered in 2007, that is driven to prisons, juvenile facilities and forensic hospitals so that incarcerated volunteers can take part in research where they live. It has since scanned more than 6,000 incarcerated people across a dozen states, and a second system has doubled the lab's data collection capacity.",
+    "The same approach brings brain imaging to other populations that clinical research misses. The lab has scanned Native American participants on New Mexico pueblos for an Alzheimer's disease study, and The Ohio State University used one of the scanners for 18 months to study more than 1,500 participants at six rural sites. The data are analysed with methods developed with long-time collaborator Vince Calhoun and colleagues, including group independent component analysis, source-based morphometry and multimodal fusion."
+   ],
+   "image": "mobile-mri.jpg",
+   "image_caption": "The Mind Research Network Mobile Imaging System."
+  },
+  {
+   "id": "neuroprediction",
+   "title": "Founders of the field of neuroprediction",
+   "tags": "topic=risk_prediction",
+   "question": "Can brain measures improve forecasts of future behavior and treatment outcomes?",
+   "paragraphs": [
+    "The lab helped build the field of neuroprediction, which asks whether brain measures improve forecasts of future behavior and treatment outcomes. In an early study, incarcerated adults completed the Go/No Go task during fMRI and were followed for re-arrest after release. Age at release, psychopathy scores and substance use predicted re-arrest, as expected. But anterior cingulate activity predicted re-arrest over and above those variables: people with low activity were significantly more likely to be re-arrested.",
+    "Later work extended the approach to multimodal imaging and brain-age predictors of re-arrest, and showed that brain measures also predict who completes substance use treatment. The lab's longitudinal cohorts allow these measures to be tested over many years, and the same work raises ethical questions about how brain-based predictions should and should not be used; see neuroscience and the law below."
+   ],
+   "papers_title": "The key papers",
+   "papers": [
+    {
+     "id": "aharoni2013neuroprediction",
+     "cite": "Aharoni et al. (2013)",
+     "title": "Neuroprediction of future re-arrest",
+     "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+     "note": "The founding study: anterior cingulate activity during a Go/No Go task predicted re-arrest after release, over and above age, psychopathy scores and substance use."
+    },
+    {
+     "id": "aharoni2014predictive",
+     "cite": "Aharoni et al. (2014)",
+     "title": "Predictive accuracy in the neuroprediction of rearrest",
+     "journal": "Social Neuroscience",
+     "note": "A follow-up on the predictive accuracy of the anterior cingulate measure."
+    },
+    {
+     "id": "steele2014brain",
+     "cite": "Steele et al. (2014)",
+     "title": "Brain potentials measured during a Go/No Go task predict completion of substance abuse treatment",
+     "journal": "Biological Psychiatry",
+     "note": "Brain potentials recorded during the Go/No Go task predicted who completed substance use treatment."
+    },
+    {
+     "id": "steele2015multimodal",
+     "cite": "Steele et al. (2015)",
+     "title": "Multimodal imaging measures predict re-arrest",
+     "journal": "Frontiers in Human Neuroscience",
+     "note": "Extended the approach to multimodal imaging predictors of re-arrest."
+    },
+    {
+     "id": "fink2016brain",
+     "cite": "Fink et al. (2016)",
+     "title": "Brain potentials predict substance abuse treatment completion in a prison sample",
+     "journal": "Brain and Behavior",
+     "note": "Brain potentials predicted substance use treatment completion in a prison sample."
+    },
+    {
+     "id": "kiehl2018age",
+     "cite": "Kiehl et al. (2018)",
+     "title": "Age of gray matters: Neuroprediction of recidivism",
+     "journal": "NeuroImage: Clinical",
+     "note": "Brain-age measures as predictors of re-arrest."
+    },
+    {
+     "id": "steele2018machine",
+     "cite": "Steele et al. (2018)",
+     "title": "Machine learning of functional magnetic resonance imaging network connectivity predicts substance abuse treatment completion",
+     "journal": "Biological Psychiatry: Cognitive Neuroscience and Neuroimaging",
+     "note": "Machine learning of fMRI network connectivity predicted substance use treatment completion."
+    },
+    {
+     "id": "edwards2023psychopathy",
+     "cite": "Edwards et al. (2023)",
+     "title": "Psychopathy and substance use predict recidivism in women: A 7-year prospective study",
+     "journal": "Personality Disorders: Theory, Research, and Treatment",
+     "note": "Psychopathy and substance use predicted recidivism in women over seven years."
+    },
+    {
+     "id": "allen2024psychopathy",
+     "cite": "Allen et al. (2024)",
+     "title": "Psychopathy scores predict recidivism in high-risk youth: A five-year follow-up study",
+     "journal": "Research on Child and Adolescent Psychopathology",
+     "note": "Psychopathy scores predicted felony recidivism in high-risk youth over five years."
+    },
+    {
+     "id": "rodriguez2025machine",
+     "cite": "Rodriguez et al. (2025)",
+     "title": "Machine learning of clinical and neural data predicts future homicide in high-risk youth",
+     "journal": "Scientific Reports",
+     "note": "Machine learning applied to clinical and neural data predicted future homicide in high-risk youth in a 17-year follow-up."
+    },
+    {
+     "id": "nadelhoffer2012neuroprediction",
+     "cite": "Nadelhoffer et al. (2012)",
+     "title": "Neuroprediction, violence and the law: Setting the stage",
+     "journal": "Neuroethics",
+     "note": "Set the stage: the scientific, legal and ethical questions that neuroprediction raises."
+    }
+   ]
+  },
+  {
+   "id": "imaging-to-treatment",
+   "title": "From brain imaging to treatment",
+   "tags": "approach=treatment",
+   "question": "Can a brain mechanism become a treatment target?",
+   "more": [
+    "treatment.html",
+    "The three treatment trials"
+   ],
+   "paragraphs": [
+    "The lab studies the brain processes behind error monitoring, cognitive control and social cognition. The Go/No Go task it first published in 2001 probes response inhibition and error monitoring, centered on the anterior cingulate cortex, and has revealed abnormal circuitry across attention-deficit disorder, obsessive-compulsive disorder, hoarding disorder, substance use disorders, schizophrenia, bipolar disorder, depression and psychopathy. Weak error monitoring appears across many disorders, which makes it a promising common target for treatment.",
+    "The same brain measures forecast outcomes. Anterior cingulate activity predicted re-arrest over and above age, psychopathy scores and substance use, and brain measures from the same task predict who completes substance use treatment. Three clinical trials now close the loop: each takes a mechanism identified in forensic populations, turns it into a treatment target, scans participants before and after treatment on the mobile MRI, and asks whether treatment changes the target brain system and whether that change predicts better outcomes."
+   ]
+  },
+  {
+   "id": "youth",
+   "title": "High-risk youth",
+   "tags": "topic=youth",
+   "question": "How early do the brain differences appear, and what do they predict?",
+   "paragraphs": [
+    "Studies of incarcerated adolescents examine callous and psychopathic traits, conduct disorder, substance use and trauma alongside brain structure and function. Findings include paralimbic gray-matter differences in youth with psychopathic traits, abnormal brain structure in youth who commit homicide, and an elevated risk of premature mortality among adolescents with high psychopathic traits.",
+    "NIH-funded projects in this area have followed externalizing outcomes in high-risk youth and brain changes associated with evidence-based treatment, in collaboration with Michael Caldwell and Gregory Van Rybroek."
+   ]
+  },
+  {
+   "id": "substance-use",
+   "title": "Substance use and treatment",
+   "tags": "topic=substance_use",
+   "question": "Which cognitive deficits drive relapse, and can treatment be matched to them?",
+   "paragraphs": [
+    "Substance use disorders are the rule rather than the exception in incarcerated samples. Imaging studies of incarcerated people point to a common weak point in addiction, the anterior cingulate and the control networks it anchors, and show that psychopathic and callous-unemotional traits change the brain's response to drug cues. Current work studies neurocognitive abnormalities in stimulant use among high-risk women (NIDA R01DA055158); two of the lab's treatment trials, cognitive remediation and mindfulness-based relapse prevention, target substance use directly."
+   ],
+   "more": [
+    "treatment.html",
+    "Treatment trials"
+   ]
+  },
+  {
+   "id": "tbi",
+   "title": "Traumatic brain injury",
+   "tags": "topic=tbi",
+   "question": "How common is brain injury in justice-involved people, and what does it change?",
+   "paragraphs": [
+    "With Michael Koenigs, the laboratory is conducting a longitudinal study of traumatic brain injury in a high-risk population (NINDS R01NS126742), relating injury history to brain structure, function and outcomes. Earlier work with University of New Mexico athletes, the Brain Safe Project, studied sports concussion."
+   ]
+  },
+  {
+   "id": "women",
+   "title": "Women in the justice system",
+   "tags": "topic=women",
+   "question": "Do findings from incarcerated men hold for women?",
+   "paragraphs": [
+    "Most forensic neuroscience has studied men. The laboratory has collected brain-imaging data from incarcerated women, with studies of psychopathic traits, socio-moral processing, stimulant use and trauma, and resting-state connectivity. A current NIMH project led by Bethany Edwards develops multimodal models of risk outcomes in female offenders (R01MH138560)."
+   ]
+  },
+  {
+   "id": "law",
+   "title": "Neuroscience and the law",
+   "tags": "topic=law_ethics",
+   "question": "What can brain science properly tell a court?",
+   "paragraphs": [
+    "Kiehl was an original member of the MacArthur Foundation Law and Neuroscience Project and chaired its Psychopathy Working Group. With Walter Sinnott-Armstrong he co-edited the Handbook on Psychopathy and Law (Oxford, 2013), and with Morris Hoffman he wrote 'The criminal psychopath: History, neuroscience and economics' (Jurimetrics, 2011).",
+    "Empirical studies have tested how neuroimaging evidence affects sentencing decisions. He teaches neuroscience to judges and lawyers, including through the Federal Judicial Center, and consults on criminal and civil cases that involve neuroscience."
+   ]
+  },
+  {
+   "id": "psychosis",
+   "title": "Schizophrenia and cognitive neuroscience",
+   "tags": "topic=psychosis,cognitive_control",
+   "question": "How do the brain's attention and control systems fail in psychosis?",
+   "paragraphs": [
+    "A second line of work, begun with Peter Liddle in Vancouver and continued at the Institute of Living and Yale, uses oddball, response-inhibition and error-monitoring tasks with fMRI and event-related potentials to map attention and cognitive-control systems in healthy people and in schizophrenia, bipolar disorder and other conditions, and, with Vince Calhoun, contributed to independent component analysis methods for brain imaging."
+   ]
+  }
+ ]
+}

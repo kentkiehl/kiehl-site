@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Media & talks | Kiehl Lab</title>
+<meta name="description" content="Kent Kiehl in the media: podcasts and video interviews, television and documentary appearances, recorded lectures and panels, print features, and invited lectures.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..600,0..100;1,9..144,300..600,0..100&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<meta property="og:site_name" content="Kiehl Lab">
+<meta property="og:title" content="Media & talks | Kiehl Lab">
+<meta property="og:description" content="Kent Kiehl in the media: podcasts and video interviews, television and documentary appearances, recorded lectures and panels, print features, and invited lectures.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://kentkiehl.com/media.html">
+<meta property="og:image" content="https://kentkiehl.com/assets/og.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://kentkiehl.com/assets/og.jpg">
+<link rel="canonical" href="https://kentkiehl.com/media.html">
+<link rel="icon" href="assets/favicon.svg?v=3" type="image/svg+xml"><link rel="alternate icon" href="assets/favicon-32.png?v=3" sizes="32x32"><link rel="apple-touch-icon" href="assets/apple-touch-icon.png?v=3">
+<link rel="stylesheet" href="assets/app.css?v=3">
+<style>
+  .msec { margin: 2.2rem 0 .8rem; display: flex; align-items: baseline; gap: .8rem; border-bottom: 1px solid var(--line); padding-bottom: .4rem; }
+  .msec h2 { margin: 0; } .mlist { display: grid; gap: .6rem; grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)); }
+  .m { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-sm); padding: .9rem 1.05rem; display: grid; gap: .25rem; align-content: start; }
+  .m .y { font-family: var(--mono); font-size: .76rem; color: var(--accent-deep); font-weight: 600; }
+  .m h3 { font-size: 1.05rem; margin: 0; line-height: 1.25; } .m h3 a { color: var(--ink); } .m h3 a:hover { color: var(--steel-deep); }
+  .m p { margin: 0; font-size: .86rem; color: var(--ink-2); }
+  .sec-nav { display: flex; flex-wrap: wrap; gap: .4rem; margin: .4rem 0 0; }
+  .sec-nav a { font-size: .84rem; padding: .35em .8em; border-radius: 999px; border: 1px solid var(--line-2); background: var(--surface); color: var(--ink-2); font-weight: 500; }
+  .sec-nav a:hover { border-color: var(--accent-deep); color: var(--ink); }
+  .lect { columns: 2 340px; column-gap: 2.4rem; padding-left: 1.1rem; font-size: .93rem; } .lect li { break-inside: avoid; margin: 0 0 .6rem; }
+</style>
+</head>
+<body>
+<div id="site-header"></div>
+<main class="wrap">
+  <div class="page-head"><p class="eyebrow">Media &amp; talks</p><h1>Podcasts, television, lectures and press</h1>
+    <p>More than 25 podcast, television, documentary and recorded-lecture appearances, a selection of print features about the laboratory, and invited lectures. To arrange a lecture or interview, write to <a href="mailto:kkiehl@mrn.org">kkiehl@mrn.org</a>.</p></div>
+  <nav class="sec-nav" id="secnav" aria-label="Sections"></nav>
+  <div id="media"><div class="spinner">Loading…</div></div>
+  <div class="msec" id="lectures"><h2>Invited lectures</h2><span class="muted small" id="psum"></span></div>
+  <ol class="lect"><li><b>The Usual Suspects Magnetized: Insights from forensic MRI studies</b><br><span class='muted'>Neurobiology of Violence Conference, University of Pittsburgh · 2020</span></li><li><b>Machine learning in forensic contexts</b><br><span class='muted'>DARPA L2M Project meeting, Chicago, IL · June 2018</span></li><li><b>Neuroscience and the law: Past, present, and future</b><br><span class='muted'>Mt. Sinai Medical School, New York, NY · May 2018</span></li><li><b>Past, present and future of neuroscience and law</b><br><span class='muted'>Keynote, Tulane University Forensic Psychiatry Meeting, New Orleans, LA · March 2018</span></li><li><b>(Neuro)Prediction of Antisocial Behavior</b><br><span class='muted'>Albuquerque chapter of the FBI, Albuquerque, NM · February 2018</span></li><li><b>(Neuro)Prediction of Antisocial Behavior</b><br><span class='muted'>Winter Conference on Neuroplasticity, Curaçao · January 2018</span></li><li><b>Past, present and future of neuroscience and law</b><br><span class='muted'>Department of Psychiatry, University of Toronto · September 2017</span></li><li><b>Machine learning in the forensic system</b><br><span class='muted'>European Association of Psychology and Law, Mechelen, Belgium · May 2017</span></li><li><b>Neuroscience of the criminal psychopath</b><br><span class='muted'>University of Liège, Belgium · May 2017</span></li><li><b>Psychopaths and the law</b><br><span class='muted'>Vanderbilt University, Nashville, TN · April 2017</span></li></ol>
+  <p class="small muted">A selection carried over from the earlier version of this site; the CV lists the full record.</p>
+</main>
+<div id="site-footer"></div>
+<script src="assets/config.js?v=4"></script>
+<script src="assets/app.js?v=3"></script>
+<script src="assets/layout.js?v=5"></script>
+<script>
+(async function () {
+  const esc = CL.esc, m = await CL.getJSON("data/media.json");
+  const secs = [...new Set(m.items.map(i => i.section))], sid = s => s.toLowerCase().replace(/[^a-z]+/g, "-");
+  document.getElementById("secnav").innerHTML = secs.map(s => `<a href="#${sid(s)}">${esc(s)}</a>`).join("") + '<a href="#lectures">Invited lectures</a>';
+  document.getElementById("media").innerHTML = secs.map(s => { const it = m.items.filter(i => i.section === s);
+    return `<div class="msec" id="${sid(s)}"><h2>${esc(s)}</h2><span class="muted small">${it.length}</span></div><div class="mlist">${it.map(i => `<article class="m"><span class="y">${i.year || ""}</span><h3>${i.url ? `<a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)} ↗</a>` : esc(i.title)}</h3><p>${esc(i.detail)}</p></article>`).join("")}</div>`; }).join("");
+  try { const cv = await CL.getJSON("data/cv.json"); document.getElementById("psum").textContent = cv.presentations_summary; } catch (e) { /* optional */ }
+  if (location.hash) { const el = document.getElementById(location.hash.slice(1)); if (el) el.scrollIntoView(); }
+})().catch(e => { document.getElementById("media").innerHTML = `<div class="empty">Could not load (${CL.esc(e.message)}).</div>`; });
+</script>
+</body>
+</html>

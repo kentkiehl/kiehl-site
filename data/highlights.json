@@ -1,0 +1,119 @@
+[
+ {
+  "id": "story-of-god",
+  "art": "film",
+  "img": null,
+  "eyebrow": "Documentary · National Geographic Channel · 2016",
+  "title": "The Story of God with Morgan Freeman",
+  "art_title": "Studying Kids Who Kill",
+  "art_meta": "The Story of God · April 2016",
+  "text": "The lab's brain-imaging research with incarcerated youth was featured in the segment “Studying Kids Who Kill” of Morgan Freeman's National Geographic Channel series.",
+  "links": [
+   [
+    "Watch the segment ↗",
+    "https://www.youtube.com/watch?v=g4IKiUIXy6Y"
+   ],
+   [
+    "More television",
+    "media.html#television-and-documentary"
+   ]
+  ]
+ },
+ {
+  "id": "brains-on-trial",
+  "art": "tv",
+  "img": null,
+  "eyebrow": "Television · PBS · 2013",
+  "title": "Brains on Trial with Alan Alda",
+  "art_title": "Brains on Trial",
+  "art_meta": "PBS · September 2013",
+  "text": "Alan Alda's two-part PBS series on neuroscience in the courtroom covered the lab's work on predicting reoffending from brain scans. Dr. Kiehl also joined the companion panel Alda moderated at the World Science Festival.",
+  "links": [
+   [
+    "Watch the clip ↗",
+    "https://www.youtube.com/watch?v=oAEYwgDre3g"
+   ],
+   [
+    "World Science Festival panel ↗",
+    "https://www.youtube.com/watch?v=Ra2niqQhR8M"
+   ]
+  ]
+ },
+ {
+  "id": "suffering-souls",
+  "art": "magazine",
+  "img": null,
+  "eyebrow": "Magazine feature · November 10, 2008",
+  "title": "“Suffering Souls” in The New Yorker",
+  "art_title": "Suffering Souls",
+  "art_meta": "John Seabrook · pages 64–73",
+  "text": "John Seabrook's ten-page feature in The New Yorker on Dr. Kiehl and the laboratory's work studying psychopathy in prisons.",
+  "links": [
+   [
+    "Read the article ↗",
+    "http://www.newyorker.com/reporting/2008/11/10/081110fa_fact_seabrook"
+   ],
+   [
+    "More press",
+    "media.html#print-and-online-features"
+   ]
+  ]
+ },
+ {
+  "id": "crimecon-2026",
+  "art": "poster",
+  "img": null,
+  "eyebrow": "Keynote · Las Vegas · May 30, 2026",
+  "title": "Keynote at CrimeCon 2026",
+  "art_title": "What makes them tick?",
+  "art_sub": "Inside the mind of a psychopath",
+  "art_meta": "CrimeCon 2026 · May 30 · Caesars Palace, Las Vegas",
+  "text": "“What makes them tick? Inside the mind of a psychopath.” Dr. Kiehl's invited keynote at Caesars Palace, to a conference of about 6,000 people.",
+  "links": [
+   [
+    "News",
+    "news.html#crimecon-2026"
+   ],
+   [
+    "Invite Dr. Kiehl to speak",
+    "contact.html#lectures"
+   ]
+  ]
+ },
+ {
+  "id": "hare-award",
+  "art": "award",
+  "img": null,
+  "eyebrow": "Award · 2026",
+  "title": "Robert D. Hare Lifetime Achievement Award",
+  "art_title": "Lifetime Achievement",
+  "art_meta": "Society for the Scientific Study of Psychopathy",
+  "text": "In 2026 Dr. Kiehl received the highest honor of the Society for the Scientific Study of Psychopathy, named for his doctoral mentor.",
+  "links": [
+   [
+    "Biography & CV",
+    "about-kent.html#honors"
+   ]
+  ]
+ },
+ {
+  "id": "psychopath-whisperer",
+  "art": "book",
+  "img": null,
+  "eyebrow": "Book · Crown · 2014",
+  "title": "The Psychopath Whisperer",
+  "art_title": "The Psychopath Whisperer",
+  "art_meta": "Kent A. Kiehl, PhD",
+  "text": "The science of those without conscience, written for general readers. Published in North America and the United Kingdom and translated into seven languages.",
+  "links": [
+   [
+    "About the book",
+    "book.html"
+   ],
+   [
+    "psychopathwhisperer.com ↗",
+    "http://www.psychopathwhisperer.com/"
+   ]
+  ]
+ }
+]

@@ -1,0 +1,606 @@
+[
+ {
+  "id": "kent-kiehl",
+  "name": "Kent A. Kiehl",
+  "role": "Principal Investigator",
+  "title": "Executive Science Officer and Director of Mobile Imaging, Mind Research Network · Professor of Psychology, Neurosciences and Law, University of New Mexico",
+  "section": "Principal Investigator",
+  "current": true,
+  "img": "kent-kiehl.jpg",
+  "bio": [
+   "Kent Kiehl uses brain imaging to study psychopathy and related conditions, including psychotic disorders, traumatic brain injury, substance use and paraphilias. He designed the Mind Mobile MRI System, which takes the scanner into prisons and other facilities and has produced the largest forensic neuroscience repository in the world.",
+   "He received his B.Sc. from the University of California, Davis (1993) and his M.A. (1996) and Ph.D. (2000) from the University of British Columbia, where he trained with Robert Hare and Peter Liddle. He was on the faculty at Yale University and directed the Clinical Cognitive Neuroscience Laboratory at the Institute of Living from 2001 to 2007, when he moved to the Mind Research Network and the University of New Mexico.",
+   "He is the author of The Psychopath Whisperer (Crown, 2014), co-editor of the Handbook on Psychopathy and Law (Oxford, 2013), and the 2026 recipient of the Robert D. Hare Lifetime Achievement Award from the Society for the Scientific Study of Psychopathy."
+  ],
+  "education": [
+   [
+    "1993",
+    "B.Sc.",
+    "Psychology,  Biology emphasis,  University of California,  Davis"
+   ],
+   [
+    "1996",
+    "M.A.",
+    "Psychology,  University of British Columbia"
+   ],
+   [
+    "2000",
+    "Ph.D.",
+    "Psychology,  University of British Columbia"
+   ]
+  ],
+  "links": [
+   {
+    "label": "Full biography",
+    "url": "about-kent.html"
+   },
+   {
+    "label": "Mind Research Network",
+    "url": "https://www.mrn.org/"
+   },
+   {
+    "label": "UNM Psychology",
+    "url": "https://psych.unm.edu/"
+   }
+  ]
+ },
+ {
+  "id": "michaela-milillo",
+  "name": "Michaela Milillo",
+  "degree": "",
+  "role": "Graduate student",
+  "section": "Graduate Students",
+  "current": true,
+  "img": null,
+  "years": "2023-present",
+  "bio": [
+   "Clinical psychology graduate student, University of New Mexico. Dr. Kiehl’s role: Primary mentor."
+  ]
+ },
+ {
+  "id": "samantha-rodriguez",
+  "name": "Samantha Rodriguez",
+  "degree": "",
+  "role": "Graduate student",
+  "section": "Graduate Students",
+  "current": true,
+  "img": null,
+  "years": "2020-present",
+  "bio": [
+   "Received B.A., University of Delaware, 2019. Graduate student at UNM. Dr. Kiehl’s role: Primary mentor."
+  ]
+ },
+ {
+  "id": "michael-maurer",
+  "name": "Michael Maurer",
+  "degree": "Ph.D.",
+  "role": "Research faculty",
+  "section": "Research Faculty and Scientists",
+  "current": true,
+  "img": null,
+  "years": "2020-present",
+  "bio": [
+   "Post-doctoral fellow. Received B.A. Psychology 2012, University of California-Davis. Ph.D. University of New Mexico. Dr. Kiehl’s role: Primary graduate mentor and NRSA mentor; postdoc mentor; Dr. Kiehl’s laboratory."
+  ]
+ },
+ {
+  "id": "bethany-edwards",
+  "name": "Bethany Edwards",
+  "degree": "Ph.D.",
+  "role": "Research faculty",
+  "section": "Research Faculty and Scientists",
+  "current": true,
+  "img": null,
+  "years": "2017-present",
+  "bio": [
+   "Received B.A. Purdue University, 2007, MA Psychology, University of South Florida 2017; Dr. Kiehl’s role: Primary graduate mentor. NRSA Graduate Fellowship Recipient. Clinical Psychology. Dr. Edwards is research faculty in Dr. Kiehl’s laboratory."
+  ]
+ },
+ {
+  "id": "carla-harenski",
+  "name": "Carla Harenski",
+  "degree": "Ph.D.",
+  "role": "Research faculty",
+  "section": "Research Faculty and Scientists",
+  "current": true,
+  "img": null,
+  "years": "2006-present",
+  "bio": [
+   "Ph.D., Psychology, Emory University. NRSA Post-Doctoral Fellowship 2007-2010. Dr. Kiehl’s role: NRSA mentor and primary post-doctoral supervisor. Dr. Harenski is research faculty in Dr. Kiehl’s laboratory."
+  ]
+ },
+ {
+  "id": "david-stephenson",
+  "name": "David Stephenson",
+  "degree": "Ph.D.",
+  "role": "Research faculty",
+  "section": "Research Faculty and Scientists",
+  "current": true,
+  "img": null,
+  "years": "2020-present",
+  "bio": [
+   "Ph.D., Psychology, University of New Orleans. Dr. Stephenson is research faculty in Dr. Kiehl’s laboratory."
+  ]
+ },
+ {
+  "id": "aparna-gullapalli",
+  "name": "Aparna Gullapalli",
+  "degree": "Ph.D.",
+  "role": "Research faculty",
+  "section": "Research Faculty and Scientists",
+  "current": true,
+  "img": null,
+  "years": "2019-present",
+  "bio": [
+   "Ph.D. Electrical Engineering, The Pennsylvania State University. Dr. Gullapalli is research faculty in Dr. Kiehl’s laboratory."
+  ]
+ },
+ {
+  "id": "jenna-parrish-shold",
+  "name": "Jenna (Parrish) Shold",
+  "degree": "Ph.D.",
+  "role": "Research faculty",
+  "section": "Research Faculty and Scientists",
+  "current": true,
+  "img": null,
+  "years": "2019-present",
+  "bio": [
+   "Ph.D., Neuroscience, University of Pittsburgh. Dr. Shold is research faculty in Dr. Kiehl’s laboratory."
+  ]
+ },
+ {
+  "id": "corey-allen",
+  "name": "Corey Allen",
+  "degree": "Ph.D.",
+  "role": "Former trainee · 2020-2026",
+  "section": "Former Trainees and Mentees",
+  "current": false,
+  "img": null,
+  "years": "2020-2026",
+  "bio": [
+   "Post-doctoral fellow, received Ph.D. 2020, Georgia State University. Dr. Kiehl’s role: Primary mentor."
+  ]
+ },
+ {
+  "id": "nathaniel-anderson",
+  "name": "Nathaniel Anderson",
+  "degree": "Ph.D.",
+  "role": "Former trainee · 2011-2026",
+  "section": "Former Trainees and Mentees",
+  "current": false,
+  "img": null,
+  "years": "2011-2026",
+  "bio": [
+   "Psychology, Baylor College. Dr. Kiehl’s role: Primary postdoctoral mentor."
+  ]
+ },
+ {
+  "id": "palmer-tirrell",
+  "name": "Palmer Tirrell",
+  "degree": "",
+  "role": "Former trainee · 2020-2022",
+  "section": "Former Trainees and Mentees",
+  "current": false,
+  "img": null,
+  "years": "2020-2022",
+  "bio": [
+   "Received B.A., University of Florida, 2019; Graduate student at UNM. Dr. Kiehl’s role: Primary mentor."
+  ]
+ },
+ {
+  "id": "sandra-wiley-de-navarro",
+  "name": "Sandra Wiley de Navarro",
+  "degree": "",
+  "role": "Former trainee · 2019-2021",
+  "section": "Former Trainees and Mentees",
+  "current": false,
+  "img": null,
+  "years": "2019-2021",
+  "bio": [
+   "Undergraduate student researcher at UNM. Dr. Kiehl’s role: Primary mentor."
+  ]
+ },
+ {
+  "id": "ashly-sajous-turner",
+  "name": "Ashly Sajous-Turner",
+  "degree": "",
+  "role": "Former trainee · 2017-2020",
+  "section": "Former Trainees and Mentees",
+  "current": false,
+  "img": null,
+  "years": "2017-2020",
+  "bio": [
+   "A PREP Scholar. Dr. Kiehl’s role: Primary mentor on her post bac research project."
+  ]
+ },
+ {
+  "id": "devin-jones-ulrich",
+  "name": "Devin Jones Ulrich",
+  "degree": "Ph.D.",
+  "role": "Former trainee · 2016-2022",
+  "section": "Former Trainees and Mentees",
+  "current": false,
+  "img": null,
+  "years": "2016-2022",
+  "bio": [
+   "Received B.A. Duke University, 2016. Dr. Kiehl’s role: Primary graduate mentor clinical psychology."
+  ]
+ },
+ {
+  "id": "dana-crooks",
+  "name": "Dana Crooks",
+  "degree": "",
+  "role": "Former trainee · 2016-2018",
+  "section": "Former Trainees and Mentees",
+  "current": false,
+  "img": null,
+  "years": "2016-2018",
+  "bio": [
+   "Received B.A. University of New Mexico, 2017. Dr. Kiehl’s role: Primary mentor of undergraduate honors thesis. Winner of Outstanding Honors Thesis Award in 2017, Department of Psychology, UNM."
+  ]
+ },
+ {
+  "id": "samantha-fede",
+  "name": "Samantha Fede",
+  "degree": "Ph.D.",
+  "role": "Former trainee · 2012-2017",
+  "section": "Former Trainees and Mentees",
+  "current": false,
+  "img": null,
+  "years": "2012-2017",
+  "bio": [
+   "Received B.A. in Psychology and Philosophy 2011, Virginia Polytechnic University. Dr. Kiehl’s role: Primary graduate mentor. Assistant Professor of Psychology, Auburn University"
+  ]
+ },
+ {
+  "id": "eyal-aharoni",
+  "name": "Eyal Aharoni",
+  "degree": "Ph.D.",
+  "role": "Former trainee · 2012-2015",
+  "section": "Former Trainees and Mentees",
+  "current": false,
+  "img": null,
+  "years": "2012-2015",
+  "bio": [
+   "Ph.D. in Psychology, UCSB, NRSA Fellow 2012-2015. Dr. Kiehl’s role: Primary postdoctoral supervisor."
+  ]
+ },
+ {
+  "id": "vaughn-steele",
+  "name": "Vaughn Steele",
+  "degree": "Ph.D.",
+  "role": "Former trainee · 2011-2015",
+  "section": "Former Trainees and Mentees",
+  "current": false,
+  "img": null,
+  "years": "2011-2015",
+  "bio": [
+   "Psychology, University of Minnesota. Dr. Kiehl’s role: Primary postdoctoral mentor."
+  ]
+ },
+ {
+  "id": "julia-lushing",
+  "name": "Julia Lushing",
+  "degree": "",
+  "role": "Former trainee · 2013-2015",
+  "section": "Former Trainees and Mentees",
+  "current": false,
+  "img": null,
+  "years": "2013-2015",
+  "bio": [
+   "Received B.A. in Psychology 2006, Haverford College; received JD Yeshiva University School of Law 2012. Dr. Kiehl’s role: Primary graduate mentor (masters degree)."
+  ]
+ },
+ {
+  "id": "simone-viljoen",
+  "name": "Simone Viljoen",
+  "degree": "Ph.D.",
+  "role": "Former trainee · 2014-2015",
+  "section": "Former Trainees and Mentees",
+  "current": false,
+  "img": null,
+  "years": "2014-2015",
+  "bio": [
+   "Forensic Psychology, Simon Frazer University. Dr. Kiehl’s role: Primary post-doctoral mentor."
+  ]
+ },
+ {
+  "id": "edward-bernat",
+  "name": "Edward Bernat",
+  "degree": "Ph.D.",
+  "role": "Former trainee · 2010-2012",
+  "section": "Former Trainees and Mentees",
+  "current": false,
+  "img": null,
+  "years": "2010-2012",
+  "bio": [
+   "Psychology, University of Michigan, NIMH K08 awardee (K08MH080239). Dr. Kiehl’s role: Primary mentor on K-award for its final three years, after his original mentor stepped down."
+  ]
+ },
+ {
+  "id": "gina-vincent",
+  "name": "Gina Vincent",
+  "degree": "Ph.D.",
+  "role": "Former trainee · 2010-2014",
+  "section": "Former Trainees and Mentees",
+  "current": false,
+  "img": null,
+  "years": "2010-2014",
+  "bio": [
+   "Forensic Psychology, Simon Fraser University, NIDA K01 awardee. Dr. Kiehl’s role: Co-mentor on K-award."
+  ]
+ },
+ {
+  "id": "lora-cope",
+  "name": "Lora Cope",
+  "degree": "Ph.D.",
+  "role": "Former trainee · 2007- 2013",
+  "section": "Former Trainees and Mentees",
+  "current": false,
+  "img": null,
+  "years": "2007- 2013",
+  "bio": [
+   "Received B.S., 2004, The Ohio State University. Graduate student in Cognitive Science, Department of Psychology, University of New Mexico. Dr. Kiehl’s role: Primary graduate school advisor."
+  ]
+ },
+ {
+  "id": "elsa-ermer",
+  "name": "Elsa Ermer",
+  "degree": "Ph.D.",
+  "role": "Former trainee · 2008-2012",
+  "section": "Former Trainees and Mentees",
+  "current": false,
+  "img": null,
+  "years": "2008-2012",
+  "bio": [
+   "Received B.A., 2000, Franklin and Marshall College; M.A., 2002 and Ph.D., 2007, University of California, Santa Barbara. NRSA Post-Doctoral Fellowship 2010-2012. Dr. Kiehl’s role: NRSA mentor and primary post-doctoral supervisor."
+  ]
+ },
+ {
+  "id": "brandi-fink",
+  "name": "Brandi Fink",
+  "degree": "Ph.D.",
+  "role": "Former trainee · 2009-10",
+  "section": "Former Trainees and Mentees",
+  "current": false,
+  "img": null,
+  "years": "2009-10",
+  "bio": [
+   "Received Ph.D., 2010, University of New Mexico. Dr. Kiehl’s role: Primary post-doctoral supervisor. Associate Professor of Psychiatry, University of New Mexico."
+  ]
+ },
+ {
+  "id": "mathew-shane",
+  "name": "Mathew Shane",
+  "degree": "Ph.D.",
+  "role": "Former trainee · 2006-2009",
+  "section": "Former Trainees and Mentees",
+  "current": false,
+  "img": null,
+  "years": "2006-2009",
+  "bio": [
+   "Received Ph.D., 2004, University of Toronto. Dr. Kiehl’s role: Primary post-doctoral supervisor; NIDA I/START Mentor. Associate Professor of Psychology, Ontario Tech, Canada."
+  ]
+ },
+ {
+  "id": "gillian-munro",
+  "name": "Gillian Munro",
+  "degree": "Ph.D.",
+  "role": "Former trainee · 2008-2009",
+  "section": "Former Trainees and Mentees",
+  "current": false,
+  "img": null,
+  "years": "2008-2009",
+  "bio": [
+   "Received B.A. 2002, University College of the Cariboo, M.A. 2004 and Ph.D. 2008, University of Waterloo. Dr. Kiehl’s role: Primary post-doctoral supervisor."
+  ]
+ },
+ {
+  "id": "michael-stevens",
+  "name": "Michael Stevens",
+  "degree": "Ph.D.",
+  "role": "Former trainee · 2002-2009",
+  "section": "Former Trainees and Mentees",
+  "current": false,
+  "img": null,
+  "years": "2002-2009",
+  "bio": [
+   "Received Ph.D. 1999, Department of Psychology, University of Connecticut-Storrs. K-awardee ‘Neuroimaging Cognition in Adolescent Behavior Disorders’ (2004-2009). Dr. Kiehl’s role: Primary Advisor; co-mentor on K-Award."
+  ]
+ },
+ {
+  "id": "jana-schaich-borg",
+  "name": "Jana Schaich Borg",
+  "degree": "Ph.D.",
+  "role": "Former trainee · 2005-2007",
+  "section": "Former Trainees and Mentees",
+  "current": false,
+  "img": null,
+  "years": "2005-2007",
+  "bio": [
+   "Received B.A. Dartmouth College, 2003; NSF Graduate Research Fellow and doctoral student in neuroscience, Stanford University. Dr. Kiehl’s role: Primary NSF mentor on application; and post-graduate mentor 2005-2007."
+  ]
+ },
+ {
+  "id": "elizabeth-stevens",
+  "name": "Elizabeth Stevens",
+  "degree": "Ph.D.",
+  "role": "Former trainee · 2004-2006",
+  "section": "Former Trainees and Mentees",
+  "current": false,
+  "img": null,
+  "years": "2004-2006",
+  "bio": [
+   "Received B.A., University of California, Los Angeles 2001. Received Ph.D. in Clinical Psychology in 2006, Dissertation Title “Cognitive Style and Adolescent Psychopathy: An Exploratory Investigation”, Department of Psychology, Yale University. Dr. Kiehl’s role: Primary Graduate School Advisor."
+  ]
+ },
+ {
+  "id": "derek-mitchell",
+  "name": "Derek Mitchell",
+  "degree": "Ph.D.",
+  "role": "Former trainee · 1996-1998",
+  "section": "Former Trainees and Mentees",
+  "current": false,
+  "img": null,
+  "years": "1996-1998",
+  "bio": [
+   "University of British Columbia; Received Ph.D., 2005, Department of Psychology, Institute of Cognitive Neuroscience, University College London. Dr. Kiehl’s role: Co-advisor of Undergraduate Honors Thesis."
+  ]
+ },
+ {
+  "id": "sara-johnson",
+  "name": "Sara Johnson",
+  "degree": "M.D.",
+  "role": "Former trainee · 1996-1998",
+  "section": "Former Trainees and Mentees",
+  "current": false,
+  "img": null,
+  "years": "1996-1998",
+  "bio": [
+   "University of British Columbia. Received MD, 2002, University of British Columbia. Dr. Kiehl’s role: Primary Advisor of Undergraduate Honors Thesis."
+  ]
+ },
+ {
+  "id": "adrien-desjardins",
+  "name": "Adrien Desjardins",
+  "degree": "Ph.D.",
+  "role": "Former trainee · 1998-2001",
+  "section": "Former Trainees and Mentees",
+  "current": false,
+  "img": null,
+  "years": "1998-2001",
+  "bio": [
+   "University of British Columbia, Ph.D., MIT-Harvard College Biophysics. Dr. Kiehl’s role: Advisor of Undergraduate Honors Thesis."
+  ]
+ },
+ {
+  "id": "kristin-laurens",
+  "name": "Kristin Laurens",
+  "degree": "Ph.D.",
+  "role": "Former trainee · 2000-2001",
+  "section": "Former Trainees and Mentees",
+  "current": false,
+  "img": null,
+  "years": "2000-2001",
+  "bio": [
+   "Received Ph.D. 2003, Neuroscience, University of British Columbia; Post-doctoral Fellow, University of Nottingham 2004-5; Dr. Kiehl’s role: Co-mentor on dissertation."
+  ]
+ },
+ {
+  "id": "athena-vouloumanos",
+  "name": "Athena Vouloumanos",
+  "degree": "Ph.D.",
+  "role": "Former trainee · 1999-2000",
+  "section": "Former Trainees and Mentees",
+  "current": false,
+  "img": null,
+  "years": "1999-2000",
+  "bio": [
+   "Received Ph.D., 2003, Department of Psychology, University of British Columbia. Dr. Kiehl’s role: Primary mentor on fMRI training"
+  ]
+ },
+ {
+  "id": "alan-bates",
+  "name": "Alan Bates",
+  "degree": "Ph.D.",
+  "role": "Former trainee · 1998-2000",
+  "section": "Former Trainees and Mentees",
+  "current": false,
+  "img": null,
+  "years": "1998-2000",
+  "bio": [
+   "Received Ph.D., University of Nottingham, 2004; Dr. Kiehl’s role: Primary mentor on undergraduate training in fMRI and ERPs."
+  ]
+ },
+ {
+  "id": "adrianna-mendrek",
+  "name": "Adrianna Mendrek",
+  "degree": "Ph.D.",
+  "role": "Former trainee · 2000-2001",
+  "section": "Former Trainees and Mentees",
+  "current": false,
+  "img": null,
+  "years": "2000-2001",
+  "bio": [
+   "Received Ph.D., 2002, Department of Psychology, University of British Columbia. Dr. Kiehl’s role: Co-mentor on doctoral dissertation."
+  ]
+ },
+ {
+  "id": "timothy-o-keefe",
+  "name": "Timothy O’Keefe",
+  "degree": "B.S.",
+  "role": "Former trainee · 2002-2004",
+  "section": "Former Trainees and Mentees",
+  "current": false,
+  "img": null,
+  "years": "2002-2004",
+  "bio": [
+   "Dr. Kiehl’s role: Primary supervisor of post-graduate training period."
+  ]
+ },
+ {
+  "id": "kim-celone",
+  "name": "Kim Celone",
+  "degree": "Ph.D.",
+  "role": "Former trainee · 2002-2004",
+  "section": "Former Trainees and Mentees",
+  "current": false,
+  "img": null,
+  "years": "2002-2004",
+  "bio": [
+   "Dr. Kiehl’s role: Primary supervisor of post-graduate training period."
+  ]
+ },
+ {
+  "id": "matthew-johnson",
+  "name": "Matthew Johnson",
+  "degree": "Ph.D.",
+  "role": "Former trainee · 2003-2005",
+  "section": "Former Trainees and Mentees",
+  "current": false,
+  "img": null,
+  "years": "2003-2005",
+  "bio": [
+   "Dr. Kiehl’s role: Co-supervisor of post-graduate training period."
+  ]
+ },
+ {
+  "id": "joseph-bates",
+  "name": "Joseph Bates",
+  "degree": "Ph.D.",
+  "role": "Former trainee · 2004-2005",
+  "section": "Former Trainees and Mentees",
+  "current": false,
+  "img": null,
+  "years": "2004-2005",
+  "bio": [
+   "Masters student in cognitive science, Department of Psychology, Yale University. Dr. Kiehl’s role: Primary Advisor"
+  ]
+ },
+ {
+  "id": "valentina-gumenyuk",
+  "name": "Valentina Gumenyuk",
+  "degree": "Ph.D.",
+  "role": "Former trainee · 2004-2005",
+  "section": "Former Trainees and Mentees",
+  "current": false,
+  "img": null,
+  "years": "2004-2005",
+  "bio": [
+   "Received Ph.D., 2004, Cognitive Brain Research Unit, Department of Psychology, University of Helsinki (Supervisor, Risto Naatanen). Post-doctoral fellow (part-time), Olin Neuropsychiatry Research Center, Institute of Living, Hartford, CT. Dr. Kiehl’s role: Primary Post-doctoral supervisor."
+  ]
+ },
+ {
+  "id": "heather-gordon",
+  "name": "Heather Gordon",
+  "degree": "Ph.D.",
+  "role": "Former trainee · 2004-2005",
+  "section": "Former Trainees and Mentees",
+  "current": false,
+  "img": null,
+  "years": "2004-2005",
+  "bio": [
+   "Received Ph.D., Cognitive Psychology, Department of Psychology and Brain Sciences, Dartmouth College. Postdoctoral fellow (part time), Olin Neuropsychiatry Research Center, Institute of Living, Hartford, CT. Dr. Kiehl’s role: Adjunct Advisor of Doctoral Dissertation. Dr."
+  ]
+ }
+]

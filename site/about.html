@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About this site | Kiehl Lab</title>
+<meta name="description" content="How this site is built: a static site generated from plain JSON data, with a tagged publication database, automated daily search for new papers, and open source code.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..600,0..100;1,9..144,300..600,0..100&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<meta property="og:site_name" content="Kiehl Lab">
+<meta property="og:title" content="About this site | Kiehl Lab">
+<meta property="og:description" content="How this site is built: a static site generated from plain JSON data, with a tagged publication database, automated daily search for new papers, and open source code.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://kentkiehl.com/about.html">
+<meta property="og:image" content="https://kentkiehl.com/assets/og.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://kentkiehl.com/assets/og.jpg">
+<link rel="canonical" href="https://kentkiehl.com/about.html">
+<link rel="icon" href="assets/favicon.svg?v=3" type="image/svg+xml"><link rel="alternate icon" href="assets/favicon-32.png?v=3" sizes="32x32"><link rel="apple-touch-icon" href="assets/apple-touch-icon.png?v=3">
+<link rel="stylesheet" href="assets/app.css?v=3">
+<style>
+</style>
+</head>
+<body>
+<div id="site-header"></div>
+<main class="wrap">
+  <div class="page-head"><p class="eyebrow">About</p><h1>About this site</h1></div>
+  <div class="prose">
+    <p>This is the website of the Kiehl Laboratory (principal investigator Kent A. Kiehl, PhD) at the Mind Research Network and the University of New Mexico. It carries the content of the earlier WordPress site at this address (news, lectures, publications, resources and research history), and adds a searchable, tagged publication database with reference export, a collaborator map and bibliometrics, and an automated daily search for new papers. The whole site is a static site built from plain JSON data in one public <a href="https://github.com/kentkiehl/kiehl-site">GitHub repository</a>.</p>
+
+    <h2 id="tags">The publication database and its tags</h2>
+    <ul>
+      <li><b>Records.</b> Every peer-reviewed article, book chapter and book in Dr. Kiehl's curriculum vitae (November 2026). Manuscripts under review are not included. Abstracts, publication dates and citation counts are added from PubMed and OpenAlex by the site's daily workflow.</li>
+      <li><b>Tags.</b> Each record carries keywords on three axes: <i>topic</i> (for example psychopathy, youth, risk prediction, substance use, psychosis, traumatic brain injury, neuroscience and law), <i>approach</i> (functional MRI, structural MRI, connectivity and ICA, diffusion imaging, EEG and event-related potentials, genetics, machine learning, assessment, treatment, methods) and <i>article type</i>. The first pass of tags was assigned automatically from titles with keyword rules, so some will be wrong or incomplete; new papers found by the daily search are tagged by a large language model from their abstracts. Corrections are made by hand in the data file and override both.</li>
+      <li><b>Full text.</b> Papers link to PubMed, to free full text in PubMed Central where it exists, and to the publisher's page.</li>
+    </ul>
+
+    <h2 id="daily">Daily search for new papers and news</h2>
+    <ul>
+      <li>Every day a workflow queries PubMed (and OpenAlex, once an author id is configured) for new papers, tags candidates, and adds them to a review queue shown on the publications page. Approving a candidate moves it into the database and the RSS feed.</li>
+      <li>Every two days a second workflow collects news stories mentioning Dr. Kiehl and his work and lists them under News.</li>
+      <li>Citation counts are refreshed on a rolling basis from OpenAlex.</li>
+    </ul>
+
+    <h2 id="privacy">Privacy and analytics</h2>
+    <p>The site sets no cookies and has no accounts. Traffic may be measured with cookie-free, privacy-preserving analytics that record page views without identifying visitors.</p>
+
+    <h2 id="contribute">Corrections</h2>
+    <ul>
+      <li>Suggest a missing paper, a link to data or code, or a tag correction by <a href="https://github.com/kentkiehl/kiehl-site/issues/new">opening an issue</a> or by <a href="contact.html">email</a>.</li>
+      <li>To edit content, change the JSON files under <code>data/</code> in the repository (people, news posts, research themes, media, CV); the site rebuilds automatically on push.</li>
+      <li>The data files are plain JSON and may be reused with attribution. Code is MIT-licensed. Abstracts remain the copyright of their publishers and are reproduced for indexing and discovery.</li>
+    </ul>
+
+    <h2>Credits</h2>
+    <p>The site uses the open-source framework designed and built by <a href="https://torwager.github.io/canlab/" target="_blank" rel="noopener">Tor Wager</a> with Claude Code for the CANlab and <a href="https://claudjak.github.io/Jakubzick_lab/" target="_blank" rel="noopener">Jakubzick Lab</a> sites, adapted for the Kiehl Lab with Claude. The home-page highlight panels and the mobile-MRI map are original illustrations, not photographs or official artwork. Fonts: Fraunces, Inter and JetBrains Mono. Search by MiniSearch; network and charts by d3. Bibliographic data from the CV, PubMed and OpenAlex.</p>
+  </div>
+</main>
+<div id="site-footer"></div>
+<script src="assets/config.js?v=4"></script>
+<script src="assets/app.js?v=3"></script>
+<script src="assets/layout.js?v=5"></script>
+</body>
+</html>

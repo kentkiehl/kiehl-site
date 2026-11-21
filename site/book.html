@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Books | Kiehl Lab</title>
+<meta name="description" content="Books by Kent Kiehl: The Psychopath Whisperer: The Science of Those Without Conscience (Crown, 2014) and the Handbook on Psychopathy and Law (Oxford, 2013), plus book chapters.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..600,0..100;1,9..144,300..600,0..100&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<meta property="og:site_name" content="Kiehl Lab">
+<meta property="og:title" content="Books | Kiehl Lab">
+<meta property="og:description" content="Books by Kent Kiehl: The Psychopath Whisperer: The Science of Those Without Conscience (Crown, 2014) and the Handbook on Psychopathy and Law (Oxford, 2013), plus book chapters.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://kentkiehl.com/book.html">
+<meta property="og:image" content="https://kentkiehl.com/assets/og.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://kentkiehl.com/assets/og.jpg">
+<link rel="canonical" href="https://kentkiehl.com/book.html">
+<link rel="icon" href="assets/favicon.svg?v=3" type="image/svg+xml"><link rel="alternate icon" href="assets/favicon-32.png?v=3" sizes="32x32"><link rel="apple-touch-icon" href="assets/apple-touch-icon.png?v=3">
+<link rel="stylesheet" href="assets/app.css?v=3">
+<style>
+  .book { display: grid; grid-template-columns: 220px 1fr; gap: 2.2rem; align-items: start; padding: 2rem 0; border-top: 1px solid var(--line); }
+  .book:first-of-type { border-top: none; padding-top: .5rem; }
+  @media (max-width: 720px) { .book { grid-template-columns: 1fr; } .book .cover { max-width: 200px; } }
+  .cover { aspect-ratio: 2 / 3; border-radius: 6px 14px 14px 6px; background: linear-gradient(150deg, #20252e, #0f1217); color: #f4efe6; padding: 1.4rem 1.2rem; display: flex; flex-direction: column; justify-content: space-between; box-shadow: var(--shadow), inset 6px 0 0 rgba(255,255,255,.07); font-family: var(--serif); }
+  .cover.alt { background: linear-gradient(150deg, #7d1a26, #4a0f17); }
+  .cover b { font-weight: 500; font-size: 1.5rem; line-height: 1.1; } .cover i { font-size: .72rem; font-style: normal; letter-spacing: .1em; text-transform: uppercase; color: #e9b949; } .cover span { font-size: .85rem; opacity: .85; }
+  .book h2 { margin-bottom: .1rem; } .book .st { font-family: var(--serif); font-style: italic; color: var(--ink-2); font-size: 1.15rem; margin: 0 0 .3rem; } .book .by { color: var(--muted); font-size: .9rem; margin-bottom: 1rem; }
+  .book .links { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: 1rem; }
+  .chap li { margin: .5rem 0; }
+</style>
+</head>
+<body>
+<div id="site-header"></div>
+<main class="wrap">
+  <div class="page-head"><p class="eyebrow">Books</p><h1>Books and chapters</h1><p>A book for general readers, an edited handbook for scholars and practitioners, and chapters in edited volumes.</p></div>
+  <div id="books"><div class="spinner">Loading…</div></div>
+  <h2 style="margin-top:2rem">Book chapters and popular press</h2>
+  <ol class="chap prose" id="chapters"></ol>
+  <p class="small muted">Placeholder covers are shown until cover images are added to <code>site/assets/img/</code>.</p>
+</main>
+<div id="site-footer"></div>
+<script src="assets/config.js?v=4"></script>
+<script src="assets/app.js?v=3"></script>
+<script src="assets/layout.js?v=5"></script>
+<script>
+(async function () {
+  const esc = CL.esc, books = await CL.getJSON("data/books.json"), { state } = await CL.loadCore();
+  document.getElementById("books").innerHTML = books.map((b, i) => `<section class="book rv in" id="${esc(b.id)}">
+    ${b.img ? `<img src="assets/img/${esc(b.img)}" alt="Cover of ${esc(b.title)}" style="border-radius:8px;box-shadow:var(--shadow)">` : `<div class="cover${i % 2 ? " alt" : ""}" aria-hidden="true"><i>${esc(b.pub.split("·").pop().trim())}</i><b>${esc(b.title)}</b><span>${esc(b.by)}</span></div>`}
+    <div><h2>${esc(b.title)}</h2><p class="st">${esc(b.subtitle)}</p><div class="by">${esc(b.by)} · ${esc(b.pub)}</div>
+      ${b.paragraphs.map(p => `<p>${esc(p)}</p>`).join("")}
+      <div class="links">${b.links.map(l => `<a class="btn" href="${esc(l[1])}" target="_blank" rel="noopener">${esc(l[0])} ↗</a>`).join("")}${b.paper ? `<a class="btn" href="papers/${esc(b.paper)}.html">Citation</a>` : ""}</div></div></section>`).join("");
+  const ch = state.index.filter(r => r.kind === "chapter").sort((a, b) => (b.y || 0) - (a.y || 0));
+  document.getElementById("chapters").innerHTML = ch.map(r => `<li>${esc(r.al)} (${r.y}). <a href="papers/${encodeURIComponent(r.id)}.html">${esc(r.t)}</a>. <span class="muted">${esc(r.j)}</span></li>`).join("");
+})().catch(e => { document.getElementById("books").innerHTML = `<div class="empty">Could not load (${CL.esc(e.message)}).</div>`; });
+</script>
+</body>
+</html>

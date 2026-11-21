@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kiehl Lab · Forensic neuroscience at the Mind Research Network and UNM</title>
+<meta name="description" content="The Kiehl Lab (Kent A. Kiehl, PhD, principal investigator; Mind Research Network and University of New Mexico) studies psychopathy and related conditions with brain imaging, using a mobile MRI in prisons. Research, people, publications, media and news.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..600,0..100;1,9..144,300..600,0..100&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<meta property="og:site_name" content="Kent A. Kiehl, PhD">
+<meta property="og:title" content="Kiehl Lab · Forensic neuroscience at the Mind Research Network and UNM">
+<meta property="og:description" content="The Kiehl Lab (Kent A. Kiehl, PhD, principal investigator; Mind Research Network and University of New Mexico) studies psychopathy and related conditions with brain imaging, using a mobile MRI in prisons. Research, people, publications, media and news.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://kentkiehl.com/">
+<meta property="og:image" content="https://kentkiehl.com/assets/og.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://kentkiehl.com/assets/og.jpg">
+<link rel="canonical" href="https://kentkiehl.com/">
+<link rel="icon" href="assets/favicon.svg?v=2" type="image/svg+xml"><link rel="alternate icon" href="assets/favicon-32.png?v=2" sizes="32x32"><link rel="apple-touch-icon" href="assets/apple-touch-icon.png?v=2">
+<link rel="stylesheet" href="assets/app.css?v=2">
+<link rel="alternate" type="application/rss+xml" title="Kiehl Lab: new papers" href="feed.xml">
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "ResearchOrganization", "name": "Kiehl Laboratory", "alternateName": "Kiehl Lab", "url": "https://kentkiehl.com/", "logo": "https://kentkiehl.com/assets/icon-192.png", "parentOrganization": [{"@type": "Organization", "name": "Mind Research Network", "url": "https://www.mrn.org/"}, {"@type": "CollegeOrUniversity", "name": "University of New Mexico", "url": "https://www.unm.edu/"}], "founder": {"@type": "Person", "name": "Kent A. Kiehl", "jobTitle": "Principal Investigator; Executive Science Officer, Mind Research Network; Professor of Psychology, Neurosciences and Law, University of New Mexico", "sameAs": ["https://kentkiehl.com/", "http://www.psychopathwhisperer.com/"]}, "address": {"@type": "PostalAddress", "streetAddress": "1101 Yale Blvd. NE", "addressLocality": "Albuquerque", "addressRegion": "NM", "postalCode": "87106", "addressCountry": "US"}}
+</script>
+<style>
+  .curtain { position: relative; }
+  .curtain-media { position: sticky; top: 0; height: 100vh; height: 100svh; overflow: hidden; z-index: 0; background: linear-gradient(160deg, var(--bg) 0%, var(--bg-2) 55%, var(--bg-3) 100%); }
+  .curtain-media { display: flex; flex-direction: column; }
+  .banner-wrap { padding: 88px var(--pad) 0; max-width: var(--max); margin: 0 auto; width: 100%; }
+  .banner { font-size: clamp(1.9rem, 4.6vw, 4.2rem); letter-spacing: -.015em; margin: 0 0 .5rem; max-width: none; white-space: nowrap; }
+  @media (max-width: 760px) { .banner { white-space: normal; } }
+  .banner-wrap .lede { font-size: clamp(.92rem, 1.05vw, 1.02rem); color: var(--ink-2); max-width: none; margin: 0 0 1.2rem; line-height: 1.5; }
+  .gallery { position: relative; flex: 1; min-height: 0; margin: 0 var(--pad) 84px; max-width: var(--max); width: calc(100% - 2 * var(--pad)); align-self: center; border-radius: var(--radius); overflow: hidden; background: #fff; border: 1px solid var(--line); box-shadow: var(--shadow); }
+  .gallery-track { position: absolute; inset: 0; }
+  .gallery-track .frame { position: absolute; inset: 0; display: flex; gap: 6px; padding: 6px; background: #fff; opacity: 0; transition: opacity .9s var(--ease); }
+  .gallery-track .frame.on { opacity: 1; }
+  .gallery-track .frame img { height: 100%; min-width: 0; object-fit: cover; border-radius: 8px; display: block; }
+  .gallery-btn { position: absolute; top: 50%; transform: translateY(-50%); width: 42px; height: 42px; border-radius: 50%; border: 1px solid var(--line-2); background: color-mix(in srgb, var(--surface) 85%, transparent); color: var(--ink); font-size: 1.5rem; line-height: 1; cursor: pointer; z-index: 2; display: grid; place-items: center; backdrop-filter: blur(6px); }
+  .gallery-btn.prev { left: 12px; } .gallery-btn.next { right: 12px; }
+  .gallery-btn:hover { border-color: var(--ink); }
+  .gallery-dots { position: absolute; left: 0; right: 0; bottom: 10px; display: flex; justify-content: center; gap: 6px; z-index: 2; }
+  .gallery-dots button { width: 8px; height: 8px; border-radius: 50%; border: none; background: var(--line-2); cursor: pointer; padding: 0; }
+  .gallery-dots button.on { background: var(--accent-deep); width: 22px; border-radius: 4px; }
+  .explore { display: grid; grid-template-columns: minmax(280px, 0.9fr) minmax(0, 1.1fr); gap: 2rem; align-items: start; }
+  @media (max-width: 860px) { .explore { grid-template-columns: 1fr; } }
+  .explore .tiles { grid-template-columns: 1fr; gap: .7rem; }
+  .explore .tile { min-height: 0; padding: .9rem 1.1rem; flex-direction: row; align-items: center; gap: .9rem; }
+  .explore .tile > div { display: grid; grid-template-columns: 40px minmax(0, 1fr); column-gap: .9rem; align-items: center; flex: 1; min-width: 0; }
+  .explore .tile .ic { width: 64px; height: 64px; margin: 0; grid-row: 1 / span 2; }
+  .explore .tile > div { grid-template-columns: 64px minmax(0, 1fr); }
+  .tile .ic.thumb { overflow: hidden; padding: 0; background: var(--surface-2); }
+  .tile .ic.thumb img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .35s var(--ease); }
+  .tile:hover .ic.thumb img { transform: scale(1.08); }
+  .explore .tile h3 { font-size: 1.05rem; margin: 0 0 .1rem; }
+  .explore .tile p { font-size: .82rem; margin: 0; }
+  .explore .tile .go { flex: none; font-size: .82rem; }
+  .explore .tile .go span { display: none; }
+  .hero-stage { position: sticky; top: 90px; display: block; width: 100%; }
+  .hero-stage .hero-canvas-wrap { aspect-ratio: 1 / 1; width: 100%; max-width: 640px; margin: 0 auto; }
+  .scroll-cue { position: absolute; left: 50%; bottom: 34px; transform: translateX(-50%); z-index: 3; }
+  .scroll-cue a { display: inline-flex; align-items: center; gap: .6em; padding: .7em 1.3em; border-radius: 999px; background: var(--ink); color: var(--bg); font-size: .78rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; box-shadow: 0 12px 28px -10px rgba(26,35,50,.55); transition: transform .3s var(--ease); }
+  .scroll-cue a:hover { transform: translateY(-2px); }
+  .scroll-cue a svg { width: 16px; height: 16px; animation: nudge 1.8s infinite; }
+  @keyframes nudge { 0%,100% { transform: translateY(0); } 50% { transform: translateY(4px); } }
+  @media (max-width: 720px) { .scroll-cue { display: none; } .curtain-media { height: auto; min-height: 100svh; } .gallery { min-height: 260px; margin-bottom: 24px; } }
+  .curtain-body { position: relative; z-index: 1; background: var(--bg); box-shadow: 0 -30px 60px -30px rgba(26,35,50,.18); border-top: 1px solid rgba(255,255,255,.7); }
+  .curtain-body::before { content: ""; display: block; height: 6px; background: linear-gradient(90deg, var(--accent), var(--accent-soft)); opacity: .9; }
+  @media (prefers-reduced-motion: reduce) { .curtain-media { position: relative; height: auto; min-height: 80vh; } }
+  .section { padding: clamp(56px, 8vw, 104px) 0; margin: 0; display: block; }
+  .section-tight { padding: clamp(36px, 5vw, 64px) 0; }
+  .section-head { display: grid; grid-template-columns: 1fr; gap: 1rem; margin-bottom: clamp(28px, 4vw, 48px); align-items: end; }
+  @media (min-width: 900px) { .section-head { grid-template-columns: 1.1fr 1fr; gap: 3rem; } }
+  .section-head p { margin: 0; color: var(--ink-2); font-size: 1.08rem; }
+  .facts { display: grid; gap: 1.5rem; grid-template-columns: repeat(2, 1fr); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 1.8rem 0; margin: 0 0 2rem; }
+  @media (min-width: 760px) { .facts { grid-template-columns: repeat(3, 1fr); } }
+  .facts dt { font-size: .74rem; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin-bottom: .3rem; }
+  .facts dd { margin: 0; font-family: var(--serif); font-size: 1.6rem; line-height: 1.2; }
+  .latest { display: grid; gap: .8rem; grid-template-columns: 1fr; }
+  @media (min-width: 860px) { .latest { grid-template-columns: repeat(3, 1fr); } }
+  .latest .paper { min-height: 100%; }
+  .darkstrip { background: var(--ink); color: #eef0f3; }
+  .darkstrip h2 { color: #fff; }
+  .darkstrip p { color: #b7bec9; }
+  .darkstrip .wrap { display: grid; gap: 2rem; grid-template-columns: 1fr; align-items: center; }
+  @media (min-width: 860px) { .darkstrip .wrap { grid-template-columns: 1.2fr 1fr; gap: 3rem; } }
+  .darkstrip .tools { display: grid; gap: .6rem; }
+  .darkstrip .tools a { display: block; padding: .8rem 1rem; border-radius: 12px; background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.12); color: #eef0f3; text-decoration: none; transition: background .2s; }
+  .darkstrip .tools a:hover { background: rgba(255,255,255,.12); }
+  .darkstrip .tools b { display: block; font-family: var(--serif); font-size: 1.05rem; }
+  .darkstrip .tools span { font-size: .85rem; color: #b7bec9; }
+  .labphoto { border-radius: var(--radius); overflow: hidden; border: 1px solid var(--line); box-shadow: var(--shadow); }
+  .labphoto img { width: 100%; display: block; }
+  .about-grid { display: grid; gap: 2rem; grid-template-columns: 1fr; align-items: center; }
+  @media (min-width: 860px) { .about-grid { grid-template-columns: 1fr 1.1fr; } }
+  .banner-wrap .lede { max-width: 92ch; }
+  .gallery { background: var(--surface); }
+  .gallery-track .frame { display: grid; grid-template-columns: minmax(0, 1.02fr) minmax(0, 1fr); gap: 0; padding: 0; background: var(--surface); visibility: hidden; transition: opacity .9s var(--ease), visibility 0s .9s; }
+  .gallery-track .frame.on { visibility: visible; transition: opacity .9s var(--ease), visibility 0s; }
+  .hl-text { padding: clamp(1.1rem, 3.2vw, 2.8rem) clamp(3.6rem, 5vw, 4.4rem) clamp(2.2rem, 3.2vw, 2.8rem) clamp(3.6rem, 5vw, 4.4rem); display: flex; flex-direction: column; justify-content: center; min-width: 0; }
+  .hl-text .n { font-family: var(--mono); font-size: .74rem; color: var(--muted); margin-bottom: .5rem; }
+  .hl-text .eyebrow { margin: 0 0 .5rem; }
+  .hl-text h2 { font-size: clamp(1.45rem, 2.7vw, 2.5rem); margin: 0 0 .6rem; }
+  .hl-text p.t { color: var(--ink-2); font-size: clamp(.92rem, 1.1vw, 1.05rem); margin: 0 0 1.1rem; max-width: 52ch; }
+  .hl-text .links { display: flex; flex-wrap: wrap; gap: .5rem; }
+  .hl-art { position: relative; overflow: hidden; display: grid; place-items: center; color: #f4efe6; background: #14181f; font-family: var(--serif); text-align: center; padding: 1.4rem 3.4rem 2.2rem 1.4rem; min-height: 0; }
+  .hl-art img.photo { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+  .hl-art .credit { position: absolute; right: 10px; bottom: 26px; font: 500 .66rem var(--sans); color: rgba(255,255,255,.8); background: rgba(0,0,0,.45); padding: .15em .5em; border-radius: 4px; }
+  .hl-art .in { position: relative; z-index: 1; display: grid; gap: .5rem; justify-items: center; max-width: 30ch; }
+  .hl-art .k { font: 600 .68rem var(--sans); letter-spacing: .18em; text-transform: uppercase; color: #e9b949; }
+  .hl-art .h { font-size: clamp(1.5rem, 3vw, 2.7rem); line-height: 1.05; font-variation-settings: "opsz" 144; }
+  .hl-art .s { font-size: clamp(.95rem, 1.5vw, 1.25rem); font-style: italic; opacity: .92; }
+  .hl-art .m { font: 500 .78rem var(--sans); opacity: .8; letter-spacing: .02em; }
+  .art-film { background: radial-gradient(120% 90% at 50% 40%, #2b3140 0%, #0d0f14 75%); }
+  .art-film::before, .art-film::after { content: ""; position: absolute; left: 0; right: 0; height: 22px; background: repeating-linear-gradient(90deg, #05060a 0 14px, #e9e4d8 14px 28px, #05060a 28px 34px); opacity: .5; }
+  .art-film::before { top: 0; } .art-film::after { bottom: 0; }
+  .art-film .play { width: 64px; height: 64px; border-radius: 50%; border: 2px solid #e9b949; display: grid; place-items: center; margin-bottom: .3rem; }
+  .art-film .play::after { content: ""; border-left: 18px solid #e9b949; border-top: 11px solid transparent; border-bottom: 11px solid transparent; margin-left: 5px; }
+  .art-tv { background: linear-gradient(160deg, #16283a, #0b1119); }
+  .art-tv::before { content: ""; position: absolute; inset: 0; background: repeating-linear-gradient(0deg, rgba(255,255,255,.045) 0 1px, transparent 1px 4px); }
+  .art-tv svg { width: min(46%, 190px); height: auto; margin-bottom: .2rem; }
+  .art-magazine { background: #f6f1e4; color: #1a2332; }
+  .art-magazine .k { color: #7d1a26; } .art-magazine .h { font-style: italic; font-size: clamp(1.8rem, 3.6vw, 3.2rem); }
+  .art-magazine .cols { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; width: min(100%, 330px); margin-top: .7rem; }
+  .art-magazine .cols i { display: block; height: 62px; background: repeating-linear-gradient(0deg, rgba(26,35,50,.3) 0 2px, transparent 2px 7px); }
+  .art-magazine .rule { width: 60px; height: 2px; background: #1a2332; }
+  .art-poster { background: linear-gradient(155deg, #a3232f 0%, #5a1019 55%, #1a0d14 100%); }
+  .art-poster::before { content: ""; position: absolute; inset: 12px 12px 30px 12px; border: 4px dotted rgba(233,185,73,.85); border-radius: 14px; }
+  .art-poster .h { font-size: clamp(1.7rem, 3.5vw, 3.1rem); }
+  .art-poster .tag { font: 700 .66rem var(--sans); letter-spacing: .2em; background: #e9b949; color: #1a0d14; padding: .3em .8em; border-radius: 999px; }
+  .art-poster .by { font: 600 .9rem var(--sans); margin-top: .2rem; }
+  .art-award { background: radial-gradient(100% 100% at 50% 30%, #2a2f3a, #0f1217); }
+  .art-award .yr { font-size: clamp(2.6rem, 6vw, 5rem); color: #e9b949; line-height: 1; }
+  .art-award svg { position: absolute; width: min(74%, 300px); height: auto; opacity: .5; }
+  .art-book { background: linear-gradient(160deg, #e9edf0, #d9dde2); }
+  .art-book .cover { width: min(44%, 170px); aspect-ratio: 2 / 3; border-radius: 6px 12px 12px 6px; background: linear-gradient(150deg, #20252e, #0f1217); padding: 1rem .9rem; display: flex; flex-direction: column; justify-content: space-between; text-align: left; box-shadow: 0 22px 40px -16px rgba(0,0,0,.6), inset 5px 0 0 rgba(255,255,255,.07); }
+  .art-book .cover b { font-weight: 500; font-size: 1.15rem; line-height: 1.12; } .art-book .cover i { font: 600 .62rem var(--sans); letter-spacing: .1em; text-transform: uppercase; color: #e9b949; } .art-book .cover span { font-size: .78rem; opacity: .85; }
+  .gallery-btn { top: 50%; } .gallery-dots { bottom: 9px; }
+  @media (max-width: 760px) { .gallery { min-height: 500px; } .gallery-track .frame { grid-template-columns: 1fr; grid-template-rows: 190px 1fr; } .hl-art { order: -1; padding: 1rem 3rem; } .hl-text { padding: 1rem 1.2rem 2.4rem; justify-content: flex-start; } .gallery-btn { top: 95px; } .art-magazine .cols, .art-film .play { display: none; } .art-tv svg { width: 90px; } }
+  .explore .tile .ic { display: grid; place-items: center; font-size: 1.5rem; border-radius: 14px; }
+  .hero-stage .hero-canvas-wrap { aspect-ratio: 1.56 / 1; max-width: 680px; }
+  .hero-hint { text-align: center; font-size: .8rem; color: var(--muted); margin: .5rem 0 0; }
+  .facts { grid-template-columns: repeat(2, 1fr); }
+  @media (min-width: 760px) { .facts { grid-template-columns: repeat(4, 1fr); } }
+  .facts dd small { display: block; font-family: var(--sans); font-size: .72rem; color: var(--muted); margin-top: .2rem; }
+</style>
+</head>
+<body>
+<div id="site-header"></div>
+<main>
+<section class="curtain">
+  <div class="curtain-media" id="hero">
+    <div class="banner-wrap">
+      <h1 class="banner">Kiehl Laboratory</h1>
+      <p class="lede">The Kiehl Lab uses brain imaging to understand psychopathy and related conditions: psychotic disorders, traumatic brain injury, substance use and paraphilias. Led by principal investigator Kent A. Kiehl, PhD, at the nonprofit Mind Research Network and the University of New Mexico, we take a mobile MRI scanner into prisons and treatment facilities, and work with judges, lawyers and the public on what neuroscience can and cannot tell the legal system.</p>
+    </div>
+    <div class="gallery" id="gallery" aria-label="Highlights" aria-roledescription="carousel" role="region">
+      <div class="gallery-track" id="gallery-track"></div>
+      <button class="gallery-btn prev" id="gprev" aria-label="Previous highlight">‹</button>
+      <button class="gallery-btn next" id="gnext" aria-label="Next highlight">›</button>
+      <div class="gallery-dots" id="gdots"></div>
+    </div>
+    <div class="scroll-cue"><a href="#start">Explore <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M6 13l6 6 6-6"/></svg></a></div>
+  </div>
+
+  <div class="curtain-body" id="start">
+    <section class="section-tight">
+      <div class="wrap">
+        <dl class="facts rv" id="facts">
+          <div><dt>Publications</dt><dd class="tnum" id="f-papers">…</dd></div>
+          <div><dt>Since</dt><dd class="tnum" id="f-since">…</dd></div>
+          <div><dt>Citations</dt><dd class="tnum" id="f-cites">…</dd></div>
+          <div><dt>Lab members past &amp; present</dt><dd class="tnum" id="f-people">…</dd></div>
+        </dl>
+        <div class="section-head"><div class="rv"><p class="eyebrow">Sections</p><h2>Explore the lab</h2></div></div>
+        <div class="explore">
+          <div class="tiles">
+          <a class="tile glow rv" href="research.html"><div><div class="ic">✦</div><h3>Research</h3><p>Psychopathy and the brain, predicting outcomes, from brain imaging to treatment, high-risk youth, traumatic brain injury, and neuroscience in the courtroom.</p></div><span class="go"><span>Research themes </span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+          <a class="tile glow rv rv-d1" href="publications.html"><div><div class="ic">❡</div><h3>Publications</h3><p>Every paper since 1995, searchable by keyword and filterable by topic, approach and type, with export to reference managers.</p></div><span class="go"><span>Search the papers </span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+          <a class="tile glow rv rv-d2" href="people.html"><div><div class="ic">☺</div><h3>People</h3><p>Kent Kiehl, principal investigator, with the lab's research faculty, graduate students and former trainees.</p></div><span class="go"><span>Meet the lab </span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+          <a class="tile glow rv" href="media.html"><div><div class="ic">▶</div><h3>Media &amp; talks</h3><p>Documentaries, television, podcasts, recorded lectures and print features about the lab.</p></div><span class="go"><span>Watch and listen </span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+          <a class="tile glow rv rv-d1" href="book.html"><div><div class="ic">❦</div><h3>Books</h3><p>The Psychopath Whisperer and the Handbook on Psychopathy and Law.</p></div><span class="go"><span>About the books </span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+          <a class="tile glow rv rv-d2" href="contact.html"><div><div class="ic">✉</div><h3>Contact &amp; join</h3><p>Lectures and interviews, prospective students and postdocs, and how to support the research.</p></div><span class="go"><span>Get in touch </span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+          </div>
+          <div class="hero-stage rv rv-d1"><div class="hero-canvas-wrap" role="img" aria-label="An interactive illustration: the lab's mobile MRI truck drives around a map of the United States, following the cursor. When it reaches a city, small brain scans pop out in bubbles."><canvas id="hero-canvas"></canvas></div>
+            <p class="hero-hint">Drive the mobile MRI with your cursor. Stop at a city to collect scans.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <div class="rv"><p class="eyebrow">Latest</p><h2>Recent papers</h2></div>
+          <p class="rv rv-d1">The lab's most recent publications. <a href="publications.html">Browse all papers</a> or subscribe by <a href="feed.xml">RSS</a>.</p>
+        </div>
+        <div class="latest rv rv-d1" id="latest"><div class="spinner">Loading…</div></div>
+      </div>
+    </section>
+
+    <section class="section-tight">
+      <div class="wrap">
+        <div class="section-head">
+          <div class="rv"><p class="eyebrow">In the news</p><h2>Recent news and media</h2></div>
+          <p class="rv rv-d1">Lab announcements, podcasts and press. <a href="news.html">All news</a> · <a href="media.html">Media &amp; talks</a>.</p>
+        </div>
+        <div class="strip-news cards rv rv-d1" id="newsstrip"><div class="spinner">Loading…</div></div>
+      </div>
+    </section>
+
+    <section class="section darkstrip">
+      <div class="wrap">
+        <div class="rv">
+          <p class="eyebrow">How we work</p>
+          <h2>A scanner that goes to the people being studied</h2>
+          <p>The people who most need to be studied can rarely travel to a university scanner. Kent Kiehl designed the Mind Mobile MRI System so the lab can bring one to them, and the resulting collection of brain scans, interviews and follow-up records is the largest forensic neuroscience repository in the world.</p>
+          <p><a class="btn primary" href="research.html#mobile-mri">The mobile MRI</a> <a class="btn btn-ghost" href="research.html" style="color:#fff">All research themes</a></p>
+        </div>
+        <div class="tools rv rv-d1">
+          <a href="research.html#neuroprediction"><b>Founders of the field of neuroprediction</b><span>Brain measures that forecast re-arrest and treatment outcome</span></a>
+          <a href="treatment.html"><b>From brain imaging to treatment</b><span>Three clinical trials that turn brain mechanisms into treatment targets</span></a>
+          <a href="resources.html"><b>Scales and translations</b><span>The Levenson Self-Report Psychopathy Scale and related materials</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap about-grid">
+        <div class="rv">
+          <p class="eyebrow">About the lab</p>
+          <h2>In Albuquerque since 2007</h2>
+        </div>
+        <div class="rv rv-d1">
+          <p>Principal investigator Kent Kiehl trained at the University of California, Davis, and at the University of British Columbia with Robert Hare and Peter Liddle, where he published the first fMRI study of brain dysfunction in criminal psychopaths. He led the Clinical Cognitive Neuroscience Laboratory at the Institute of Living and Yale University from 2001 to 2007, when the lab moved to the Mind Research Network and the University of New Mexico.</p>
+          <p><a class="btn" href="people.html">People</a> <a class="btn" href="about-kent.html">About the PI</a> <a class="btn" href="about.html">About this site</a></p>
+        </div>
+      </div>
+    </section>
+  </div>
+</section>
+</main>
+<div id="site-footer"></div>
+<script src="assets/config.js?v=4"></script>
+<script src="assets/app.js?v=2"></script>
+<script src="assets/layout.js?v=5"></script>
+<script src="assets/hero.js?v=4"></script>
+<script>
+(async function () {
+  const track = document.getElementById("gallery-track"), dots = document.getElementById("gdots"), esc = CL.esc;
+  if (!track) return;
+  let hl = [];
+  try { hl = await CL.getJSON("data/highlights.json"); } catch (e) { return; }
+  const brain = '<svg viewBox="0 0 120 100" fill="none" stroke="#e9b949" stroke-width="2.4" stroke-linecap="round"><ellipse cx="58" cy="44" rx="46" ry="34"/><path d="M34 50c4-14 34-16 46-2"/><path d="M62 58c4 10 4 22 2 36"/><ellipse cx="88" cy="68" rx="14" ry="10"/><path d="M24 34c8-6 12 4 20-2s12 4 20-2 12 4 20-2"/></svg>';
+  const laurel = '<svg viewBox="0 0 200 200" fill="none" stroke="#e9b949" stroke-width="3" stroke-linecap="round">' + Array.from({ length: 28 }, (_, i) => { const a = (i / 28) * Math.PI * 1.7 + Math.PI * 0.65, x = 100 + Math.cos(a) * 84, y = 100 + Math.sin(a) * 84, x2 = 100 + Math.cos(a + 0.12) * 96, y2 = 100 + Math.sin(a + 0.12) * 96; return `<path d="M${x.toFixed(1)} ${y.toFixed(1)}L${x2.toFixed(1)} ${y2.toFixed(1)}"/>`; }).join("") + "</svg>";
+  const ART = {
+    film: h => `<div class="in"><div class="play" aria-hidden="true"></div><div class="k">${esc(h.art_meta)}</div><div class="h">${esc(h.art_title)}</div></div>`,
+    tv: h => `<div class="in">${brain}<div class="h">${esc(h.art_title)}</div><div class="k">${esc(h.art_meta)}</div></div>`,
+    magazine: h => `<div class="in"><div class="k">The New Yorker · 2008</div><div class="h">${esc(h.art_title)}</div><div class="rule"></div><div class="m">${esc(h.art_meta)}</div><div class="cols" aria-hidden="true"><i></i><i></i><i></i></div></div>`,
+    poster: h => `<div class="in"><span class="tag">KEYNOTE</span><div class="h">${esc(h.art_title)}</div><div class="s">${esc(h.art_sub || "")}</div><div class="by">Kent A. Kiehl, PhD</div><div class="m">${esc(h.art_meta)}</div></div>`,
+    award: h => `${laurel}<div class="in"><div class="yr">2026</div><div class="h" style="font-size:clamp(1.1rem,2vw,1.6rem)">Robert D. Hare<br>${esc(h.art_title)} Award</div><div class="m">${esc(h.art_meta)}</div></div>`,
+    book: h => `<div class="cover"><i>Crown · 2014</i><b>${esc(h.art_title)}</b><span>${esc(h.art_meta)}</span></div>`
+  };
+  const N = hl.length, els = [];
+  hl.forEach((h, i) => {
+    const d = document.createElement("div"); d.className = "frame"; d.id = "hl-" + h.id; d.setAttribute("role", "group"); d.setAttribute("aria-roledescription", "slide"); d.setAttribute("aria-label", `${i + 1} of ${N}: ${h.title}`);
+    const art = h.img ? `<img class="photo" src="assets/img/${esc(h.img)}" alt="${esc(h.img_alt || h.title)}">${h.credit ? `<span class="credit">${esc(h.credit)}</span>` : ""}` : (ART[h.art] || ART.film)(h);
+    d.innerHTML = `<div class="hl-text"><span class="n">${String(i + 1).padStart(2, "0")} / ${String(N).padStart(2, "0")}</span><p class="eyebrow">${esc(h.eyebrow)}</p><h2>${esc(h.title)}</h2><p class="t">${esc(h.text)}</p><div class="links">${h.links.map((l, j) => `<a class="btn${j ? "" : " primary"}" href="${esc(l[1])}"${/^https?:/.test(l[1]) ? ' target="_blank" rel="noopener"' : ""}>${esc(l[0])}</a>`).join("")}</div></div><div class="hl-art art-${esc(h.art)}">${art}</div>`;
+    track.appendChild(d); els.push(d);
+    const b = document.createElement("button"); b.setAttribute("aria-label", `Highlight ${i + 1}: ${h.title}`); b.onclick = () => go(i, true); dots.appendChild(b);
+  });
+  let cur = 0, timer = null, paused = false;
+  const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches, gal = document.getElementById("gallery");
+  function go(i, manual) { cur = (i + N) % N; els.forEach((d, k) => { d.classList.toggle("on", k === cur); d.inert = k !== cur; }); dots.querySelectorAll("button").forEach((b, k) => { b.classList.toggle("on", k === cur); b.setAttribute("aria-current", k === cur ? "true" : "false"); }); if (manual) restart(); }
+  function restart() { clearInterval(timer); if (!reduce && !paused) timer = setInterval(() => go(cur + 1), 8000); }
+  document.getElementById("gprev").onclick = () => go(cur - 1, true);
+  document.getElementById("gnext").onclick = () => go(cur + 1, true);
+  gal.addEventListener("keydown", e => { if (e.key === "ArrowLeft") go(cur - 1, true); if (e.key === "ArrowRight") go(cur + 1, true); });
+  ["mouseenter", "focusin"].forEach(ev => gal.addEventListener(ev, () => { paused = true; clearInterval(timer); }));
+  ["mouseleave", "focusout"].forEach(ev => gal.addEventListener(ev, () => { paused = false; restart(); }));
+  document.addEventListener("visibilitychange", () => { if (document.hidden) clearInterval(timer); else restart(); });
+  const start = hl.findIndex(h => "#hl-" + h.id === location.hash);
+  go(start > 0 ? start : 0); restart();
+})();
+(async function () {
+  const { state } = await CL.loadCore();
+  const s = state.stats;
+  document.getElementById("f-papers").textContent = s.n.toLocaleString();
+  document.getElementById("f-since").textContent = s.y0 || "";
+  document.getElementById("f-people").textContent = s.n_people || "";
+  try { const cv = await CL.getJSON("data/cv.json"); const m = cv.metrics; document.getElementById("f-cites").innerHTML = CL.esc(m.citations) + `<small>${CL.esc(m.source)}, ${CL.esc(m.as_of)}</small>`; } catch (e) { /* optional */ }
+  const recent = state.index.filter(r => r.kind === "article").sort((a, b) => ((b.y || 0) - (a.y || 0)) || (b.d || "").localeCompare(a.d || "") || (b.added || "").localeCompare(a.added || "")).slice(0, 3);
+  document.getElementById("latest").innerHTML = recent.map(r => CL.paperCard(r)).join("");
+  CL.bindStars(document.getElementById("latest"));
+  try {
+    const posts = await CL.getJSON("data/news_posts.json");
+    let feed = []; try { feed = (await CL.getJSON("data/news.json")).items || []; } catch (e) { /* none yet */ }
+    const items = posts.map(p => ({ t: p.title, d: p.date, u: "news.html#" + p.id, src: "Kiehl Lab" })).concat(feed.map(f => ({ t: f.title, d: f.date, u: f.url, src: f.source }))).sort((a, b) => b.d.localeCompare(a.d)).slice(0, 3);
+    document.getElementById("newsstrip").innerHTML = items.map(i => `<article class="card"><span class="date">${CL.fmtDate(i.d)}</span><h3><a href="${CL.esc(i.u)}">${CL.esc(i.t)}</a></h3><p>${CL.esc(i.src)}</p></article>`).join("");
+  } catch (e) { document.getElementById("newsstrip").innerHTML = ""; }
+})().catch(e => console.error("landing:", e));
+</script>
+</body>
+</html>

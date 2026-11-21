@@ -1,0 +1,223 @@
+{
+ "taxonomy_version": "1.0.0",
+ "notes": "Controlled vocabulary for tagging Kent Kiehl's publications (clinical cognitive neuroscience: psychopathy, antisocial behaviour, psychosis, substance use, brain imaging, neuroscience and law). 'topic' and 'approach' are multi-valued; 'type' is single-valued. Chip colour = axis colour.",
+ "axes": [
+  {
+   "id": "topic",
+   "label": "Topic",
+   "multi": true,
+   "required": true,
+   "color": {
+    "hue": "violet",
+    "light": {
+     "bg": "#EDE9FE",
+     "fg": "#5B21B6"
+    },
+    "dark": {
+     "bg": "#2E1065",
+     "fg": "#C4B5FD"
+    }
+   },
+   "values": [
+    {
+     "id": "psychopathy",
+     "label": "Psychopathy",
+     "def": "Psychopathic traits or psychopathy as assessed by the PCL-R, PCL:YV, LSRP or related instruments; callous-unemotional traits."
+    },
+    {
+     "id": "youth",
+     "label": "Youth & development",
+     "def": "Adolescent or juvenile samples, conduct disorder, incarcerated youth, developmental questions."
+    },
+    {
+     "id": "women",
+     "label": "Women & sex differences",
+     "def": "Female offenders, incarcerated women, or explicit sex/gender comparisons."
+    },
+    {
+     "id": "antisocial_violence",
+     "label": "Antisocial behaviour & violence",
+     "def": "Criminal offending, aggression, homicide, violence, externalizing psychopathology."
+    },
+    {
+     "id": "risk_prediction",
+     "label": "Risk & recidivism prediction",
+     "def": "Prediction of rearrest, reoffending, treatment outcome or mortality from clinical, behavioural or brain measures (neuroprediction)."
+    },
+    {
+     "id": "moral_emotion",
+     "label": "Moral judgment, empathy & emotion",
+     "def": "Moral decision-making, empathy, affective processing, emotion recognition, emotional intelligence."
+    },
+    {
+     "id": "cognitive_control",
+     "label": "Attention & cognitive control",
+     "def": "Oddball/target detection, response inhibition, error monitoring, attention, executive function, language and memory processes."
+    },
+    {
+     "id": "substance_use",
+     "label": "Substance use & addiction",
+     "def": "Alcohol, stimulant, cannabis or other substance use disorders, craving, relapse, treatment of addiction."
+    },
+    {
+     "id": "psychosis",
+     "label": "Schizophrenia & psychosis",
+     "def": "Schizophrenia, bipolar disorder, psychosis risk and related psychotic disorders."
+    },
+    {
+     "id": "other_clinical",
+     "label": "Other clinical conditions",
+     "def": "Anxiety and obsessive-compulsive disorders, hoarding, ADHD, depression, PTSD and other psychiatric conditions."
+    },
+    {
+     "id": "tbi",
+     "label": "Traumatic brain injury",
+     "def": "Traumatic brain injury and concussion in forensic, athletic or community samples."
+    },
+    {
+     "id": "trauma_adversity",
+     "label": "Trauma & adversity",
+     "def": "Childhood maltreatment, trauma exposure, adverse experiences and their correlates."
+    },
+    {
+     "id": "sexual_offending",
+     "label": "Sexual offending & paraphilias",
+     "def": "Sexual offending, sexual sadism, paraphilic disorders."
+    },
+    {
+     "id": "law_ethics",
+     "label": "Neuroscience & law",
+     "def": "Use of neuroscience in the legal system, sentencing, responsibility, ethics and policy."
+    },
+    {
+     "id": "healthy_cognition",
+     "label": "Basic & comparative neuroscience",
+     "def": "Normative cognitive neuroscience in healthy participants, ageing, and comparative work (including cetacean hearing)."
+    }
+   ]
+  },
+  {
+   "id": "approach",
+   "label": "Approach",
+   "multi": true,
+   "required": true,
+   "color": {
+    "hue": "teal",
+    "light": {
+     "bg": "#E3EBF3",
+     "fg": "#2F5A86"
+    },
+    "dark": {
+     "bg": "#1E2C3D",
+     "fg": "#A9C4E0"
+    }
+   },
+   "values": [
+    {
+     "id": "fmri",
+     "label": "Functional MRI",
+     "def": "Task-based functional magnetic resonance imaging."
+    },
+    {
+     "id": "structural_mri",
+     "label": "Structural MRI",
+     "def": "Gray matter volume or density, cortical thickness, voxel- or source-based morphometry, brain age."
+    },
+    {
+     "id": "connectivity",
+     "label": "Connectivity & ICA",
+     "def": "Resting-state or task functional connectivity, independent component analysis, network analyses, dynamic connectivity."
+    },
+    {
+     "id": "dti",
+     "label": "Diffusion imaging",
+     "def": "Diffusion tensor imaging and white-matter microstructure."
+    },
+    {
+     "id": "eeg_erp",
+     "label": "EEG & event-related potentials",
+     "def": "Electroencephalography, event-related potentials (P3, ERN, N400 and others), MEG."
+    },
+    {
+     "id": "genetics",
+     "label": "Genetics & physiology",
+     "def": "Imaging genetics, genome-wide or candidate-gene analyses, hormones and peripheral physiology."
+    },
+    {
+     "id": "machine_learning",
+     "label": "Machine learning",
+     "def": "Classification, prediction or pattern-recognition models applied to clinical or brain data."
+    },
+    {
+     "id": "assessment",
+     "label": "Assessment & psychometrics",
+     "def": "Development, validation or factor structure of clinical and self-report instruments; interview- and file-based assessment."
+    },
+    {
+     "id": "behavior",
+     "label": "Behavioural & survey studies",
+     "def": "Behavioural tasks, questionnaires, epidemiological or records-based analyses without brain imaging as the main measure."
+    },
+    {
+     "id": "treatment",
+     "label": "Treatment & intervention",
+     "def": "Clinical trials and treatment studies, including cognitive remediation, mindfulness and medication."
+    },
+    {
+     "id": "methods_tools",
+     "label": "Methods & tools",
+     "def": "New acquisition or analysis methods, software, hardware, multi-site or mobile-MRI methodology."
+    }
+   ]
+  },
+  {
+   "id": "type",
+   "label": "Article type",
+   "multi": false,
+   "required": true,
+   "color": {
+    "hue": "slate",
+    "light": {
+     "bg": "#E7EAEE",
+     "fg": "#3B4552"
+    },
+    "dark": {
+     "bg": "#232A35",
+     "fg": "#B8C0CC"
+    }
+   },
+   "values": [
+    {
+     "id": "empirical",
+     "label": "Empirical",
+     "def": "Original research report."
+    },
+    {
+     "id": "review",
+     "label": "Review & theory",
+     "def": "Reviews, theoretical papers, meta-analyses and encyclopedia entries."
+    },
+    {
+     "id": "methods",
+     "label": "Methods",
+     "def": "Papers whose main contribution is a method, tool or protocol."
+    },
+    {
+     "id": "commentary",
+     "label": "Commentary",
+     "def": "Commentaries, replies, editorials, letters and retraction notices."
+    },
+    {
+     "id": "chapter",
+     "label": "Book chapter",
+     "def": "Chapters in edited volumes and popular-press articles."
+    },
+    {
+     "id": "book",
+     "label": "Book",
+     "def": "Authored or edited books."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Treatment | Kiehl Lab</title>
+<meta name="description" content="From brain imaging to treatment: three clinical trials from the Kiehl Lab that turn brain mechanisms found in incarcerated populations into treatment targets: matched cognitive remediation, empathy training, and mindfulness-based relapse prevention.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..600,0..100;1,9..144,300..600,0..100&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<meta property="og:site_name" content="Kiehl Lab">
+<meta property="og:title" content="Treatment | Kiehl Lab">
+<meta property="og:description" content="From brain imaging to treatment: three clinical trials from the Kiehl Lab that turn brain mechanisms found in incarcerated populations into treatment targets: matched cognitive remediation, empathy training, and mindfulness-based relapse prevention.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://kentkiehl.com/treatment.html">
+<meta property="og:image" content="https://kentkiehl.com/assets/og.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://kentkiehl.com/assets/og.jpg">
+<link rel="canonical" href="https://kentkiehl.com/treatment.html">
+<link rel="icon" href="assets/favicon.svg?v=3" type="image/svg+xml"><link rel="alternate icon" href="assets/favicon-32.png?v=3" sizes="32x32"><link rel="apple-touch-icon" href="assets/apple-touch-icon.png?v=3">
+<link rel="stylesheet" href="assets/app.css?v=3">
+<style>
+  .steps { display: grid; gap: .8rem; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); margin: 1.6rem 0 2.2rem; counter-reset: st; }
+  .step { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-sm); padding: 1rem 1.1rem; position: relative; }
+  .step::before { counter-increment: st; content: counter(st); font-family: var(--mono); font-size: .76rem; color: var(--accent-deep); font-weight: 600; }
+  .step b { display: block; font-family: var(--serif); font-size: 1.2rem; font-weight: 500; margin: .1rem 0 .2rem; } .step span { font-size: .88rem; color: var(--ink-2); }
+  .trial { border-top: 1px solid var(--line); padding: 2.2rem 0 1rem; display: grid; gap: 1.6rem; grid-template-columns: 1fr; }
+  @media (min-width: 900px) { .trial { grid-template-columns: 300px minmax(0, 1fr); gap: 2.6rem; } .trial .th { position: sticky; top: 92px; align-self: start; } }
+  .trial .num { font-family: var(--serif); font-size: 3.2rem; line-height: 1; color: var(--accent); }
+  .trial h2 { font-size: 1.6rem; margin: .4rem 0 .7rem; }
+  .chip-s { display: inline-block; font-size: .72rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; padding: .25em .7em; border-radius: 999px; background: var(--accent-soft); color: var(--accent-deep); }
+  .chip-s.prop { background: var(--amber-soft); color: var(--warn); }
+  .trial .fund { font-size: .86rem; color: var(--muted); margin: .6rem 0 1rem; }
+  .trial .rel { font-size: .86rem; display: grid; gap: .35rem; } .trial .rel a { color: var(--steel-deep); text-decoration: underline; text-decoration-color: var(--line-2); text-underline-offset: 3px; }
+  .blk h3 { font-size: 1.12rem; margin: 0 0 .35rem; color: var(--accent-deep); } .blk { margin-bottom: 1.4rem; max-width: 72ch; } .blk p { color: var(--ink-2); }
+  .intro p { max-width: 74ch; font-size: 1.04rem; color: var(--ink-2); }
+  .sec-nav { display: flex; flex-wrap: wrap; gap: .4rem; margin: 0 0 1rem; }
+  .sec-nav a { font-size: .84rem; padding: .35em .8em; border-radius: 999px; border: 1px solid var(--line-2); background: var(--surface); color: var(--ink-2); font-weight: 500; }
+  .sec-nav a:hover { border-color: var(--accent-deep); color: var(--ink); }
+</style>
+</head>
+<body>
+<div id="site-header"></div>
+<main class="wrap">
+  <div class="page-head"><p class="eyebrow">Treatment</p><h1>From brain imaging to treatment</h1></div>
+  <div class="intro" id="intro"></div>
+  <div class="steps" id="steps"></div>
+  <nav class="sec-nav" id="secnav" aria-label="Trials"></nav>
+  <div id="trials"><div class="spinner">Loading…</div></div>
+  <div class="callout" id="closing" style="margin:1.5rem 0 0;max-width:80ch"></div>
+  <p style="margin-top:1.4rem"><a class="btn" href="research.html#imaging-to-treatment">Research themes</a> <a class="btn" href="publications.html?approach=treatment">Treatment papers</a> <a class="btn" href="donate.html">Support the research</a></p>
+</main>
+<div id="site-footer"></div>
+<script src="assets/config.js?v=4"></script>
+<script src="assets/app.js?v=3"></script>
+<script src="assets/layout.js?v=5"></script>
+<script>
+(async function () {
+  const esc = CL.esc, t = await CL.getJSON("data/treatment.json");
+  document.getElementById("intro").innerHTML = t.intro.map(p => `<p>${esc(p)}</p>`).join("");
+  document.getElementById("steps").innerHTML = t.steps.map(s => `<div class="step"><b>${esc(s[0])}</b><span>${esc(s[1])}</span></div>`).join("");
+  document.getElementById("secnav").innerHTML = t.trials.map(x => `<a href="#${esc(x.id)}">${x.n}. ${esc(x.title.split(" for ")[0].split(" matched")[0])}</a>`).join("");
+  document.getElementById("trials").innerHTML = t.trials.map(x => `<section class="trial" id="${esc(x.id)}">
+    <div class="th"><div class="num">${x.n}</div><h2>${esc(x.title)}</h2><span class="chip-s${x.status === "Proposed" ? " prop" : ""}">${esc(x.status)}</span><div class="fund">${esc(x.funding)}</div>
+      <div class="rel"><b>Related papers</b>${x.papers.map(p => `<a href="papers/${encodeURIComponent(p.id)}.html">${esc(p.label)}</a>`).join("")}</div></div>
+    <div>${x.blocks.map(b => `<div class="blk"><h3>${esc(b[0])}</h3>${b[1].map(p => `<p>${esc(p)}</p>`).join("")}</div>`).join("")}</div></section>`).join("");
+  document.getElementById("closing").textContent = t.closing;
+  if (location.hash) { const el = document.getElementById(location.hash.slice(1)); if (el) el.scrollIntoView(); }
+})().catch(e => { document.getElementById("trials").innerHTML = `<div class="empty">Could not load (${CL.esc(e.message)}).</div>`; });
+</script>
+</body>
+</html>

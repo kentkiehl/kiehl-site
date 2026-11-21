@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Resources & scales | Kiehl Lab</title>
+<meta name="description" content="Resources from Kent Kiehl: the Levenson Self-Report Psychopathy Scale (LSRP), its codebook and translations, reference links, and software developed in the laboratory.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..600,0..100;1,9..144,300..600,0..100&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<meta property="og:site_name" content="Kiehl Lab">
+<meta property="og:title" content="Resources & scales | Kiehl Lab">
+<meta property="og:description" content="Resources from Kent Kiehl: the Levenson Self-Report Psychopathy Scale (LSRP), its codebook and translations, reference links, and software developed in the laboratory.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://kentkiehl.com/resources.html">
+<meta property="og:image" content="https://kentkiehl.com/assets/og.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://kentkiehl.com/assets/og.jpg">
+<link rel="canonical" href="https://kentkiehl.com/resources.html">
+<link rel="icon" href="assets/favicon.svg?v=3" type="image/svg+xml"><link rel="alternate icon" href="assets/favicon-32.png?v=3" sizes="32x32"><link rel="apple-touch-icon" href="assets/apple-touch-icon.png?v=3">
+<link rel="stylesheet" href="assets/app.css?v=3">
+<style>
+  .grp { margin: 2rem 0 .7rem; } .grp p { color: var(--ink-2); max-width: 70ch; margin: .2rem 0 0; }
+</style>
+</head>
+<body>
+<div id="site-header"></div>
+<main class="wrap">
+  <div class="page-head"><p class="eyebrow">Resources</p><h1>Resources and scales</h1><p>Assessment materials, reference links and software.</p></div>
+  <div id="res"><div class="spinner">Loading…</div></div>
+</main>
+<div id="site-footer"></div>
+<script src="assets/config.js?v=4"></script>
+<script src="assets/app.js?v=3"></script>
+<script src="assets/layout.js?v=5"></script>
+<script>
+(async function () {
+  const esc = CL.esc, r = await CL.getJSON("data/resources.json"); let cv = null; try { cv = await CL.getJSON("data/cv.json"); } catch (e) { /* optional */ }
+  document.getElementById("res").innerHTML = r.groups.map(g => { const items = g.from_cv && cv ? cv[g.from_cv].slice().reverse().map(x => { const [n, ...rest] = x[1].split(/\.\s|\s–\s/); return { name: n, sub: rest.join(". ").replace(/\s*https?:\S+/g, ""), country: x[0].replace(/-$/, "–present") }; }) : g.items;
+    return `<div class="grp"><h2>${esc(g.title)}</h2>${g.intro ? `<p>${esc(g.intro)}</p>` : ""}</div><div class="res-list">${items.map(i => `<div class="res"><span class="name">${i.url ? `<a href="${esc(i.url)}"${/^https?:/.test(i.url) ? ' target="_blank" rel="noopener"' : ""}>${esc(i.name)}${/^https?:/.test(i.url) ? " ↗" : ""}</a>` : esc(i.name)}</span>${i.country ? `<span class="country">${esc(i.country)}</span>` : ""}<span class="sub">${esc(i.sub || "")}</span></div>`).join("")}</div>`; }).join("");
+})().catch(e => { document.getElementById("res").innerHTML = `<div class="empty">Could not load (${CL.esc(e.message)}).</div>`; });
+</script>
+</body>
+</html>

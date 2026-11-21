@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Research | Kiehl Lab</title>
+<meta name="description" content="Research themes of Kent Kiehl's laboratory: psychopathy and the brain, the mobile MRI, high-risk youth, neuroprediction, substance use, traumatic brain injury, women in the justice system, and neuroscience and law.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..600,0..100;1,9..144,300..600,0..100&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<meta property="og:site_name" content="Kiehl Lab">
+<meta property="og:title" content="Research | Kiehl Lab">
+<meta property="og:description" content="Research themes of Kent Kiehl's laboratory: psychopathy and the brain, the mobile MRI, high-risk youth, neuroprediction, substance use, traumatic brain injury, women in the justice system, and neuroscience and law.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://kentkiehl.com/research.html">
+<meta property="og:image" content="https://kentkiehl.com/assets/og.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://kentkiehl.com/assets/og.jpg">
+<link rel="canonical" href="https://kentkiehl.com/research.html">
+<link rel="icon" href="assets/favicon.svg?v=3" type="image/svg+xml"><link rel="alternate icon" href="assets/favicon-32.png?v=3" sizes="32x32"><link rel="apple-touch-icon" href="assets/apple-touch-icon.png?v=3">
+<link rel="stylesheet" href="assets/app.css?v=3">
+<style>
+  .head-hero { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 2rem; align-items: center; margin-bottom: 1rem; }
+  .head-hero .page-head { margin-bottom: .8rem; }
+  .head-hero .hero-canvas-wrap { aspect-ratio: 1 / 1; width: 100%; max-width: 520px; margin: 0 auto; }
+  @media (max-width: 860px) { .head-hero { grid-template-columns: 1fr; } .head-hero .hero-canvas-wrap { max-width: 380px; } }
+  .keyp { padding-left: 1.3rem; margin: 0 0 1rem; font-size: .93rem; } .keyp li { margin: 0 0 .65rem; } .keyp li span { display: block; color: var(--muted); font-size: .88rem; }
+</style>
+</head>
+<body>
+<div id="site-header"></div>
+<main class="wrap">
+  <div class="head-hero">
+    <div>
+      <div class="page-head">
+        <p class="eyebrow">Research</p>
+        <h1>Research</h1>
+        <p id="intro"></p>
+      </div>
+      <nav class="theme-nav" id="themenav" aria-label="Research themes"></nav>
+    </div>
+    <div class="hero-canvas-wrap" role="img" aria-label="An interactive illustration of the lab's mobile MRI truck driving around a map of the United States"><canvas id="hero-canvas"></canvas></div>
+  </div>
+  <div class="with-sidenav">
+    <aside class="sidenav" id="sidenav" aria-label="Jump to a theme"></aside>
+    <div id="themes"><div class="spinner">Loading…</div></div>
+  </div>
+</main>
+<div id="site-footer"></div>
+<script src="assets/config.js?v=4"></script>
+<script src="assets/app.js?v=3"></script>
+<script src="assets/layout.js?v=5"></script>
+<script src="assets/hero.js?v=4"></script>
+<script>
+(async function () {
+  const r = await CL.getJSON("data/research.json");
+  const esc = CL.esc;
+  document.getElementById("intro").textContent = r.intro;
+  document.getElementById("themenav").innerHTML = r.themes.map(t => `<a href="#${esc(t.id)}">${esc(t.title)}</a>`).join("");
+  // link each theme to the matching publication tags
+  const TAGS = Object.fromEntries(r.themes.filter(t => t.tags).map(t => [t.id, t.tags]));
+  const ov = r.overview ? `<section class="theme rv" id="overview"><div><p class="eyebrow">Background</p><h2>${esc(ov_title(r))}</h2>${r.overview.paragraphs.map(p => `<p>${esc(p)}</p>`).join("")}</div><figure class="placeholder" style="border:none;box-shadow:none;background:none"></figure></section>` : "";
+  function ov_title(r) { return r.overview.title; }
+  document.getElementById("themes").innerHTML = ov + r.themes.map((t, i) => `<section class="theme${i % 2 ? "" : " flip"} rv" id="${esc(t.id)}">
+      <div>
+        <p class="eyebrow">Theme ${i + 1}</p>
+        <h2>${esc(t.title)}</h2>
+        ${t.question ? `<p class="q">${esc(t.question)}</p>` : ""}
+        ${t.paragraphs.map(p => `<p>${esc(p)}</p>`).join("")}
+        ${t.papers ? `<h3 style="margin:1.1rem 0 .4rem;font-size:1.1rem">${esc(t.papers_title || "Key papers")}</h3><ol class="keyp">${t.papers.map(k => `<li><a href="papers/${encodeURIComponent(k.id)}.html"><b>${esc(k.cite)}</b>. ${esc(k.title)}.</a> <i>${esc(k.journal || "")}</i>.<span>${esc(k.note)}</span></li>`).join("")}</ol>` : ""}
+        ${t.more ? `<a class="papers-link" href="${esc(t.more[0])}" style="margin-right:1.2rem">${esc(t.more[1])} →</a>` : ""}${TAGS[t.id] ? `<a class="papers-link" href="publications.html?${TAGS[t.id]}">Related publications →</a>` : ""}
+      </div>
+      ${t.image ? `<figure><a href="assets/img/${esc(t.image)}" target="_blank" rel="noopener"><img src="assets/img/${esc(t.image)}" alt="Figure illustrating ${esc(t.title)}" loading="lazy"></a>${t.image_caption ? `<figcaption class="small muted">${esc(t.image_caption)}</figcaption>` : ""}</figure>` : `<figure class="placeholder" style="border:none;box-shadow:none;background:none"></figure>`}
+    </section>`).join("");
+  CL.sideNav(document.getElementById("sidenav"), [{ id: "overview", label: "Background" }].concat(r.themes.map(t => ({ id: t.id, label: t.title }))), "On this page");
+  const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const rvs = document.querySelectorAll("#themes .rv");
+  if (reduce || !("IntersectionObserver" in window)) rvs.forEach(el => el.classList.add("in"));
+  else { const io = new IntersectionObserver(es => es.forEach(en => { if (en.isIntersecting) { en.target.classList.add("in"); io.unobserve(en.target); } }), { threshold: 0.08 }); rvs.forEach(el => io.observe(el)); }
+  if (location.hash) { const el = document.querySelector(location.hash); if (el) setTimeout(() => el.scrollIntoView({ block: "start" }), 50); }
+})().catch(e => { document.getElementById("themes").innerHTML = `<div class="empty">Could not load (${CL.esc(e.message)}).</div>`; });
+</script>
+</body>
+</html>

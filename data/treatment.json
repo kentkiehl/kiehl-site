@@ -1,0 +1,157 @@
+{
+ "intro": [
+  "Some of the largest unmet needs in mental health are concentrated among people who pass through the justice system. Substance use disorders, traumatic brain injury, trauma exposure, personality disorders and other serious mental illness are far more common among incarcerated people than in the general population, yet this group is almost never reached by clinical neuroscience.",
+  "The lab's aim is to identify the brain systems that drive addiction, impulsive and antisocial behavior, and poor treatment response, and then to use those systems as targets for treatment. Each of the trials below began with a brain mechanism identified in forensic populations, turned it into a treatment target, and asks two questions: does treatment change the target brain system, and does that change predict better outcomes?"
+ ],
+ "steps": [
+  [
+   "Mechanism",
+   "Find the brain process that fails, using imaging in the populations affected."
+  ],
+  [
+   "Marker",
+   "Show that a brain measure of that process forecasts outcomes such as relapse or re-arrest."
+  ],
+  [
+   "Treatment",
+   "Build or choose a treatment aimed at that process."
+  ],
+  [
+   "Test",
+   "Scan before and after treatment on the mobile MRI, and follow participants after release."
+  ]
+ ],
+ "trials": [
+  {
+   "id": "cognitive-remediation",
+   "n": 1,
+   "title": "Cognitive remediation matched to each participant's deficit",
+   "status": "Enrolling",
+   "funding": "NIDA R01DA058004 · 2024–2029 · with Arielle Baskin-Sommers (Yale)",
+   "blocks": [
+    [
+     "From basic research to a new treatment for psychopathy",
+     [
+      "Psychopathy has long been considered untreatable. Standard prison programs do not help, and some studies suggest they leave people with psychopathy more likely to re-offend violently. With Joseph Newman and Arielle Baskin-Sommers, our teams spent more than a decade asking why self-regulation fails in two high-risk groups of justice-involved people.",
+      "The answer was two distinct mechanisms. Individuals with psychopathy have an attention-to-context deficit: they respond normally to emotional and punishment cues they are focused on, but miss the same cues when their attention is elsewhere. Individuals with high externalizing traits have a deficit in affective cognitive control: strong reactions to reward, threat and drug cues overwhelm the executive control they need to regulate behavior. The two groups also map onto separable brain circuits for self-control and attention."
+     ]
+    ],
+    [
+     "Designing the treatment",
+     [
+      "Each mechanism became a targeted, computerized cognitive remediation program of six one-hour sessions. Attention-to-context training uses reversal learning, divided visual field and affective gaze tasks, so trainees practice noticing rule changes and emotional cues outside their focus. Affective cognitive control training uses breath holding, an incentivized go-stop task and the Simon task, so trainees practice keeping control in the face of distress, reward and conflict."
+     ]
+    ],
+    [
+     "Pilot evidence",
+     [
+      "Newman and Baskin-Sommers tested both programs in prison. Participants improved only when the training matched their deficit, and those gains transferred to untrained laboratory tasks. Participants with psychopathy who received matched training also had less severe disciplinary reports two months later. In a court-referred outpatient sample, externalizing participants given matched training reduced their primary drug use and attended more treatment sessions than those given control training."
+     ]
+    ],
+    [
+     "The trial",
+     [
+      "This is, to our knowledge, the first randomized clinical trial of a treatment designed for psychopathy. We are enrolling about 300 incarcerated men in New Mexico prisons. Each man is classified by Psychopathy Checklist–Revised factor scores as psychopathic, externalizing or neither, then randomized to matched or mismatched training, with trainers blind to group.",
+      "The trial asks four questions. Are the two deficits reliable? Does matched training improve the targeted skills? Do the gains last, reducing substance use, prison misconduct and recidivism over six months after release? And does training change the targeted brain circuits? Participants are scanned before and after treatment on the mobile MRI. The scans include the same Go/No Go task whose anterior cingulate signal predicted re-arrest, so we can test whether treatment moves the very marker that forecasts risk. If it succeeds, we will extend it to women and adolescents, who show similar attention and cognitive deficits."
+     ]
+    ]
+   ],
+   "papers": [
+    {
+     "id": "aharoni2013neuroprediction",
+     "label": "Neuroprediction of future re-arrest (2013)"
+    },
+    {
+     "id": "larson2013interplay",
+     "label": "The interplay of attention and emotion (2013)"
+    }
+   ]
+  },
+  {
+   "id": "empathy-training",
+   "n": 2,
+   "title": "Empathy training for intrinsic and acquired empathy deficits",
+   "status": "Proposed",
+   "funding": "Planned trial · with Dawn Neumann and Jean Decety",
+   "blocks": [
+    [
+     "The basic research",
+     [
+      "Lack of empathy is a defining feature of psychopathy, yet our work with Jean Decety shows the deficit is more specific than a general absence of feeling. In a series of fMRI studies of incarcerated men and women, we mapped how psychopathy alters the brain's response to other people's pain, distress and emotion.",
+      "Individuals with psychopathy can adopt another person's perspective, but doing so does not move them. When they imagine themselves in pain, they engage the anterior insula, anterior cingulate and amygdala; when they imagine another person in pain, they fail to recruit those regions. They show reduced responses in empathy-related circuits when viewing others in distress and atypical processing of facial expressions of emotion, with reductions most marked for fear. Similar alterations appear in incarcerated women. Structurally, empathy-related cortex varies with psychopathy in 800 incarcerated men, and the uncinate fasciculus, which links the amygdala to prefrontal cortex, is compromised in men, youth and women with these traits.",
+      "Our brain injury research added a second route to the same problem. Traumatic brain injury is common among justice-involved people and is linked to higher psychopathic traits. Empathy deficits can therefore be intrinsic, present from early in life and affecting emotional empathy more than perspective-taking, or acquired after injury."
+     ]
+    ],
+    [
+     "Designing the treatment",
+     [
+      "These findings point to a precise target: individuals with psychopathy can take another person's perspective, but they do not connect it to feeling or to their own reactions. The Intervention to Change Attributions that are Negative (ICAN), developed by Dawn Neumann for people with brain injury, trains exactly that link. Over six weekly two-hour group sessions, participants practice generating benign explanations for other people's ambiguous actions in video scenarios. They then use a two-chair exercise to think and feel their way into the perspective of someone who wronged them."
+     ]
+    ],
+    [
+     "Pilot evidence",
+     [
+      "In a randomized, waitlist-controlled pilot in 21 adults with brain injury, ICAN reduced anger, aggression and hostile attributions. Eighty-three percent of participants reported a noticeable change in their perspective-taking."
+     ]
+    ],
+    [
+     "The planned trial",
+     [
+      "The proposed study would be, to our knowledge, the first test of an empathy treatment in a forensic population. In a first phase, 125 incarcerated adults, about half of them women, would be randomized to ICAN or an active control, facial affect recognition training, with both mobile MRIs running in parallel at men's and women's prisons. Each participant would complete the perspective-taking fMRI task from our psychopathy studies before and after treatment, testing whether ICAN increases insula activity and its connectivity with medial prefrontal, anterior cingulate and amygdala regions.",
+      "If ICAN meets prespecified criteria on empathy, hostile attribution and aggression measures, a second phase would enroll 250 more participants selected for brain injury or high psychopathic traits. It would test whether acquired and intrinsic deficits respond differently, and follow participants every six months for institutional infractions and recidivism."
+     ]
+    ]
+   ],
+   "papers": [
+    {
+     "id": "decety2013fmri",
+     "label": "An fMRI study of affective perspective taking in individuals with psychopathy (2013)"
+    },
+    {
+     "id": "radecki2026cortical",
+     "label": "Cortical structure in relation to empathy and psychopathy in 800 incarcerated men (2026)"
+    }
+   ]
+  },
+  {
+   "id": "mindfulness",
+   "n": 3,
+   "title": "Mindfulness-based relapse prevention for incarcerated women and men",
+   "status": "NIH-funded trial",
+   "funding": "NIAAA R01AA026290 · with Katie Witkiewitz and Michael Koenigs",
+   "blocks": [
+    [
+     "The basic research",
+     [
+      "Our imaging studies of incarcerated people pointed to a common weak point in addiction: the anterior cingulate and the control networks it anchors. Low anterior cingulate activity during the Go/No Go task predicts re-arrest, brain measures from the same task predict who completes substance use treatment, and reduced activity in related regions predicts relapse in people recovering from stimulant dependence. People who use substances also show weaker connectivity between reward and cognitive control regions.",
+      "Craving differs from person to person: psychopathic and callous-unemotional traits change the brain's response to drug cues in adults and youth. Women carry a distinct burden. In our samples, psychopathic and borderline traits combine with substance use in justice-involved women, and substance use predicts their recidivism over seven years."
+     ]
+    ],
+    [
+     "The treatment",
+     [
+      "Mindfulness-based relapse prevention trains attention to cravings and negative emotions, so that urges can be noticed and tolerated rather than acted on. It is thought to work by strengthening the attention and executive control networks centered on the anterior cingulate, the same system our studies tied to relapse and re-offending. Our collaborator Katie Witkiewitz had already shown in randomized trials that mindfulness reduces substance use, including among women in the justice system."
+     ]
+    ],
+    [
+     "The trial",
+     [
+      "This is, to our knowledge, the first full-scale randomized trial of mindfulness treatment for alcohol use disorder in incarcerated people, and the first to track brain change across treatment in this population. About 300 incarcerated women with alcohol use disorder in New Mexico were randomized to eight weeks of mindfulness-based relapse prevention or a matched cognitive-behavioral relapse prevention course, alongside a treatment-as-usual comparison group.",
+      "Each woman was scanned on the mobile MRI before, midway through and after treatment, using the Go/No Go task, an alcohol cue-reactivity task, resting-state imaging and diffusion imaging. Follow-up after release tracks drinking, drug use, craving, parole violations and re-arrest. The design tests whether strengthening anterior cingulate function is the route by which treatment improves outcomes."
+     ]
+    ]
+   ],
+   "papers": [
+    {
+     "id": "steele2014brain",
+     "label": "Brain potentials measured during a Go/No Go task predict completion of substance abuse treatment (2014)"
+    },
+    {
+     "id": "clark2014reduced",
+     "label": "Reduced fMRI activity predicts relapse in patients recovering from stimulant dependence (2014)"
+    }
+   ]
+  }
+ ],
+ "closing": "Three trials, one approach: each turns a brain mechanism discovered in an underserved population into a treatment, and each uses brain imaging to test whether the treatment works by changing that mechanism. The lab plans to extend the approach to brain stimulation for polysubstance use, and to women, adolescents and other clinical populations."
+}
