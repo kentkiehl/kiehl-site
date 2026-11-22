@@ -55,6 +55,10 @@
   .clist { columns: 4 150px; column-gap: 1.6rem; font-size: .86rem; margin-top: 1rem; padding: 0; list-style: none; } .clist li { break-inside: avoid; display: flex; justify-content: space-between; gap: .6rem; padding: .16rem 0; border-bottom: 1px dotted var(--line-2); } .clist span { font-family: var(--mono); font-size: .78rem; color: var(--muted); }
   .bars { display: flex; align-items: flex-end; gap: 2px; height: 130px; margin-top: 1.2rem; } .bars div { flex: 1; background: var(--accent); border-radius: 2px 2px 0 0; min-width: 3px; position: relative; opacity: .85; } .bars div:hover { opacity: 1; } .bars div.partial { opacity: .45; }
   .barx { display: flex; justify-content: space-between; font-family: var(--mono); font-size: .72rem; color: var(--muted); margin-top: .25rem; }
+  .ml { margin-top: 1.6rem; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 1.3rem 1.5rem; } .ml h3 { margin: 0 0 .4rem; } .ml p { color: var(--ink-2); max-width: 80ch; }
+  .langs { display: flex; flex-wrap: wrap; gap: .3rem; margin: .2rem 0 1rem; } .langs span { font-size: .8rem; padding: .2em .65em; border-radius: 999px; background: var(--accent-soft); color: var(--accent-deep); font-weight: 500; }
+  table.tr a, .ml p a { color: var(--steel-deep); text-decoration: underline; text-decoration-color: var(--line-2); text-underline-offset: 3px; }
+  .oa { font-size: .78rem; color: var(--ok); white-space: nowrap; }
 </style>
 </head>
 <body>
@@ -76,9 +80,10 @@
 
   <section class="sec" id="papers"><h2>Key papers on the scale</h2><p class="sub" id="papers-note"></p><ol class="plist" id="plist"></ol></section>
 
-  <section class="sec" id="translations"><h2>Translations and adaptations</h2><p class="sub">Published versions of the scale in other languages that we know of. The list is not complete; if you have translated or validated the scale, please <a href="contact.html">tell us</a> and we will add it.</p>
-    <table class="tr"><thead><tr><th>Language</th><th>Country</th><th>Publication</th><th>File</th></tr></thead><tbody id="trows"></tbody></table>
-    <p class="small muted" id="req" style="margin-top:.9rem"></p></section>
+  <section class="sec" id="translations"><h2>Translations and adaptations</h2><p class="sub">Published versions of the scale in other languages that we know of, with a link to each paper. The list is not complete; if you have translated or validated the scale, please <a href="contact.html">tell us</a> and we will add it.</p>
+    <table class="tr"><thead><tr><th>Language</th><th>Country</th><th>Publication</th><th>Access</th></tr></thead><tbody id="trows"></tbody></table>
+    <p class="small muted" id="req" style="margin-top:.9rem"></p>
+    <div class="ml" id="ml"></div></section>
 
   <section class="sec" id="map"><h2>Where the scale has been used</h2><p class="sub">Countries of the authors of papers that cite the original 1995 article. Darker countries have more papers; countries with a dark outline have a published translation or adaptation.</p>
     <div class="mstat" id="mstat"></div>
@@ -106,9 +111,10 @@
   document.getElementById("score-note").textContent = s.note;
   document.getElementById("papers-note").textContent = L.papers_note + ` Citation counts from ${L.source}, ${CL.fmtDate(L.updated)}.`;
   document.getElementById("plist").innerHTML = L.papers.map((p, i) => `<li class="${i ? "" : "orig"}"><span class="c">${p.cites.toLocaleString()} citations</span>${esc(p.authors)} (${p.year}). <a href="https://doi.org/${esc(p.doi)}" target="_blank" rel="noopener">${esc(p.title)}</a>. <i>${esc(p.journal)}</i>, ${esc(p.vol)}.${p.note ? ` <b>${esc(p.note)}.</b>` : ""}</li>`).join("");
-  document.getElementById("trows").innerHTML = L.translations.map(t => `<tr><td>${esc(t.language)}</td><td>${esc(t.where)}</td><td>${t.doi ? `<a href="https://doi.org/${esc(t.doi)}" target="_blank" rel="noopener">${esc(t.ref)}</a>` : esc(t.ref)}</td><td>${t.file ? `<a href="assets/files/${esc(t.file)}" download>Download</a>` : ""}</td></tr>`).join("");
+  document.getElementById("trows").innerHTML = L.translations.map(t => `<tr><td>${esc(t.language)}</td><td>${esc(t.where)}</td><td>${t.doi ? `<a href="https://doi.org/${esc(t.doi)}" target="_blank" rel="noopener">${esc(t.ref)}</a>` : esc(t.ref)}</td><td>${[t.file ? `<a href="assets/files/${esc(t.file)}" download>Download</a>` : "", t.extra ? `<a href="${esc(t.extra[1])}" target="_blank" rel="noopener" title="${esc(t.extra[0])}">Items ↗</a>` : "", t.oa ? '<span class="oa">free to read</span>' : ""].filter(Boolean).join(" · ")}</td></tr>`).join("");
+  const M = L.multilingual; if (M) document.getElementById("ml").innerHTML = `<h3>${esc(M.title)}</h3><p>${esc(M.text)}</p><div class="langs">${M.languages.map(x => `<span>${esc(x)}</span>`).join("")}</div><p class="small">${esc(M.ref)}</p><p style="margin:0">${M.links.map(l => `<a class="btn" href="${esc(l[1])}" target="_blank" rel="noopener">${esc(l[0])} ↗</a>`).join(" ")}</p>`;
   document.getElementById("req").textContent = L.requests.note + " " + L.requests.languages.join(", ") + ".";
-  document.getElementById("mstat").innerHTML = [[L.stats.cited_by.toLocaleString(), "Papers citing the scale"], [L.stats.n_countries, "Countries"], [new Set(L.translations.filter(t => t.cc.length).map(t => t.language)).size, "Published languages"]].map(x => `<div><b>${x[0]}</b><span>${x[1]}</span></div>`).join("");
+  document.getElementById("mstat").innerHTML = [[L.stats.cited_by.toLocaleString(), "Papers citing the scale"], [L.stats.n_countries, "Countries"], [L.multilingual ? L.multilingual.languages.length : new Set(L.translations.map(t => t.language)).size, "Languages"]].map(x => `<div><b>${x[0]}</b><span>${x[1]}</span></div>`).join("");
   const byCode = Object.fromEntries(L.countries.map(c => [c[0], c])), trSet = new Set(L.translations.flatMap(t => t.cc));
   const STOPS = [[1, "#f3d9d6"], [5, "#e8b3ae"], [20, "#d67f7c"], [50, "#bd4a4e"], [200, "#8f1f2a"]];
   const color = n => { let c = STOPS[0][1]; for (const [k, v] of STOPS) if (n >= k) c = v; return c; };

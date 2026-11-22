@@ -230,7 +230,8 @@
    ],
    "ref": "Ghossoub et al. (2024), BMC Psychiatry",
    "doi": "10.1186/s12888-024-05499-4",
-   "file": ""
+   "file": "",
+   "oa": true
   },
   {
    "language": "Bulgarian",
@@ -240,7 +241,8 @@
    ],
    "ref": "Psederska et al. (2020), Frontiers in Psychology",
    "doi": "10.3389/fpsyg.2020.01110",
-   "file": ""
+   "file": "",
+   "oa": true
   },
   {
    "language": "Chinese",
@@ -250,7 +252,8 @@
    ],
    "ref": "Shou, Sellbom & Han (2017), Assessment",
    "doi": "10.1177/1073191116637421",
-   "file": "LSRP_Chinese_Translation_Shou-et-al-2016.pdf"
+   "file": "LSRP_Chinese_Translation_Shou-et-al-2016.pdf",
+   "oa": false
   },
   {
    "language": "Dutch",
@@ -260,7 +263,8 @@
    ],
    "ref": "Garofalo et al. (2019), Journal of Personality Assessment; Wissenburg et al. (2020), Assessment",
    "doi": "10.1080/00223891.2018.1519830",
-   "file": ""
+   "file": "",
+   "oa": true
   },
   {
    "language": "French",
@@ -270,7 +274,8 @@
    ],
    "ref": "Savard, Lussier & Sabourin (2014), Criminologie; expanded version: Maheux-Caron et al. (2018), Assessment",
    "doi": "10.7202/1026736ar",
-   "file": ""
+   "file": "",
+   "oa": false
   },
   {
    "language": "German",
@@ -280,7 +285,8 @@
    ],
    "ref": "Dericioğlu et al. (2024), Psychological Test Adaptation and Development (primary scale)",
    "doi": "10.1027/2698-1866/a000084",
-   "file": "LSRP_German_Translation_Dericiglu-et-al-2024.ppt"
+   "file": "LSRP_German_Translation_Dericiglu-et-al-2024.ppt",
+   "oa": true
   },
   {
    "language": "Italian",
@@ -290,7 +296,8 @@
    ],
    "ref": "Somma et al. (2014), Personality and Mental Health",
    "doi": "10.1002/pmh.1267",
-   "file": ""
+   "file": "",
+   "oa": false
   },
   {
    "language": "Portuguese",
@@ -300,7 +307,12 @@
    ],
    "ref": "Coelho et al. (2010), Psychologica; Barbosa et al. (2014)",
    "doi": "10.14195/1647-8606_53_20",
-   "file": ""
+   "file": "",
+   "oa": true,
+   "extra": [
+    "Portuguese version with items (Barbosa et al., 2014, lab report)",
+    "https://core.ac.uk/download/143412052.pdf"
+   ]
   },
   {
    "language": "Portuguese",
@@ -310,7 +322,8 @@
    ],
    "ref": "Hauck Filho & Teixeira (2014), Journal of Personality Assessment; expanded version: Machado et al. (2024), Deviant Behavior",
    "doi": "10.1080/00223891.2013.865196",
-   "file": ""
+   "file": "",
+   "oa": false
   },
   {
    "language": "Spanish",
@@ -320,7 +333,8 @@
    ],
    "ref": "Redondo et al. (2023), Personality and Individual Differences",
    "doi": "10.1016/j.paid.2023.112183",
-   "file": ""
+   "file": "",
+   "oa": true
   },
   {
    "language": "Spanish",
@@ -330,7 +344,8 @@
    ],
    "ref": "Amador-Zavala et al. (2022), Anuario de Psicología Jurídica",
    "doi": "10.5093/apj2022a3",
-   "file": ""
+   "file": "",
+   "oa": true
   },
   {
    "language": "Spanish",
@@ -340,7 +355,8 @@
    ],
    "ref": "Peiró Cabrera (2024), Revista Electrónica de Psicología Iztacala",
    "doi": "",
-   "file": ""
+   "file": "",
+   "oa": true
   },
   {
    "language": "Urdu",
@@ -350,15 +366,8 @@
    ],
    "ref": "Shagufta et al. (2022), Journal of Postgraduate Medical Institute",
    "doi": "10.54079/jpmi.36.3.2944",
-   "file": ""
-  },
-  {
-   "language": "33 languages",
-   "where": "Multinational",
-   "cc": [],
-   "ref": "Vu et al. (2026), Personality and Individual Differences: a cross-linguistic validation across 186 countries",
-   "doi": "10.1016/j.paid.2026.113762",
-   "file": ""
+   "file": "",
+   "oa": true
   }
  ],
  "requests": {
@@ -870,5 +879,55 @@
    "2026",
    85
   ]
- ]
+ ],
+ "multilingual": {
+  "title": "A 33-language version (2026)",
+  "text": "In 2026 a multinational team translated the scale into 33 languages by forward and backward translation, checked by native speakers, and tested it in 102,407 people across 186 countries. The translated questionnaires are provided with the paper. Before that study, the scale had been translated into only about ten languages.",
+  "ref": "Vu, T. T. T., et al. (2026). Cross-linguistic validation of the Levenson self-report psychopathy scale: A multinational study across 186 countries and 33 languages. Personality and Individual Differences, 257, 113762.",
+  "links": [
+   [
+    "The paper",
+    "https://doi.org/10.1016/j.paid.2026.113762"
+   ],
+   [
+    "Free author manuscript (Cardiff University)",
+    "https://orca.cardiff.ac.uk/id/eprint/186236/"
+   ]
+  ],
+  "languages": [
+   "Amharic",
+   "Arabic",
+   "Bahasa Indonesia",
+   "Dari",
+   "English",
+   "Filipino",
+   "French",
+   "German",
+   "Greek",
+   "Gujarati",
+   "Hindi",
+   "Igbo",
+   "Italian",
+   "Japanese",
+   "Javanese",
+   "Kannada",
+   "Khmer",
+   "Kurdish",
+   "Malay",
+   "Mandarin",
+   "Marathi",
+   "Nepali",
+   "Pashto",
+   "Persian",
+   "Portuguese",
+   "Russian",
+   "Spanish",
+   "Tamil",
+   "Telugu",
+   "Ukrainian",
+   "Urdu",
+   "Uzbek",
+   "Vietnamese"
+  ]
+ }
 }
