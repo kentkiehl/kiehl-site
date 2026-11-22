@@ -8,12 +8,13 @@
       <a href="research.html">Research</a>
       <a href="treatment.html">Treatment</a>
       <a href="publications.html">Publications</a>
+      <a href="lsrp.html">LSRP</a>
       <a href="book.html">Books</a>
       <a href="media.html">Media &amp; talks</a>
       <a href="news.html">News</a>
       <a href="people.html">People</a>
       <div class="menu"><a href="about-kent.html" class="menu-btn" aria-haspopup="true" aria-expanded="false">About ▾</a>
-        <div class="menu-list"><a href="about-kent.html">Kent Kiehl, PI: biography &amp; CV</a><a href="lsrp.html">The LSRP scale</a><a href="resources.html">Resources</a><a href="network.html">Collaborator network</a><a href="bibliometrics.html">Bibliometrics</a><a href="about.html">About this site</a></div></div>
+        <div class="menu-list"><a href="about-kent.html">Kent Kiehl, PI: biography &amp; CV</a><a href="resources.html">Resources</a><a href="network.html">Collaborator network</a><a href="bibliometrics.html">Bibliometrics</a><a href="about.html">About this site</a></div></div>
       <a href="contact.html">Contact &amp; join</a>
     </nav></div></header>`;
   const footer = `<footer class="site-footer"><div class="wrap">
