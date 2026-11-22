@@ -2,41 +2,16 @@
  "groups": [
   {
    "title": "The Levenson Self-Report Psychopathy Scale (LSRP)",
-   "intro": "The LSRP was developed by Michael Levenson, Kent Kiehl and Cory Fitzpatrick (1995) to assess psychopathic traits in non-institutionalized samples.",
+   "intro": "The LSRP has its own page with downloads, scoring instructions, key papers, translations and a world map of its use.",
    "items": [
     {
-     "name": "Levenson Self-Report Psychopathy Scale (LSRP)",
-     "sub": "The scale (Word document)",
-     "url": "assets/files/Levensons-Self-Report-Psychopathy-Scale.doc"
-    },
-    {
-     "name": "LSRP scoring codebook",
-     "sub": "Coding guide for the scale (RTF)",
-     "url": "assets/files/LSRP_psychopathy-codebook.rtf"
-    },
-    {
-     "name": "Levenson's Antisocial Action Scale",
-     "sub": "Word document",
-     "url": "assets/files/Levensons-Antisocial-Action-Scale.doc"
-    },
-    {
-     "name": "The original article",
-     "sub": "Levenson, Kiehl & Fitzpatrick (1995), Journal of Personality and Social Psychology, 68(1), 151-158 (PDF)",
-     "url": "assets/files/levenson_kiehl_fitzpatrick_JPSP_1995.pdf"
-    },
-    {
-     "name": "LSRP: Chinese translation",
-     "sub": "Shou et al., 2016 (PDF)",
-     "url": "assets/files/LSRP_Chinese_Translation_Shou-et-al-2016.pdf"
-    },
-    {
-     "name": "LSRP: German translation",
-     "sub": "Dericiglu et al., 2024 (PowerPoint)",
-     "url": "assets/files/LSRP_German_Translation_Dericiglu-et-al-2024.ppt"
+     "name": "The Levenson Self-Report Psychopathy Scale",
+     "sub": "Scale, scoring key, Antisocial Action Scale, translations and more",
+     "url": "lsrp.html"
     },
     {
      "name": "SRP-III: Spanish adaptation",
-     "sub": "Gomez-Leal et al., 2019 (PDF)",
+     "sub": "Gomez-Leal et al., 2019 (PDF). A different instrument: the Self-Report Psychopathy scale.",
      "url": "assets/files/SRP_III_Spanish_Adaptation_Gomez-Leal-et-al-2019.pdf"
     }
    ]

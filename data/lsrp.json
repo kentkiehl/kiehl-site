@@ -1,0 +1,874 @@
+{
+ "updated": "2026-11-22",
+ "source": "OpenAlex",
+ "work": "W4243098981",
+ "dedication": {
+  "name": "Michael R. (Rick) Levenson, PhD",
+  "years": "1944–2022",
+  "img": null,
+  "text": [
+   "This page is dedicated to Rick Levenson, who was born in Jackson, Mississippi, on December 6, 1944, and died on July 2, 2022. A theoretical psychologist also trained in anthropology and sociology, he studied exceptional adult development, from psychopathy to wisdom, and retired as a professor at Oregon State University.",
+   "Rick supervised Kent Kiehl's undergraduate thesis at the University of California, Davis. Their collaboration, with Cory Fitzpatrick, produced the Levenson Self-Report Psychopathy Scale. He also developed the Adult Self-Transcendence Inventory, a measure of wisdom."
+  ],
+  "link": [
+   "Oregon State University memorial page",
+   "https://health.oregonstate.edu/people/rick-levenson"
+  ]
+ },
+ "about": [
+  "The Levenson Self-Report Psychopathy Scale (LSRP) was developed to assess psychopathic attributes in people outside prisons and hospitals. The original study (Levenson, Kiehl & Fitzpatrick, 1995) examined antisocial dispositions in 487 university students. After pilot testing, 30 statements were given to the students; four were dropped after factor analysis, leaving the 26-item scale used today. It has two parts: primary psychopathy (16 items), a selfish, uncaring and manipulative posture toward others, and secondary psychopathy (10 items), impulsivity and a self-defeating lifestyle. An Antisocial Action Scale was developed alongside them for validation.",
+  "The scale is free. It may be used, adapted and translated for research and teaching without asking permission. If you publish work that uses it, please send a copy to Kent Kiehl."
+ ],
+ "scoring": {
+  "scale": "Each statement is rated from 1 (disagree strongly) to 4 (agree strongly).",
+  "primary": {
+   "label": "Primary psychopathy",
+   "n": 16,
+   "items": [
+    2,
+    4,
+    7,
+    9,
+    11,
+    12,
+    13,
+    15,
+    17,
+    19,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26
+   ]
+  },
+  "secondary": {
+   "label": "Secondary psychopathy",
+   "n": 10,
+   "items": [
+    1,
+    3,
+    5,
+    6,
+    8,
+    10,
+    14,
+    16,
+    18,
+    20
+   ]
+  },
+  "reverse": [
+   3,
+   7,
+   10,
+   13,
+   15,
+   21,
+   26
+  ],
+  "steps": [
+   "Use the 26-item scale; item numbers below match the form and scoring sheet above.",
+   "Reverse-score the seven reverse-keyed items (1 becomes 4, 2 becomes 3, 3 becomes 2, 4 becomes 1).",
+   "Sum the 16 primary items for the primary psychopathy score (range 16 to 64) and the 10 secondary items for the secondary psychopathy score (range 10 to 40).",
+   "A total score is the sum of all 26 items (range 26 to 104). Higher scores indicate more of the trait."
+  ],
+  "note": "The scale is a research instrument. It is not a diagnostic test and has no clinical cut-off."
+ },
+ "downloads": [
+  {
+   "name": "LSRP form and scoring sheet (official)",
+   "sub": "The 26-item scale ready to print, titled “LSRP Personality Scale” so the form does not name what it measures, followed by a scoring sheet with the key (PDF)",
+   "url": "assets/files/LSRP-26-item-form-and-scoring-sheet.pdf"
+  },
+  {
+   "name": "Scoring key (editable)",
+   "sub": "The 26 items, each marked as primary or secondary and reverse-keyed where applicable (RTF)",
+   "url": "assets/files/LSRP_psychopathy-codebook.rtf"
+  },
+  {
+   "name": "Levenson's Antisocial Action Scale",
+   "sub": "24 behaviors rated from 1 (never) to 4 (frequently); developed with the LSRP for validation (Word)",
+   "url": "assets/files/Levensons-Antisocial-Action-Scale.doc"
+  },
+  {
+   "name": "The original article",
+   "sub": "Levenson, Kiehl & Fitzpatrick (1995), Journal of Personality and Social Psychology (PDF)",
+   "url": "assets/files/levenson_kiehl_fitzpatrick_JPSP_1995.pdf"
+  },
+  {
+   "name": "Original 30-statement questionnaire",
+   "sub": "As administered in the 1995 study, before four statements were dropped. For reference; score the 26-item scale (Word)",
+   "url": "assets/files/Levensons-Self-Report-Psychopathy-Scale.doc"
+  }
+ ],
+ "stats": {
+  "cited_by": 2187,
+  "citing_with_country": 2053,
+  "n_countries": 75
+ },
+ "papers": [
+  {
+   "authors": "Levenson, M. R., Kiehl, K. A., & Fitzpatrick, C. M.",
+   "year": 1995,
+   "title": "Assessing psychopathic attributes in a noninstitutionalized population",
+   "journal": "Journal of Personality and Social Psychology",
+   "vol": "68(1), 151–158",
+   "doi": "10.1037/0022-3514.68.1.151",
+   "cites": 2187,
+   "note": "The original paper"
+  },
+  {
+   "authors": "Brinkley, C. A., Schmitt, W. A., Smith, S. S., & Newman, J. P.",
+   "year": 2001,
+   "title": "Construct validation of a self-report psychopathy scale: Does Levenson's self-report psychopathy scale measure the same constructs as Hare's Psychopathy Checklist-Revised?",
+   "journal": "Personality and Individual Differences",
+   "vol": "31(7), 1021–1038",
+   "doi": "10.1016/s0191-8869(00)00178-1",
+   "cites": 356,
+   "note": ""
+  },
+  {
+   "authors": "Sellbom, M.",
+   "year": 2011,
+   "title": "Elaborating on the construct validity of the Levenson Self-Report Psychopathy Scale in incarcerated and non-incarcerated samples",
+   "journal": "Law and Human Behavior",
+   "vol": "35(6), 440–451",
+   "doi": "10.1007/s10979-010-9249-x",
+   "cites": 235,
+   "note": ""
+  },
+  {
+   "authors": "Miller, J. D., Gaughan, E. T., & Pryor, L. R.",
+   "year": 2008,
+   "title": "The Levenson Self-Report Psychopathy Scale: An examination of the personality traits and disorders associated with the LSRP factors",
+   "journal": "Assessment",
+   "vol": "15(4), 450–463",
+   "doi": "10.1177/1073191108316888",
+   "cites": 167,
+   "note": ""
+  },
+  {
+   "authors": "Brinkley, C. A., Diamond, P. M., Magaletta, P. R., & Heigel, C. P.",
+   "year": 2008,
+   "title": "Cross-validation of Levenson's Psychopathy Scale in a sample of federal female inmates",
+   "journal": "Assessment",
+   "vol": "15(4), 464–482",
+   "doi": "10.1177/1073191108319043",
+   "cites": 154,
+   "note": ""
+  },
+  {
+   "authors": "Walters, G. D., Brinkley, C. A., Magaletta, P. R., & Diamond, P. M.",
+   "year": 2008,
+   "title": "Taxometric analysis of the Levenson Self-Report Psychopathy Scale",
+   "journal": "Journal of Personality Assessment",
+   "vol": "90(5), 491–498",
+   "doi": "10.1080/00223890802248828",
+   "cites": 120,
+   "note": ""
+  },
+  {
+   "authors": "Christian, E., & Sellbom, M.",
+   "year": 2016,
+   "title": "Development and validation of an expanded version of the three-factor Levenson Self-Report Psychopathy Scale",
+   "journal": "Journal of Personality Assessment",
+   "vol": "98(2), 155–168",
+   "doi": "10.1080/00223891.2015.1068176",
+   "cites": 102,
+   "note": ""
+  },
+  {
+   "authors": "Garofalo, C., Noteborn, M. G. C., Sellbom, M., & Bogaerts, S.",
+   "year": 2019,
+   "title": "Factor structure and construct validity of the Levenson Self-Report Psychopathy Scale (LSRP): A replication and extension in Dutch nonclinical participants",
+   "journal": "Journal of Personality Assessment",
+   "vol": "101(5), 481–492",
+   "doi": "10.1080/00223891.2018.1519830",
+   "cites": 66,
+   "note": ""
+  },
+  {
+   "authors": "Shou, Y., Sellbom, M., & Han, J.",
+   "year": 2017,
+   "title": "Evaluating the construct validity of the Levenson Self-Report Psychopathy Scale in China",
+   "journal": "Assessment",
+   "vol": "24(8), 1008–1023",
+   "doi": "10.1177/1073191116637421",
+   "cites": 64,
+   "note": ""
+  },
+  {
+   "authors": "Gummelt, H. D., Anestis, J. C., & Carbonell, J. L.",
+   "year": 2012,
+   "title": "Examining the Levenson Self Report Psychopathy Scale using a graded response model",
+   "journal": "Personality and Individual Differences",
+   "vol": "53(8), 1002–1006",
+   "doi": "10.1016/j.paid.2012.07.014",
+   "cites": 39,
+   "note": ""
+  },
+  {
+   "authors": "Hauck Filho, N., & Teixeira, M. A. P.",
+   "year": 2014,
+   "title": "Revisiting the psychometric properties of the Levenson Self-Report Psychopathy Scale",
+   "journal": "Journal of Personality Assessment",
+   "vol": "96(4), 459–464",
+   "doi": "10.1080/00223891.2013.865196",
+   "cites": 37,
+   "note": ""
+  }
+ ],
+ "papers_note": "The original paper, followed by the ten most-cited papers that study the scale itself (papers with the scale's name in the title, ranked by citations).",
+ "translations": [
+  {
+   "language": "Arabic",
+   "where": "Lebanon",
+   "cc": [
+    "LB"
+   ],
+   "ref": "Ghossoub et al. (2024), BMC Psychiatry",
+   "doi": "10.1186/s12888-024-05499-4",
+   "file": ""
+  },
+  {
+   "language": "Bulgarian",
+   "where": "Bulgaria",
+   "cc": [
+    "BG"
+   ],
+   "ref": "Psederska et al. (2020), Frontiers in Psychology",
+   "doi": "10.3389/fpsyg.2020.01110",
+   "file": ""
+  },
+  {
+   "language": "Chinese",
+   "where": "China",
+   "cc": [
+    "CN"
+   ],
+   "ref": "Shou, Sellbom & Han (2017), Assessment",
+   "doi": "10.1177/1073191116637421",
+   "file": "LSRP_Chinese_Translation_Shou-et-al-2016.pdf"
+  },
+  {
+   "language": "Dutch",
+   "where": "Netherlands",
+   "cc": [
+    "NL"
+   ],
+   "ref": "Garofalo et al. (2019), Journal of Personality Assessment; Wissenburg et al. (2020), Assessment",
+   "doi": "10.1080/00223891.2018.1519830",
+   "file": ""
+  },
+  {
+   "language": "French",
+   "where": "Canada (Quebec)",
+   "cc": [
+    "CA"
+   ],
+   "ref": "Savard, Lussier & Sabourin (2014), Criminologie; expanded version: Maheux-Caron et al. (2018), Assessment",
+   "doi": "10.7202/1026736ar",
+   "file": ""
+  },
+  {
+   "language": "German",
+   "where": "Germany",
+   "cc": [
+    "DE"
+   ],
+   "ref": "Dericioğlu et al. (2024), Psychological Test Adaptation and Development (primary scale)",
+   "doi": "10.1027/2698-1866/a000084",
+   "file": "LSRP_German_Translation_Dericiglu-et-al-2024.ppt"
+  },
+  {
+   "language": "Italian",
+   "where": "Italy",
+   "cc": [
+    "IT"
+   ],
+   "ref": "Somma et al. (2014), Personality and Mental Health",
+   "doi": "10.1002/pmh.1267",
+   "file": ""
+  },
+  {
+   "language": "Portuguese",
+   "where": "Portugal",
+   "cc": [
+    "PT"
+   ],
+   "ref": "Coelho et al. (2010), Psychologica; Barbosa et al. (2014)",
+   "doi": "10.14195/1647-8606_53_20",
+   "file": ""
+  },
+  {
+   "language": "Portuguese",
+   "where": "Brazil",
+   "cc": [
+    "BR"
+   ],
+   "ref": "Hauck Filho & Teixeira (2014), Journal of Personality Assessment; expanded version: Machado et al. (2024), Deviant Behavior",
+   "doi": "10.1080/00223891.2013.865196",
+   "file": ""
+  },
+  {
+   "language": "Spanish",
+   "where": "Spain",
+   "cc": [
+    "ES"
+   ],
+   "ref": "Redondo et al. (2023), Personality and Individual Differences",
+   "doi": "10.1016/j.paid.2023.112183",
+   "file": ""
+  },
+  {
+   "language": "Spanish",
+   "where": "Mexico",
+   "cc": [
+    "MX"
+   ],
+   "ref": "Amador-Zavala et al. (2022), Anuario de Psicología Jurídica",
+   "doi": "10.5093/apj2022a3",
+   "file": ""
+  },
+  {
+   "language": "Spanish",
+   "where": "Argentina",
+   "cc": [
+    "AR"
+   ],
+   "ref": "Peiró Cabrera (2024), Revista Electrónica de Psicología Iztacala",
+   "doi": "",
+   "file": ""
+  },
+  {
+   "language": "Urdu",
+   "where": "Pakistan",
+   "cc": [
+    "PK"
+   ],
+   "ref": "Shagufta et al. (2022), Journal of Postgraduate Medical Institute",
+   "doi": "10.54079/jpmi.36.3.2944",
+   "file": ""
+  },
+  {
+   "language": "33 languages",
+   "where": "Multinational",
+   "cc": [],
+   "ref": "Vu et al. (2026), Personality and Individual Differences: a cross-linguistic validation across 186 countries",
+   "doi": "10.1016/j.paid.2026.113762",
+   "file": ""
+  }
+ ],
+ "requests": {
+  "note": "Researchers have also written to ask about translating the scale into other languages. No published version is known to us yet for these.",
+  "languages": [
+   "Lithuanian",
+   "Polish"
+  ]
+ },
+ "countries": [
+  [
+   "US",
+   "United States",
+   797
+  ],
+  [
+   "GB",
+   "United Kingdom",
+   265
+  ],
+  [
+   "CA",
+   "Canada",
+   220
+  ],
+  [
+   "AU",
+   "Australia",
+   148
+  ],
+  [
+   "NL",
+   "Netherlands",
+   83
+  ],
+  [
+   "DE",
+   "Germany",
+   75
+  ],
+  [
+   "ES",
+   "Spain",
+   69
+  ],
+  [
+   "NZ",
+   "New Zealand",
+   57
+  ],
+  [
+   "JP",
+   "Japan",
+   50
+  ],
+  [
+   "CN",
+   "China",
+   48
+  ],
+  [
+   "PT",
+   "Portugal",
+   41
+  ],
+  [
+   "IT",
+   "Italy",
+   36
+  ],
+  [
+   "FR",
+   "France",
+   33
+  ],
+  [
+   "BR",
+   "Brazil",
+   32
+  ],
+  [
+   "BE",
+   "Belgium",
+   31
+  ],
+  [
+   "PL",
+   "Poland",
+   27
+  ],
+  [
+   "TR",
+   "Turkey",
+   27
+  ],
+  [
+   "KR",
+   "South Korea",
+   22
+  ],
+  [
+   "SE",
+   "Sweden",
+   21
+  ],
+  [
+   "NO",
+   "Norway",
+   20
+  ],
+  [
+   "RS",
+   "Serbia",
+   20
+  ],
+  [
+   "IN",
+   "India",
+   14
+  ],
+  [
+   "CH",
+   "Switzerland",
+   13
+  ],
+  [
+   "IL",
+   "Israel",
+   13
+  ],
+  [
+   "HR",
+   "Croatia",
+   12
+  ],
+  [
+   "IR",
+   "Iran",
+   12
+  ],
+  [
+   "AT",
+   "Austria",
+   11
+  ],
+  [
+   "IE",
+   "Ireland",
+   11
+  ],
+  [
+   "RO",
+   "Romania",
+   10
+  ],
+  [
+   "AR",
+   "Argentina",
+   9
+  ],
+  [
+   "NG",
+   "Nigeria",
+   8
+  ],
+  [
+   "ZA",
+   "South Africa",
+   8
+  ],
+  [
+   "ID",
+   "Indonesia",
+   7
+  ],
+  [
+   "PK",
+   "Pakistan",
+   7
+  ],
+  [
+   "CY",
+   "Cyprus",
+   6
+  ],
+  [
+   "FI",
+   "Finland",
+   6
+  ],
+  [
+   "HU",
+   "Hungary",
+   6
+  ],
+  [
+   "MX",
+   "Mexico",
+   6
+  ],
+  [
+   "CO",
+   "Colombia",
+   5
+  ],
+  [
+   "EE",
+   "Estonia",
+   5
+  ],
+  [
+   "MY",
+   "Malaysia",
+   5
+  ],
+  [
+   "AE",
+   "United Arab Emirates",
+   4
+  ],
+  [
+   "EG",
+   "Egypt",
+   4
+  ],
+  [
+   "SA",
+   "Saudi Arabia",
+   4
+  ],
+  [
+   "SG",
+   "Singapore",
+   4
+  ],
+  [
+   "TN",
+   "Tunisia",
+   4
+  ],
+  [
+   "CZ",
+   "Czechia",
+   3
+  ],
+  [
+   "IQ",
+   "Iraq",
+   3
+  ],
+  [
+   "RU",
+   "Russia",
+   3
+  ],
+  [
+   "VN",
+   "Vietnam",
+   3
+  ],
+  [
+   "BG",
+   "Bulgaria",
+   2
+  ],
+  [
+   "CL",
+   "Chile",
+   2
+  ],
+  [
+   "CR",
+   "Costa Rica",
+   2
+  ],
+  [
+   "CU",
+   "Cuba",
+   2
+  ],
+  [
+   "DK",
+   "Denmark",
+   2
+  ],
+  [
+   "GE",
+   "Georgia",
+   2
+  ],
+  [
+   "GR",
+   "Greece",
+   2
+  ],
+  [
+   "HK",
+   "Hong Kong",
+   2
+  ],
+  [
+   "KW",
+   "Kuwait",
+   2
+  ],
+  [
+   "LB",
+   "Lebanon",
+   2
+  ],
+  [
+   "LV",
+   "Latvia",
+   2
+  ],
+  [
+   "MA",
+   "Morocco",
+   2
+  ],
+  [
+   "MO",
+   "Macao",
+   2
+  ],
+  [
+   "MQ",
+   "Martinique",
+   2
+  ],
+  [
+   "SD",
+   "Sudan",
+   2
+  ],
+  [
+   "SI",
+   "Slovenia",
+   2
+  ],
+  [
+   "SY",
+   "Syria",
+   2
+  ],
+  [
+   "TH",
+   "Thailand",
+   2
+  ],
+  [
+   "YE",
+   "Yemen",
+   2
+  ],
+  [
+   "BD",
+   "Bangladesh",
+   1
+  ],
+  [
+   "JO",
+   "Jordan",
+   1
+  ],
+  [
+   "PE",
+   "Peru",
+   1
+  ],
+  [
+   "PS",
+   "Palestine",
+   1
+  ],
+  [
+   "QA",
+   "Qatar",
+   1
+  ],
+  [
+   "UY",
+   "Uruguay",
+   1
+  ]
+ ],
+ "years": [
+  [
+   "1996",
+   4
+  ],
+  [
+   "1997",
+   4
+  ],
+  [
+   "1998",
+   5
+  ],
+  [
+   "1999",
+   7
+  ],
+  [
+   "2000",
+   13
+  ],
+  [
+   "2001",
+   14
+  ],
+  [
+   "2002",
+   8
+  ],
+  [
+   "2003",
+   20
+  ],
+  [
+   "2004",
+   20
+  ],
+  [
+   "2005",
+   29
+  ],
+  [
+   "2006",
+   20
+  ],
+  [
+   "2007",
+   40
+  ],
+  [
+   "2008",
+   39
+  ],
+  [
+   "2009",
+   63
+  ],
+  [
+   "2010",
+   47
+  ],
+  [
+   "2011",
+   70
+  ],
+  [
+   "2012",
+   76
+  ],
+  [
+   "2013",
+   88
+  ],
+  [
+   "2014",
+   106
+  ],
+  [
+   "2015",
+   106
+  ],
+  [
+   "2016",
+   118
+  ],
+  [
+   "2017",
+   123
+  ],
+  [
+   "2018",
+   152
+  ],
+  [
+   "2019",
+   142
+  ],
+  [
+   "2020",
+   108
+  ],
+  [
+   "2021",
+   112
+  ],
+  [
+   "2022",
+   99
+  ],
+  [
+   "2023",
+   118
+  ],
+  [
+   "2024",
+   110
+  ],
+  [
+   "2025",
+   103
+  ],
+  [
+   "2026",
+   85
+  ]
+ ]
+}

@@ -44,6 +44,11 @@ jobs:
           NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
           KIEHL_CONTACT_EMAIL: ${{ vars.KIEHL_CONTACT_EMAIL }}
         run: python -m scripts.enrich || true
+      - name: Refresh the LSRP citation map (Mondays)
+        if: ${{ github.event_name == 'schedule' }}
+        env:
+          KIEHL_CONTACT_EMAIL: ${{ vars.KIEHL_CONTACT_EMAIL }}
+        run: if [ "$(date -u +%u)" = "1" ]; then python -m scripts.lsrp_refresh || true; fi
       - name: Search for new papers, tag them, refresh citations
         if: ${{ github.event_name != 'push' && inputs.skip_search != true }}
         env:

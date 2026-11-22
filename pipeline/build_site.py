@@ -238,7 +238,7 @@ def main():
     json.dump([{"id": r["id"], "t": r["title"], "ab": r.get("abstract") or "", "kw": " ".join((r.get("keywords") or []) + (r.get("free_keywords") or [])), "au": " ".join(r["authors"]), "j": r.get("journal") or ""} for r in papers],
               open(site / "text.json", "w"), ensure_ascii=False, separators=(",", ":"))
     shutil.copy(config.ROOT / "pipeline" / "taxonomy.json", site / "taxonomy.json")
-    for name in ("people.json", "research.json", "resources.json", "books.json", "media.json", "cv.json", "highlights.json", "treatment.json", "news_posts.json", "news.json", "candidates.json"):
+    for name in ("people.json", "research.json", "resources.json", "books.json", "media.json", "cv.json", "highlights.json", "treatment.json", "lsrp.json", "news_posts.json", "news.json", "candidates.json"):
         src = config.DATA / name
         if src.exists():
             shutil.copy(src, site / name)
@@ -265,7 +265,7 @@ def main():
     recent = sorted(index, key=lambda r: (r["added"], r["d"] or str(r["y"])), reverse=True)[:config.FEED_CAP]
     (config.SITE / "feed.xml").write_text(rss(recent))
     today = time.strftime("%Y-%m-%d")
-    pages = [("", "weekly", "1.0"), ("publications.html", "daily", "0.9"), ("research.html", "monthly", "0.8"), ("treatment.html", "monthly", "0.8"), ("people.html", "monthly", "0.8"), ("news.html", "daily", "0.7"),
+    pages = [("", "weekly", "1.0"), ("publications.html", "daily", "0.9"), ("research.html", "monthly", "0.8"), ("treatment.html", "monthly", "0.8"), ("lsrp.html", "monthly", "0.9"), ("people.html", "monthly", "0.8"), ("news.html", "daily", "0.7"),
              ("book.html", "monthly", "0.8"), ("media.html", "monthly", "0.7"), ("about-kent.html", "monthly", "0.8"), ("resources.html", "monthly", "0.6"),
              ("network.html", "weekly", "0.5"), ("bibliometrics.html", "weekly", "0.5"), ("contact.html", "monthly", "0.6"), ("donate.html", "monthly", "0.6"), ("about.html", "monthly", "0.5")]
     sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
