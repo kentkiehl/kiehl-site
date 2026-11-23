@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22",
+ "updated": "2026-11-23",
  "source": "OpenAlex",
  "work": "W4243098981",
  "dedication": {
@@ -104,8 +104,8 @@
   }
  ],
  "stats": {
-  "cited_by": 2187,
-  "citing_with_country": 2053,
+  "cited_by": 2190,
+  "citing_with_country": 2054,
   "n_countries": 75
  },
  "papers": [
@@ -116,7 +116,7 @@
    "journal": "Journal of Personality and Social Psychology",
    "vol": "68(1), 151–158",
    "doi": "10.1037/0022-3514.68.1.151",
-   "cites": 2187,
+   "cites": 2190,
    "note": "The original paper"
   },
   {
@@ -386,7 +386,7 @@
   [
    "GB",
    "United Kingdom",
-   265
+   267
   ],
   [
    "CA",
@@ -426,7 +426,7 @@
   [
    "CN",
    "China",
-   48
+   47
   ],
   [
    "PT",
@@ -454,6 +454,11 @@
    31
   ],
   [
+   "KR",
+   "South Korea",
+   30
+  ],
+  [
    "PL",
    "Poland",
    27
@@ -462,11 +467,6 @@
    "TR",
    "Turkey",
    27
-  ],
-  [
-   "KR",
-   "South Korea",
-   22
   ],
   [
    "SE",
@@ -494,14 +494,14 @@
    13
   ],
   [
-   "IL",
-   "Israel",
+   "HR",
+   "Croatia",
    13
   ],
   [
-   "HR",
-   "Croatia",
-   12
+   "IL",
+   "Israel",
+   13
   ],
   [
    "IR",
@@ -689,11 +689,6 @@
    2
   ],
   [
-   "MO",
-   "Macao",
-   2
-  ],
-  [
    "MQ",
    "Martinique",
    2
@@ -731,6 +726,11 @@
   [
    "JO",
    "Jordan",
+   1
+  ],
+  [
+   "MO",
+   "Macao",
    1
   ],
   [
@@ -845,7 +845,7 @@
   ],
   [
    "2018",
-   152
+   153
   ],
   [
    "2019",
