@@ -14,12 +14,14 @@ import requests
 from . import config
 
 NEWS_PATH = config.DATA / "news.json"
+BLOCKED_PATH = NEWS_PATH.parent / "news_blocked.json"   # URLs the owner asked to remove; never re-added
 H = {"User-Agent": f"Mozilla/5.0 ({config.TOOL_NAME} news bot; {config.CONTACT_EMAIL})"}
 QUERIES = config.NEWS_QUERIES
 PODCAST_TERMS = ["Tor Wager"]
 KEEP_DAYS = 180
 # Outlets never shown on the site (owner's decision, Nov 2026). Applies to the automatic feed; do not add them by hand either.
 BLOCKED_SOURCES = re.compile(r"the\s*guardian|theguardian\.com|guardian\.co\.uk", re.I)
+SKINCARE = re.compile(r"kiehl['’]s|sunscreen|skincare|skin care|moisturi[sz]er|serum\b", re.I)
 RELEVANT = re.compile(r"kiehl|psychopath whisperer|mind research network", re.I)
 NOISE = re.compile(r"placebo-controlled|versus placebo|vs\.? placebo|compared (with|to) placebo|placebo group|placebo arm|phase (2|3|II|III)", re.I)
 
@@ -102,6 +104,7 @@ def llm_filter(items):
 def main(use_llm=True):
     existing = json.load(open(NEWS_PATH)) if NEWS_PATH.exists() else {"updated": "", "items": []}
     seen = {norm_url(it["url"]) for it in existing["items"]}
+    blocked = {norm_url(u) for u in (json.load(open(BLOCKED_PATH)) if BLOCKED_PATH.exists() else [])}
     fresh = []
     for q in QUERIES:
         try:
@@ -125,6 +128,8 @@ def main(use_llm=True):
             continue
         if BLOCKED_SOURCES.search((it.get("source") or "") + " " + it["title"] + " " + it["url"]):
             continue  # outlets the site owner does not want listed
+        if k in blocked or (SKINCARE.search(it["title"] + " " + (it.get("snippet") or "")) and "kent" not in (it["title"] + " " + (it.get("snippet") or "")).lower()):
+            continue  # items the owner removed by hand, and stories about the Kiehl's skincare brand
         if re.match(r"^(Figure|Table|Fig\.)\s*\d", it["title"]) or re.search(r"\| (Journal of|Nature|Science|The Lancet|JAMA|BMJ)\b", it["title"]):
             continue  # journal figure pages and article pages are papers, not news
         local_seen.add(k)
