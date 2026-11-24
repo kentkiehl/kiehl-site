@@ -233,7 +233,7 @@
   "openalex_id": null,
   "abstract": "BACKGROUND: Reduced empathy is a hallmark of individuals with high (i.e., clinical) levels of psychopathy, who are overrepresented among incarcerated men. However, a comprehensive, well-powered mapping of cortical structure in relation to empathy and psychopathy is still lacking. METHODS: In 804 incarcerated adult men, we administered the Perspective Taking (IRI-PT) and Empathic Concern (IRI-EC) subscales of the Interpersonal Reactivity Index (IRI), the Psychopathy Checklist-Revised (PCL-R; with interpersonal/affective [F1] and lifestyle/antisocial [F2] factors), and T1-weighted magnetic resonance imaging to quantify cortical thickness (CT), surface area (SA), and structural-covariance gradients. RESULTS: PCL-R F1 was uniquely negatively related to IRI-EC, while PCL-R F2 was uniquely negatively related to IRI-PT. Cortical structure was not related to the IRI subscales. In contrast, CT was related to PCL-R F1 (mostly positively), SA was related to both PCL-R factors (only positively), and both cortical indices demonstrated out-of-sample predictive utility for PCL-R F1. Compared to men with low psychopathy, men with high psychopathy had uniquely lower IRI-EC scores and increased SA (but not CT); effect sizes across the cortex were largest in the paralimbic class and somatomotor network, while spatial overlap with meta-analytic task-based activations was highest for (social-)affective/sensory clusters. Finally, the total sample revealed anterior-posterior structural-covariance gradients; in men with high psychopathy, the gradient of CT (but not SA) was globally compressed. CONCLUSIONS: Men with high psychopathy had reduced empathic concern, increased SA, and a compressed macroscale organization of CT, indicating selective co-alterations in empathy and cortical structure. Future work should build on these novel insights in both the general and incarcerated populations to inform the treatment of psychopathy.",
   "abstract_source": "pubmed",
-  "cited_by_count": null,
+  "cited_by_count": 0,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/41909719/",
   "keywords": [
@@ -279,7 +279,8 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "enriched": true
+  "enriched": true,
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "maurer2026source",
@@ -329,8 +330,8 @@
   "openalex_id": null,
   "abstract": "Studies commonly report that youth with elevated psychopathic traits exhibit deficits within limbic and paralimbic regions, including reduced gray matter volume (GMV) in the amygdala, orbitofrontal cortex (OFC), and temporal pole. However, studies have also reported additional structural abnormalities in regions extending beyond limbic and paralimbic regions among youth with elevated psychopathic traits, including the middle frontal gyrus (MFG), inferior frontal gyrus (IFG), precuneus, inferior parietal lobule (IPL), and fusiform gyrus. This suggests youth with elevated psychopathic traits may be associated with deficits within large-scale structural networks. The current study investigated whether youth with elevated psychopathic traits were associated with such deficits through the use of source-based morphometry (SBM), a multivariate analysis of structural magnetic resonance imaging data. SBM uses Independent Component Analysis (ICA) to identify distinct sets of brain regions that form different large-scale structural networks. We investigated whether youth psychopathy scores, assessed via the Hare Psychopathy Checklist: Youth Version (PCL:YV), were associated with SBM loading coefficients among n = 413 incarcerated boys. Compared to participants scoring low on the PCL:YV, participants scoring high on the PCL:YV contributed less (i.e., exhibited reduced GMV) to large-scale structural networks containing limbic and paralimbic regions (e.g., the amygdala, insula, OFC, temporal pole, and posterior cingulate) and additional regions (e.g., the IFG, precuneus, IPL, and fusiform gyrus). Through the use of multivariate SBM analyses, the current study helps further improve our understanding of structural abnormalities among youth with elevated psychopathic traits.",
   "abstract_source": "pubmed",
-  "cited_by_count": null,
-  "oa_url": null,
+  "cited_by_count": 0,
+  "oa_url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1884761/pdf",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/42870975/",
   "keywords": [
    "juvenile delinquency",
@@ -376,7 +377,8 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "enriched": true
+  "enriched": true,
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "anderson2025striatal",
@@ -507,8 +509,8 @@
   "openalex_id": null,
   "abstract": "The mortality rate among adolescents has been steadily increasing in recent years. Researchers have previously identified forms of externalizing psychopathology measured during adolescence associated with an increased risk for premature mortality, including attention-deficit/hyperactivity disorder (ADHD), substance use disorders (SUDs), oppositional defiant disorder (ODD), and conduct disorder (CD). The current study investigated whether additional personality traits (i.e., adolescent psychopathic traits, assessed via the Hare Psychopathy Checklist: Youth Version [PCL:YV]) were also associated with premature mortality risk among maximum-security incarcerated adolescents (N = 332). During a follow-up period ranging from 10 to 14 years, premature mortality was observed in n = 33 participants (9.94%), a mortality rate nearly ten times higher than population norms. We observed that adolescents scoring the highest on PCL:YV total scores exhibited significantly higher rates of premature mortality compared to adolescents scoring lower on PCL:YV total scores via Fisher's exact tests. Additionally, through univariate Cox proportional hazard regression analyses, PCL:YV total, Factor 2 (measuring lifestyle/behavioral and antisocial/developmental psychopathic traits), Facet 1 (measuring interpersonal psychopathic traits), and Facet 3 (measuring lifestyle/behavioral psychopathic traits) scores were associated with faster time to premature mortality. In supplemental analyses performed, we observed that adolescents meeting criteria for externalizing psychopathology (i.e., ADHD, SUDs, ODD, and CD) did not exhibit higher rates of premature mortality compared to control participants. The current study therefore identifies additional maladaptive personality traits to consider in relation to premature mortality risk (i.e., psychopathic traits) among a high-risk sample of incarcerated adolescents.",
   "abstract_source": "pubmed",
-  "cited_by_count": null,
-  "oa_url": null,
+  "cited_by_count": 9,
+  "oa_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11759656/pdf/nihms-2020374.pdf",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/39207635/",
   "keywords": [
    "Adolescent psychopathic traits",
@@ -552,7 +554,8 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "enriched": true
+  "enriched": true,
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "millilo2025traumatic",
@@ -629,7 +632,8 @@
   "free_keywords": [],
   "date_added": "",
   "source": "cv-2026",
-  "tag_source": "rules"
+  "tag_source": "rules",
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "bernard2025association",
@@ -761,8 +765,8 @@
   "openalex_id": null,
   "abstract": "Initially designed to assess executive control deficits for individuals meeting criteria for attention-deficit/hyperactivity disorder (ADHD), the Brown Attention-Deficit Disorder Scale (BADDS) is now frequently used to assess such deficits more broadly. However, no existing studies have investigated whether individuals scoring high on the BADDS are characterized by impairments within higher-order brain regions associated with executive control. Here, we investigated this association among incarcerated adolescents (205 boys and 35 girls). We incorporated the use of source-based morphometry (SBM), a data-driven, multivariate approach to identify large-scale structural brain networks. In separate analyses performed with incarcerated boys and girls, we observed that higher BADDS total scores were related to reduced loading coefficients in SBM components comprised of brain regions associated with executive control (e.g., superior/middle frontal gyrus, superior/inferior parietal lobule, and middle temporal gyrus). These structural impairments suggest participants scoring high on the BADDS are characterized by executive control deficits, including domains such as self-regulation, working memory, and sustained attention. Our results add to a growing body of literature suggesting that the BADDS serves as a reliable measure of executive control deficits. Further, our results support the use of the BADDS in samples beyond individuals strictly meeting criteria for ADHD.",
   "abstract_source": "pubmed",
-  "cited_by_count": null,
-  "oa_url": null,
+  "cited_by_count": 1,
+  "oa_url": "https://www.sciencedirect.com/science/article/am/pii/S0925492725001209",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/40997679/",
   "keywords": [
    "Executive control deficits",
@@ -808,7 +812,8 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "enriched": true
+  "enriched": true,
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "rodriguez2025machine",
@@ -850,8 +855,8 @@
   "openalex_id": null,
   "abstract": "Homicide is one of the most severe forms of violence and is the single most costly crime in the United States. Despite its high financial cost and incalculable emotional toll, we know very little about predicting who will commit such crimes. Here we followed a large (n = 202) sample of incarcerated youth for 16 years after release from a maximum-security juvenile correctional facility. Official records and clinical interviews indicated n = 35 committed a homicide during this follow-up period. Clinical (psychopathic traits, age of first arrest) and neural variables (gray matter volume of the amygdala and temporal pole) collected at baseline while boys were housed at the correctional facility significantly differed between homicide and non-homicide (n = 167) groups. Classification through machine learning models using these clinical and neural data predicted which formerly incarcerated youth committed a future homicide as adults with high accuracy. The model which included a priori clinical (psychopathic traits) and neural variables (bilateral amygdala, insula, parahippocampal gyrus, middle temporal pole, superior temporal pole, and orbitofrontal cortex) achieved top performance with 76% accuracy (sensitivity = 86%; specificity = 75%). The implications of these results are discussed as they relate to intervention and prevention efforts.",
   "abstract_source": "pubmed",
-  "cited_by_count": null,
-  "oa_url": null,
+  "cited_by_count": 1,
+  "oa_url": "https://www.nature.com/articles/s41598-025-32782-5_reference.pdf",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/41444410/",
   "keywords": [
    "Forensic psychology",
@@ -897,7 +902,8 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "enriched": true
+  "enriched": true,
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "cazala2024childhood",
@@ -1078,8 +1084,8 @@
   "openalex_id": null,
   "abstract": "Studies have reported positive associations between youth psychopathy scores and measures of 'fearlessness'. However, prior studies modified fearlessness items to be age appropriate, shifting from assessing hypothetical, extreme forms of physical risk-taking (e.g., flying an airplane) to normative risk-taking (e.g., riding bicycles downhill). We hypothesize that associations between youth psychopathy scores and alternative forms of sensation seeking (i.e., Disinhibition) have been conflated under a false fearlessness label. We tested this hypothesis among incarcerated male adolescents, investigating whether youth psychopathy scores were significantly associated with two different forms of sensation seeking: Disinhibition and Thrill and Adventure Seeking (TAS). Youth psychopathic traits were assessed using the Psychopathy Checklist: Youth Version (PCL:YV), Antisocial Process Screening Device (APSD), Child Psychopathy Scale (CPS), Inventory of Callous and Unemotional Traits (ICU), and Youth Psychopathic Traits Inventory (YPI). Disinhibition and fearlessness (i.e., TAS) were assessed using an unmodified version of the Zuckerman Sensation Seeking Scales (SSS). Consistent with hypotheses, youth psychopathy scores were associated with higher Disinhibition and lower TAS scores. Our results contribute to a growing body of literature suggesting that psychopathic traits, including among adolescents, are not concomitant with physical risk-taking and descriptions of psychopathy including fearlessness distort a precise understanding of psychopathy's core features.",
   "abstract_source": "pubmed",
-  "cited_by_count": null,
-  "oa_url": null,
+  "cited_by_count": 6,
+  "oa_url": "https://www.mdpi.com/2227-9067/11/1/65/pdf?version=1704271025",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/38255377/",
   "keywords": [
    "antisocial behavior",
@@ -1124,7 +1130,8 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "enriched": true
+  "enriched": true,
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "cohen2024clarifying",
@@ -1520,8 +1527,8 @@
   "openalex_id": null,
   "abstract": "Traumatic brain injury (TBI) is a global public health problem and is highly prevalent among justice-involved populations. Pediatric TBI is linked with long-term negative outcomes and is correlated with substance use, criminal behavior, psychiatric disorders, and disruptions in neurocognition. These same TBI correlates are evident among youth with psychopathic traits. Given ongoing neurobiological and social development in adolescence, understanding the link between psychopathic traits and TBI in justice-involved youth is critical. A sample of 263 male adolescents were recruited from a maximum-security juvenile justice facility. Using a structural equation modeling (SEM) framework, measurement invariance of psychopathic traits (TBI ±) was tested, and psychopathy scores were accounted for in terms of TBI variables (severity, age of first TBI, total number), participant's age, IQ, substance use, and internalizing psychopathology. There was evidence of strong invariance across TBI status and those with TBI had higher affective and impulsive lifestyle psychopathic traits than adolescents without TBI. The SEM indicated that TBI severity was associated with lower IQ scores, which in turn were associated with increased lifestyle/antisocial (Factor 2) psychopathic traits. Total number of TBIs was associated with higher substance use, which was associated with both increased interpersonal/affective (Factor 1) and Factor 2 psychopathic traits. These TBI variables also had indirect associations with psychopathic traits through IQ and substance use. The findings indicate that TBI is associated with psychopathic traits and suggest that disturbances in cognition and substance use may be treatment targets for youth with TBI and psychopathic traits.",
   "abstract_source": "pubmed",
-  "cited_by_count": null,
-  "oa_url": null,
+  "cited_by_count": 3,
+  "oa_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11563895/pdf/nihms-2021998.pdf",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/38922463/",
   "keywords": [
    "Externalizing",
@@ -1567,7 +1574,8 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "enriched": true
+  "enriched": true,
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "ngo2024psychopathic",
@@ -1605,7 +1613,7 @@
   "openalex_id": null,
   "abstract": "Both the Psychopathy Checklist-Revised (PCL-R) and the Psychopathy Checklist: Youth Version (PCL:YV), respectively, are established instruments for assessment of psychopathy and development of psychopathic propensity. To reliably compare scores from both instruments, measurement invariance must be established. The current study involved a combined sample of 1091 male participants (adults = 813; adolescents = 278) from correctional facilities in New Mexico. An exploratory structural equation modeling (ESEM) framework was used to test for measurement invariance. The four-factor ESEM model demonstrated good fit for the combined and individual samples. Results from the multiple group ESEM provide evidence for generally strong invariance, with equivalent factor loadings and thresholds. Adolescents exhibited decreased latent interpersonal traits but increased latent features on other PCL factors (affective, lifestyle, and antisocial) compared to adults. Findings suggest that the four-factor model and the measurement of psychopathic traits remain consistent across age groups. Implications of the findings within research and clinical contexts are discussed.",
   "abstract_source": "pubmed",
-  "cited_by_count": null,
+  "cited_by_count": 9,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/39199068/",
   "keywords": [
@@ -1650,7 +1658,8 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "enriched": true
+  "enriched": true,
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "rodriguez2024relationship",
@@ -1694,8 +1703,8 @@
   "openalex_id": null,
   "abstract": "Individuals with high levels of psychopathic traits are often characterized by behaviors suggesting attenuated executive functioning (EF); however, the literature examining these two constructs have provided varied results. The current study sought to clarify the relationship between EF and psychopathic traits in a large sample of incarcerated men (n = 811). We utilized the Hare Psychopathy Checklist - Revised (PCL-R) and the Delis-Kaplan Executive Function System (D-KEFS) to measure psychopathic traits and EFs, respectively. D-KEFS subtests included Verbal Letter Fluency, Tower Test, Color-Word Interference Test (CWIT), and Proverbs. Regression results showed that PCL-R Factor 1 scores (measuring interpersonal and affective traits) were positively associated with verbal fluency, verbal abstraction, and verbal inhibition ability. In addition, PCL-R Facet 4 scores (measuring antisocial traits) were negatively associated with performance on inhibitory EF tasks. Our findings help further clarify the relationships between specific psychopathic traits and forms of EF, and provide potential avenues for specialized treatment or intervention approaches targeting specific psychopathic traits.",
   "abstract_source": "pubmed",
-  "cited_by_count": null,
-  "oa_url": null,
+  "cited_by_count": 1,
+  "oa_url": "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2024.1524033/pdf",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/39896994/",
   "keywords": [
    "affective deficits",
@@ -1740,7 +1749,8 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "enriched": true
+  "enriched": true,
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "greenfield2023emotional",
@@ -1883,8 +1893,8 @@
   "openalex_id": null,
   "abstract": "Men with elevated psychopathic traits have been characterized by unique patterns of nonverbal communication, including more fixed and focused head positions during clinical interviews, compared to men scoring low on measures of psychopathy. However, it is unclear whether similar patterns of head dynamics help characterize women scoring high on psychopathic traits. Here, we utilized an automated detection algorithm to assess head position and dynamics during a videotaped clinical interview (i.e., the Psychopathy Checklist - Revised [PCL-R]) in a sample of n = 213 incarcerated women. PCL-R Total, Factor 1 (i.e., interpersonal and affective psychopathic traits), and Factor 2 (i.e., lifestyle/behavioral and antisocial/developmental psychopathic traits) scores were associated with a pattern of head dynamics indicative of a rigid head position. The current study extends analyses of nonverbal behavior studies in men to women and highlights how individuals with elevated psychopathic traits demonstrate unique nonverbal behaviors relative to individuals who score low on psychopathic traits. The implications and clinical value of these findings are discussed.",
   "abstract_source": "pubmed",
-  "cited_by_count": null,
-  "oa_url": null,
+  "cited_by_count": 1,
+  "oa_url": "https://www.sciencedirect.com/science/article/am/pii/S0191886922004093",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/37937147/",
   "keywords": [
    "Automated feature detection",
@@ -1928,7 +1938,8 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "enriched": true
+  "enriched": true,
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "deming2023examination",
@@ -2121,8 +2132,8 @@
   "openalex_id": null,
   "abstract": "Background: Individuals scoring high on psychopathy engage in problematic patterns of alcohol and illicit substance use. However, our understanding regarding the association between psychopathy and nicotine use remains limited, which is surprising, given the detrimental consequences associated with such use. Previous studies have observed significant correlations between psychopathic traits (particularly Factor 2 scores assessing lifestyle/behavioral and antisocial traits from the Psychopathy Checklist - Revised [PCL-R]) and increased frequency of nicotine use. However, no study has investigated whether individuals scoring high on psychopathy are characterized by problematic patterns of nicotine use, including lifetime history of nicotine dependence.Objectives: The current study aimed to address this gap, specifically investigating whether PCL-R scores were associated with higher total scores from the Fagerström Test for Nicotine Dependence (FTND).Results: Across both incarcerated men and women, PCL-R total, Factor 2, and Facet 3 (measuring lifestyle/behavioral psychopathic traits) scores were positively correlated with FTND total scores. Additionally, across both samples, hierarchical linear regression analyses revealed these same psychopathy scores remained associated with higher FTND total scores when controlling for additional covariate measures (e.g., age, severity of alcohol and illicit substance use, race, ethnicity, and IQ).Conclusions/Importance: Though associated with small effect sizes, our results support the notion that lifestyle/behavioral psychopathic traits represent a general risk factor for engaging in risky behavior associated with deleterious health consequences, including nicotine use. Our results hold implications for the development of treatment approaches, designed to reduce problematic levels of substance use among individuals scoring high on psychopathy.",
   "abstract_source": "pubmed",
-  "cited_by_count": null,
-  "oa_url": null,
+  "cited_by_count": 3,
+  "oa_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9970823/pdf/nihms-1871971.pdf",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/36683568/",
   "keywords": [
    "Psychopathy",
@@ -2164,7 +2175,8 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "enriched": true
+  "enriched": true,
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "maurer2023machine",
@@ -2225,7 +2237,7 @@
   "openalex_id": null,
   "abstract": "Individuals with acute and chronic traumatic brain injury (TBI) are associated with unique white matter (WM) structural abnormalities, including fractional anisotropy (FA) differences. Our research group previously used FA as a feature in a linear support vector machine (SVM) pattern classifier, observing high classification between individuals with and without acute TBI (i.e., an area under the curve [AUC] value of 75.50%). However, it is not known whether FA could similarly classify between individuals with and without history of chronic TBI. Here, we attempted to replicate our previous work with a new sample, investigating whether FA could similarly classify between incarcerated men with (n = 80) and without (n = 80) self-reported history of chronic TBI. Additionally, given limitations associated with FA, including underestimation of FA values in WM tracts containing crossing fibers, we extended upon our previous study by incorporating neurite orientation dispersion and density imaging (NODDI) metrics, including orientation dispersion (ODI) and isotropic volume (Viso). A linear SVM based classification approach, similar to our previous study, was incorporated here to classify between individuals with and without self-reported chronic TBI using FA and NODDI metrics as separate features. Overall classification rates were similar when incorporating FA and NODDI ODI metrics as features (AUC: 82.50%). Additionally, NODDI-based metrics provided the highest sensitivity (ODI: 85.00%) and specificity (Viso: 82.50%) rates. The current study serves as a replication and extension of our previous study, observing that multiple diffusion MRI metrics can reliably classify between individuals with and without self-reported history of chronic TBI.",
   "abstract_source": "pubmed",
-  "cited_by_count": null,
+  "cited_by_count": 11,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/37169013/",
   "keywords": [
@@ -2272,7 +2284,8 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "enriched": true
+  "enriched": true,
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "allen2023aberrant",
@@ -2856,7 +2869,7 @@
   "openalex_id": null,
   "abstract": "Previous studies with men suggest that certain psychopathic traits vary with age. Specifically, younger men score higher on psychopathic traits measuring impulsive-antisocial behavior, including impulsivity, irresponsibility, and criminal versatility, compared to older men. On the other hand, younger and older men score comparably on psychopathic traits reflecting core personality traits of interpersonal and affective dysfunction, including conning and manipulative behavior and a lack of empathy, guilt, and remorse. However, it is currently not known whether psychopathic traits similarly vary with age among women. This study examined whether psychopathy scores (assessed via the Hare Psychopathy Checklist - Revised [PCL-R]) varied with age among a sample of 501 incarcerated women ranging from 19 to 57 years of age. Consistent with previous studies performed with men, younger women scored higher on psychopathic traits measuring impulsive-antisocial behavior (i.e., PCL-R Factor 2, Facet 3, and Facet 4 scores) compared to older women. However, scores on PCL-R Factor 1, Facet 1, and Facet 2, assessing core personality traits, including interpersonal and affective dysfunction, were comparable across women in different age categories investigated. Results obtained in this preliminary study suggest the variation of PCL-R Factor 2 traits and the stability of PCL-R Factor 1 traits across the lifespan is invariant across gender.",
   "abstract_source": "pubmed",
-  "cited_by_count": null,
+  "cited_by_count": 11,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/35221799/",
   "keywords": [
@@ -2901,7 +2914,8 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "enriched": true
+  "enriched": true,
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "yoder2022psychopathic",
@@ -3111,8 +3125,8 @@
   "openalex_id": null,
   "abstract": "Psychopathy is a condition characterized by atypical emotions and socially maladaptive behavioral patterns. Among incarcerated people, psychopathy has been associated with higher rates of crimes, recidivism, and resistance to treatment. Many studies have indicated significant heritability of psychopathic traits, but little is known about the specific contribution of genes and their interaction with adverse experiences in life. Considering the primary role that serotonin plays in cognition and emotion, we investigated TPH2-rs4570625, 5-HTTLPR, MAOA-uVNTR, HTR1B-rs13212041 and HTR2A-rs6314 as risk factors for psychopathy in the largest sample of institutionalized individuals studied so far, consisting of 793 US White male incarcerated adults, and in a replication sample of 168 US White male incarcerated adolescents. In a subgroup of the adult sample, the interaction between genetics and parenting style, assessed by the Measure of Parental Style (MOPS) questionnaire, was also evaluated. The HTR1B-rs13212041-T/T genotype, as compared to HTR1B-rs13212041-C allele, predicted higher psychopathy scores in both the adult and the adolescent samples. The interaction between HTR1B-rs13212041-T/T genotype and paternal MOPS scores, investigated in a subgroup of the adult sample, was an even stronger predictor of higher levels of psychopathy than either the genetics or the environment taken individually. Overall, these data, obtained in two independent samples, shed new light on neurobiological correlates of psychopathy with promising implications both at a clinical and forensic level.",
   "abstract_source": "pubmed",
-  "cited_by_count": null,
-  "oa_url": null,
+  "cited_by_count": 15,
+  "oa_url": "https://www.sciencedirect.com/science/article/pii/S0306453022002025/pdf",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/35853382/",
   "keywords": [
    "Genotype",
@@ -3154,7 +3168,8 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "enriched": true
+  "enriched": true,
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "rodrik2022correlates",
@@ -3191,8 +3206,8 @@
   "openalex_id": null,
   "abstract": "Externalizing traits are extremely costly for society and disproportionately prevalent among incarcerated individuals. The Hierarchical Taxonomy of Psychopathology (HiTOP) is an empirically derived classification system that approaches psychopathology dimensionally and was developed in response to critiques of current diagnostic classification systems. The Externalizing Spectrum Inventory-100 item version (ESI-100) is an assessment of externalizing problems that fits within the HiTOP framework and characterizes dimensional externalizing traits. The present study aimed to replicate prior research examining the convergent validity of the ESI Total Score by examining associations with psychopathy, conduct disorder, and substance use among incarcerated males. A total of 1,808 participants had ESI-100 data, although sample sizes across criterion measures varied. The majority of results replicated relationships between the ESI 159-item version and externalizing disorders and negative emotionality. Less is known about the dimensional relationships between externalizing traits as measured by the ESI-100 and internalizing disorders and symptoms, and other correlates of externalizing. The study extended previous results by examining associations between the ESI-100 and internalizing disorders, impulsivity, childhood trauma, and emotion regulation (ER) as a test of discriminant validity. Analyses revealed associations between the ESI-100 and childhood trauma, impulsivity, emotion regulation difficulties, and symptoms (but not diagnoses) of internalizing disorders. These results enhance our understanding of dimensional traits of externalizing and suggest nuanced relationships between externalizing and internalizing traits. Results have important implications (e.g., transdiagnostic treatment targets) for treatment of mental health disorders by highlighting the importance of cross-diagnostic treatment approaches. (PsycInfo Database Record (c) 2022 APA, all rights reserved).",
   "abstract_source": "pubmed",
-  "cited_by_count": null,
-  "oa_url": null,
+  "cited_by_count": 7,
+  "oa_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10049692/pdf/nihms-1879524.pdf",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/35849404/",
   "keywords": [],
   "links": [
@@ -3229,7 +3244,8 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "enriched": true
+  "enriched": true,
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "palumbo2022ankk1",
@@ -3273,8 +3289,8 @@
   "openalex_id": null,
   "abstract": "Recent scientific findings suggest that dopamine exerts a central role on impulsivity, as well as that aversive life experiences may promote the high levels of impulsivity that often underlie violent behavior. To deepen our understanding of the complex gene by environment interplay on impulsive behavior, we genotyped six dopaminergic allelic variants (ANKK1-rs1800497, TH-rs6356, DRD4-rs1800955, DRD4-exonIII-VNTR, SLC6A3-VNTR and COMT-rs4680) in 655 US White male inmates convicted for violent crimes, whose impulsivity was assessed by BIS-11 (Barratt Impulsiveness Scale). Furthermore, in a subsample of 216 inmates from the whole group, we also explored the potential interplay between the genotyped dopaminergic variants and parental maltreatment measured by MOPS (Measure of Parental Style) in promoting impulsivity. We found a significant interaction among paternal MOPS scores, ANKK1-rs1800497-T allele and TH-rs6356-A allele, which increased the variance of BIS-11 cognitive/attentive scores explained by paternal maltreatment from 1.8 up to 20.5%. No direct association between any of the individual genetic variants and impulsivity was observed. Our data suggest that paternal maltreatment increases the risk of attentive/cognitive impulsivity and that this risk is higher in carriers of specific dopaminergic alleles that potentiate the dopaminergic neurotransmission. These findings add further evidence to the mutual role that genetics and early environmental factors exert in modulating human behavior and highlight the importance of childhood care interventions.",
   "abstract_source": "pubmed",
-  "cited_by_count": null,
-  "oa_url": null,
+  "cited_by_count": 9,
+  "oa_url": "https://www.frontiersin.org/articles/10.3389/fpsyt.2022.868804/pdf",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/35935430/",
   "keywords": [
    "ANKK1",
@@ -3321,7 +3337,8 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "enriched": true
+  "enriched": true,
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "maurer2022reduced",
@@ -3366,7 +3383,7 @@
   "openalex_id": null,
   "abstract": "Both men and women scoring high on psychopathy exhibit similar structural and functional neural abnormalities, including reduced volume of the orbitofrontal cortex (OFC) and reduced hemodynamic activity in the amygdala during affective processing experimental paradigms. The uncinate fasciculus (UF) is a white matter (WM) tract that connects the amygdala to the OFC. Reduced structural integrity of the UF, measured via fractional anisotropy (FA), is commonly associated with men scoring high on psychopathy. However, only one study to date has investigated the relationship between psychopathic traits and UF structural integrity in women, recruiting participants from a community sample. Here, we investigated whether Hare Psychopathy Checklist-Revised (PCL-R) facet scores (measuring interpersonal, affective, lifestyle/behavioral, and antisocial psychopathic traits, respectively) were associated with reduced FA in the left and right UF in a sample of 254 incarcerated women characterized by a wide range of psychopathy scores. We observed that PCL-R Facet 3 scores, assessing lifestyle/behavioral psychopathic traits, were associated with reduced FA in the left and right UF, even when controlling for participant's age and history of previous substance use. The results obtained in the current study help improve our understanding of structural abnormalities associated with women scoring high on psychopathy. Specifically, reduced UF structural integrity may contribute to some of the deficits commonly associated with women scoring high on psychopathy, including emotion dysregulation.",
   "abstract_source": "pubmed",
-  "cited_by_count": null,
+  "cited_by_count": 4,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/35882762/",
   "keywords": [
@@ -3411,7 +3428,8 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "enriched": true
+  "enriched": true,
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "rodriguez2022quantitative",
@@ -3456,8 +3474,8 @@
   "openalex_id": null,
   "abstract": "Clinicians have long noted that individuals with elevated psychopathic traits can be characterized by unique interpersonal styles, including prolonged eye contact, invasion of interpersonal space, and frequent use of hand gestures. Such forms of nonverbal communication can be measured via hand, body, and head position and dynamics. Previous studies have developed an automated algorithm designed to capture head position and dynamics from digital recordings of clinical interviews in a sample of incarcerated adult men. We observed that higher psychopathy scores were associated with stationary head dwell time. Here, we applied a similar automated algorithm to assess head position and dynamics on videotaped clinical interviews assessing psychopathic traits from n = 242 youth housed at a maximum-security juvenile correctional facility. We observed that higher psychopathy scores (assessed via the Hare Psychopathy Checklist: Youth Version [PCL:YV]) were associated with unique patterns of head dynamics. Specifically, PCL:YV Total, Factor 1 (measuring grandiose-manipulative and callous-unemotional traits), and Facet 1 (measuring grandiose-manipulative traits) scores were associated with a higher proportion of time spent in a head dynamics pattern consisting of moderate movement away from the average head position. This study lays the groundwork for future investigations to apply quantitative methods to better understand patterns of nonverbal communication styles in clinical populations characterized by severe antisocial behavior.",
   "abstract_source": "pubmed",
-  "cited_by_count": null,
-  "oa_url": null,
+  "cited_by_count": 1,
+  "oa_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10065468/pdf/nihms-1832735.pdf",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/37008299/",
   "keywords": [
    "automated feature extraction",
@@ -3501,7 +3519,8 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "enriched": true
+  "enriched": true,
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "allen2022aberrant",
@@ -4425,7 +4444,7 @@
   "openalex_id": null,
   "abstract": "Despite impulsivity being included as scoring criteria within several measures of youth psychopathic traits, the relationship between psychopathic traits and dimensions of impulsivity among high-risk youth is not well-understood. Here we assessed psychopathic traits via total, factor, and facet scores from the Psychopathy Checklist: Youth Version (PCL:YV) and impulsivity through total, three-factor, and six-factor model scores from the Barratt Impulsiveness Scale (BIS-11) in incarcerated male youth offenders. Correlational analyses indicated PCL:YV total, Factor 2, Facet 3, and Facet 4 scores were significantly positively correlated with BIS-11 total scores. Additionally, psychopathy scores were significantly positively correlated with specific scores from the three-factor model of the BIS-11 (e.g. Motor and Non-Planning Impulsivity scores) and the six-factor model of the BIS-11 (e.g., Attention, Self-Control, and Cognitive Complexity Impulsivity scores). Secondary analyses suggest that participants who had previously committed homicide scored higher on lifestyle/antisocial psychopathic traits and specific dimensions of impulsivity (e.g., BIS-11 Non-Planning and Self-Control Impulsivity factor scores) compared to youth who had not previously committed homicide. Our results improve our understanding of the specific forms of impulsivity significantly correlated with youth psychopathic traits and how specific factors underlying both constructs potentially characterize youth associated with severe forms of antisocial behavior.",
   "abstract_source": "pubmed",
-  "cited_by_count": null,
+  "cited_by_count": 17,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/34274904/",
   "keywords": [
@@ -4470,7 +4489,8 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "enriched": true
+  "enriched": true,
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "edwards2021psychopathy2",
@@ -4595,7 +4615,7 @@
   "openalex_id": null,
   "abstract": "Recent research has demonstrated that psychopathic offenders exhibit dynamic cognitive and behavioral deficits on a variety of lab tasks that differentially activate left hemisphere resources. The Left Hemisphere Activation (LHA) hypothesis is a cognitive perspective that aims to address these deficits by conceptualizing psychopathy as a disorder in which behavior and cognitive processing change dynamically as a function of the differential taxation of left hemisphere resources. This study aimed to investigate whether psychopathic traits are associated with electrophysiological anomalies under conditions that place differential demands on left hemisphere language processing systems. We examined in a sample of 43 incarcerated indivdiuals the evocation of the N320, an event-related potential (ERP) elicited by nontarget stimuli during a phonological/phonetic decision task that has been shown to elicit greater activation and cognitive processing within the left hemisphere than the right hemisphere. Findings for a subsample of 18 offenders low in psychopathic traits were generally consistent with previous findings in healthy individuals, suggesting similar electrophysiological activity during phonological processing. However, psychopathic traits impacted the amplitude of the N320. Higher levels of psychopathic traits were associated with reduced left-lateralization in phonological processing as well as enhanced ERP differentiation between pronounceable and nonpronounceable stimuli. These findings provide physiological evidence of a relationship between psychopathic traits and anomalous language processing at the phonological level of word processing.",
   "abstract_source": "pubmed",
-  "cited_by_count": null,
+  "cited_by_count": 3,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/34358580/",
   "keywords": [
@@ -4642,7 +4662,8 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "enriched": true
+  "enriched": true,
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "klockner2021widespread",
@@ -4764,7 +4785,7 @@
   "openalex_id": null,
   "abstract": "When aggregating neuroimaging data across many subjects, an important consideration is establishing some group-level uniformity prior to further statistical analysis. Spatial normalization and motion correction are two important preprocessing steps that help achieve this goal. Researchers have also often excluded left-handed subjects due to presumptions about variable asymmetries relating to both brain structure and function, which may interfere with achieving a desired level of group homogeneity. It is well-known, however, that hand-preference is not a binary attribute and is not a perfect representation of structural asymmetry or hemispheric specialization. In an effort to demonstrate a more objective, data-driven approach for quantifying asymmetries across handedness, we tested the reliability of single-subject classification of handedness using data obtained from structural MRI in extant samples. We utilized data from deformation fields created during the spatial normalization process within a priori regions of interest (ROIs), including the motor and somatosensory cortex, and Broca's and Wernicke's areas. Using these deformation fields as features in machine learning classifiers, we achieved classification accuracies greater than 75% across two independent datasets (i.e., a sample of incarcerated adult offenders and a sample of community adults from the Netherlands). These results demonstrate reliability of morphological features attributable to handedness as represented in neuroimaging data and further suggest that application of data-driven techniques may be a principled approach for addressing asymmetries in group analysis.",
   "abstract_source": "pubmed",
-  "cited_by_count": null,
+  "cited_by_count": 4,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/40568429/",
   "keywords": [
@@ -4807,7 +4828,8 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "enriched": true
+  "enriched": true,
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "schneider2021prevalence",
@@ -4929,8 +4951,8 @@
   "openalex_id": null,
   "abstract": "Individuals scoring high on psychopathic traits engage in various forms of risky behavior. However, the relationship between psychopathic traits and risky sexual behavior (RSB) is less understood, especially with participants recruited from incarcerated settings. Here, we investigated the relationship between RSB and psychopathic traits with n = 179 incarcerated adult male offenders who completed a self-report RSB questionnaire asking participants about their lifetime number of sexual partners and frequency of using a condom during sex. Psychopathic traits were assessed using the Hare Psychopathy Checklist - Revised (PCL-R). In independent-samples t-tests, participants scoring high on psychopathic traits (i.e., PCL-R total score ≥ 30) reported greater total number of sexual partners throughout their lifetime and were less likely to use a condom during sex compared to low-scorers (i.e., PCL-R total score ≤ 15). In multiple regression analyses, PCL-R total scores emerged as a significant predictor of reduced condom usage during sex, but covariate measures assessing general externalizing psychopathology, did not. Our results suggest that several public health concerns, including sexually transmitted infection transmittal and unwanted pregnancies, may arise due to individuals scoring higher on psychopathy engaging in risky sexual behavior to a greater extent compared to those scoring lower on psychopathy.",
   "abstract_source": "pubmed",
-  "cited_by_count": null,
-  "oa_url": null,
+  "cited_by_count": 12,
+  "oa_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10634662/pdf/nihms-1547941.pdf",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/37946750/",
   "keywords": [
    "Psychopathy",
@@ -4973,7 +4995,8 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "enriched": true
+  "enriched": true,
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "hare2020pcl",
@@ -5144,9 +5167,9 @@
   "pmid": null,
   "pmcid": null,
   "openalex_id": null,
-  "abstract": "",
+  "abstract": "A group of 12 authors (GA) shared a statement of concern (SoC) warning against the use of the Hare Psychopathy Checklist-Revised (PCL-R; Hare, 1991, 2003) to assess risk for serious institutional violence in US capital sentencing cases (DeMatteo et al., 2020). Notably, the SoC was not confined to capital sentencing issues, but included institutional violence in general. Central to the arguments presented in the SoC was that the PCL-R has poor predictive validity for institutional violence and also inadequate field reliability. The GA also identified important issues about the fallibility and inappropriate use of any clinical/forensic assessments, questionable evaluator qualifications, and their effects on capital sentencing decisions. However, as a group of forensic academics, researchers, and clinicians, we are concerned that the PCL-R represents a psycholegal red herring, while the SoC did not address critical legislative, systemic, and evaluator/rating issues that affect all risk assessment tools. We contend that the SoC’s literature review was selective and that the resultant opinions about potential uses and misuses of the PCL-R were ultimately misleading. We focus our response on the evidence and conclusions proffered by the GA concerning the use of the PCL-R in capital and other cases. We provide new empirical findings regarding the PCL-R’s predictive validity and field reliability to further demonstrate its relevance for institutional violence risk assessment and management. We further demonstrate why the argument that group data cannot be relevant for single-case assessments is erroneous. Recommendations to support the ethical and appropriate use of the PCL-R for risk assessment are provided.",
   "abstract_source": null,
-  "cited_by_count": null,
+  "cited_by_count": 76,
   "oa_url": null,
   "landing_url": null,
   "keywords": [],
@@ -5178,7 +5201,8 @@
   "free_keywords": [],
   "date_added": "",
   "source": "cv-2026",
-  "tag_source": "rules"
+  "tag_source": "rules",
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "harenski2020source",
@@ -5295,8 +5319,8 @@
   "openalex_id": null,
   "abstract": "Youth with elevated psychopathic traits represent a particularly severe subgroup of adolescents characterized by extreme behavioral problems and exhibit comparable neurocognitive deficits as adult offenders with psychopathic traits. A consistent finding among adults with elevated psychopathic traits is reduced white matter structural integrity of the right uncinate fasciculus (UF). The UF is a major white matter tract that connects regions of the anterior temporal lobe (i.e., the amygdala) to higher-order executive control regions, including the ventromedial prefrontal cortex. However, the relationship between youth psychopathic traits and structural integrity of the UF has been mixed, with some studies identifying a negative relationship between adolescent psychopathy scores and FA in the UF, and others identifying a positive relationship. Here, we investigated structural integrity of the left and right UF using fractional anisotropy (FA) in a large sample of n = 254 male adolescent offenders recruited from maximum-security juvenile correctional facilities. Psychopathic traits were assessed using the Hare Psychopathy Checklist: Youth Version (PCL:YV). Consistent with hypotheses, interpersonal and affective traits (i.e., PCL:YV Factor 1 and Facet 1 scores) were associated with reduced FA in the right UF. Additionally, lifestyle traits (i.e., PCL:YV Facet 3 scores) were associated with increased FA in the left UF. Results are consistent with previously published studies reporting reduced FA in the right UF in adult psychopathic offenders and increased left UF FA in youth meeting criteria for certain externalizing disorders.",
   "abstract_source": "pubmed",
-  "cited_by_count": null,
-  "oa_url": null,
+  "cited_by_count": 16,
+  "oa_url": "https://www.sciencedirect.com/science/article/pii/S2213158220300735/pdf",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/32182577/",
   "keywords": [
    "Callous-unemotional traits",
@@ -5340,7 +5364,8 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "enriched": true
+  "enriched": true,
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "anderson2020re",
@@ -5534,8 +5559,8 @@
   "openalex_id": null,
   "abstract": "OBJECTIVE: Persistent violent and antisocial behavior, as manifested in conduct disorder (CD) traits, are associated with a range of cognitive deficits. Individuals with more severe cognitive deficits are more likely to commit violent crimes. Currently, no treatments target improving cognition in high-risk CD youth. This pilot study tests the feasibility and efficacy of delivering intensive tablet-based cognitive training (CT) to adolescent males incarcerated in a youth maximum-security prison. METHODS: Participants were fourteen adolescent males, diagnosed with CD. All participants completed up to 30 h of unsupervised, intensive, adaptive CT exercises that targeted multiple neurocognitive domains, as well as a battery of standardized neurocognitive measures and computerized assessments at baseline and post-training. CONCLUSIONS AND IMPLICATIONS FOR PRACTICE: At baseline, participants exhibited significant impairments on neurocognitive measures, relative to age-matched healthy controls. Twelve participants completed training and showed evidence of target engagement, as indexed by improvement in cognitive processing speed. Significant gains were observed in measures of global cognition, with additional gains in cognitive flexibility at trend level significance. Improvements in these measures were positively related to total training time. In summary, both assessments and intervention appear to be feasible, tolerable, and acceptable in incarcerated youth. Intensive CT shows preliminary efficacy in improving neurocognitive performance in key domains, with large effect sizes, and significant performance improvement associations with the time in training.",
   "abstract_source": "pubmed",
-  "cited_by_count": null,
-  "oa_url": null,
+  "cited_by_count": 8,
+  "oa_url": "https://www.frontiersin.org/articles/10.3389/fpsyt.2020.00225/pdf",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/32351409/",
   "keywords": [
    "adolescence",
@@ -5578,7 +5603,8 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "enriched": true
+  "enriched": true,
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "fernandes2020anomalous",
@@ -5887,7 +5913,7 @@
   "openalex_id": null,
   "abstract": "Homicide is a significant societal problem with economic costs in the billions of dollars annually and incalculable emotional impact on victims and society. Despite this high burden, we know very little about the neuroscience of individuals who commit homicide. Here we examine brain gray matter differences in incarcerated adult males who have committed homicide (n = 203) compared to other non-homicide offenders (n = 605; total n = 808). Homicide offenders' show reduced gray matter in brain areas critical for behavioral control and social cognition compared with subsets of other violent and non-violent offenders. This demonstrates, for the first time, that unique brain abnormalities may distinguish offenders who kill from other serious violent offenders and non-violent antisocial individuals.",
   "abstract_source": "pubmed",
-  "cited_by_count": null,
+  "cited_by_count": 47,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/31278652/",
   "keywords": [
@@ -5930,7 +5956,8 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "enriched": true
+  "enriched": true,
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "edwards2019emotional",
@@ -7203,7 +7230,7 @@
   "openalex_id": null,
   "abstract": "Youth with elevated psychopathic traits exhibit a number of comparable neurocognitive deficits as adult psychopathic offenders, including error-related processing deficits. Subregions of the basal ganglia play an important, though indirect, role in error-related processing through connections with cortical areas including the anterior cingulate cortex. A number of recent structural and functional magnetic resonance imaging (s/fMRI) studies have associated basal ganglia dysfunction in youth with elevated psychopathic traits, but these studies have not examined whether dysfunction occurring within subregions of the basal ganglia help contribute to error-related processing deficits previously observed in such at-risk youth. Here, we investigated error-related processing using a response inhibition Go/NoGo fMRI experimental paradigm in a large sample of incarcerated male adolescent offenders (n = 182). In the current report, psychopathy scores (measured via the Psychopathy Checklist: Youth Version (PCL:YV)) were negatively related to hemodynamic activity within input nuclei of the basal ganglia (i.e., the caudate and nucleus accumbens), as well as intrinsic/output nuclei (i.e., the globus pallidus and substantia nigra) and related nuclei (i.e., the subthalamic nucleus) during error-related processing. This is the first evidence to suggest that error-related dysfunction previously observed in youth with elevated psychopathic traits may be related to underlying abnormalities occurring within subregions of the basal ganglia.",
   "abstract_source": "pubmed",
-  "cited_by_count": null,
+  "cited_by_count": 10,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/31104203/",
   "keywords": [
@@ -7249,7 +7276,8 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "enriched": true
+  "enriched": true,
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "steele2018machine",
@@ -7474,8 +7502,8 @@
   "openalex_id": null,
   "abstract": "Disparate results have been found in previous reports when incorporating both interview-based and self-report measures of psychopathic traits within the same sample, suggesting such assessments should not be used interchangeably. We previously found Total and Facet 4 scores from Hare's Psychopathy Checklist: Youth Version (PCL:YV) were negatively related to amplitude of the error-related positivity (Pe) event-related potential (ERP) component. Here, we investigated using the same previously published sample whether scores on four different self-report measures of adolescent psychopathic traits (the Antisocial Process Screening Device [APSD], Child Psychopathy Scale [CPS], Inventory of Callous-Unemotional Traits [ICU], and Youth Psychopathic Traits Inventory [YPI]) were similarly associated with reduced Pe amplitude. Unlike our previous results, adolescent self-report psychopathy scores were not associated with reduced Pe amplitude in multiple regression analyses. Results obtained in the current report support previous research observing incongruent findings when incorporating different assessment types within the same sample.",
   "abstract_source": "pubmed",
-  "cited_by_count": null,
-  "oa_url": null,
+  "cited_by_count": 17,
+  "oa_url": "https://www.sciencedirect.com/science/article/am/pii/S0301051117303241",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/29180243/",
   "keywords": [
    "Event-related potentials",
@@ -7520,7 +7548,8 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "enriched": true
+  "enriched": true,
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "simmonite2018testing",
@@ -8275,8 +8304,8 @@
   "openalex_id": null,
   "abstract": "BACKGROUND: Psychopathy is a personality disorder characterized by interpersonal and emotional abnormalities (e.g., lack of empathy and guilt) and antisocial behavior. Psychopathy has been associated with a number of structural brain abnormalities, most notably in orbital frontal and anterior/medial temporal regions, that may underlie psychopathic individuals' problematic behaviors. Past research evaluating cortical structure in psychopathy has considered thickness and volume, but to date no study has investigated differences in cortical gyrification, a measure of cortical complexity thought to reflect early neurodevelopmental cortical connectivity. METHODS: We measured the local gyrification index (LGI) in a sample of 716 adult male inmates and performed a whole brain analysis assessing the relationship between LGI and total and factor scores on the Hare Psychopathy Checklist-Revised (PCL-R). RESULTS: PCL-R scores were negatively associated with LGI measures within the right hemisphere in the midcingulate cortex (MCC) and adjacent regions of the superior frontal gyrus as well as lateral superior parietal cortex. Additionally, PCL-R Factor 1 scores (interpersonal/affective traits) predicted less LGI within the right MCC and adjacent dorsomedial frontal cortex and greater LGI in bilateral occipital cortex. Scores on PCL-R Factor 2, indicating impulsivity and antisocial behaviors, did not predict LGI in any regions. CONCLUSIONS: These findings suggest that psychopathy, particularly the interpersonal and affective traits, are associated with specific structural abnormalities that form during neurodevelopment and these abnormalities may underlie aberrant brain functioning in regions important in emotional processing and cognitive control.",
   "abstract_source": "pubmed",
-  "cited_by_count": null,
-  "oa_url": null,
+  "cited_by_count": 26,
+  "oa_url": "https://www.sciencedirect.com/science/article/pii/S2213158218301906/pdf",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/29946511/",
   "keywords": [
    "Cortical folding",
@@ -8317,7 +8346,8 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "enriched": true
+  "enriched": true,
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "vincent2018callous",
@@ -9547,7 +9577,7 @@
   "openalex_id": null,
   "abstract": "Psychopathic traits are a manifestation of a personality pathology that comprises a core affective-interpersonal dysfunction (callous-unemotional traits) and an impulsive-antisocial behavioral component. Of particular importance, psychopathic traits are associated with the perpetration of some of the most severe acts of violence, and they appear to indicate a subset of youth at risk for earlier onset, greater frequency, and persistence of violent offending. Although these youth represent a minority of the population, they commit a significant proportion of the violence in the general community. In our review, we highlight evidence of a unique neurobiological predisposition that underlies the core affective deficits and describe contemporary accounts for the developmental processes leading to the antisocial behavior associated with psychopathy. Current evidence suggests that, for this subset of youth, the structure and function of neural circuitry supporting emotion processing, reward learning, decision making, and the development of emotion related to empathy may be crucial to understanding why they are at risk for violence. In particular, a reward dominant pattern of neurobehavioral conditioning may explain how these youth progress to some of the most severe and persistent forms of violence. However, this pattern of conditioning may also be essential to the primary prevention of such deleterious behavior. We suspect that effective strategies to prevent such violence may ultimately be informed by understanding these affective and motivational mechanisms.",
   "abstract_source": "pubmed",
-  "cited_by_count": null,
+  "cited_by_count": 34,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/28315981/",
   "keywords": [
@@ -9593,7 +9623,8 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "enriched": true
+  "enriched": true,
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "maurer2016dysfunctional",
@@ -9633,7 +9664,7 @@
   "openalex_id": null,
   "abstract": "Neurocognitive studies of psychopathy have predominantly focused on male samples. Studies have shown that female psychopaths exhibit similar affective deficits as their male counterparts, but results are less consistent across cognitive domains including response modulation. As such, there may be potential gender differences in error-related processing in psychopathic personality. Here we investigate response-locked event-related potential (ERP) components [the error-related negativity (ERN/Ne) related to early error-detection processes and the error-related positivity (Pe) involved in later post-error processing] in a sample of incarcerated adult female offenders (n = 121) who performed a response inhibition Go/NoGo task. Psychopathy was assessed using the Hare Psychopathy Checklist-Revised (PCL-R). The ERN/Ne and Pe were analyzed with classic windowed ERP components and principal component analysis (PCA). Consistent with previous research performed in psychopathic males, female psychopaths exhibited specific deficiencies in the neural correlates of post-error processing (as indexed by reduced Pe amplitude) but not in error monitoring (as indexed by intact ERN/Ne amplitude). Specifically, psychopathic traits reflecting interpersonal and affective dysfunction remained significant predictors of both time-domain and PCA measures reflecting reduced Pe mean amplitude. This is the first evidence to suggest that incarcerated female psychopaths exhibit similar dysfunctional post-error processing as male psychopaths.",
   "abstract_source": "pubmed",
-  "cited_by_count": null,
+  "cited_by_count": 44,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/26060326/",
   "keywords": [
@@ -9679,7 +9710,8 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "enriched": true
+  "enriched": true,
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "steele2016error",
@@ -9859,8 +9891,8 @@
   "openalex_id": null,
   "abstract": "Adult psychopathic offenders show an increased propensity towards violence, impulsivity, and recidivism. A subsample of youth with elevated psychopathic traits represent a particularly severe subgroup characterized by extreme behavioral problems and comparable neurocognitive deficits as their adult counterparts, including perseveration deficits. Here, we investigate response-locked event-related potential (ERP) components (the error-related negativity [ERN/Ne] related to early error-monitoring processing and the error-related positivity [Pe] involved in later error-related processing) in a sample of incarcerated juvenile male offenders (n=100) who performed a response inhibition Go/NoGo task. Psychopathic traits were assessed using the Hare Psychopathy Checklist: Youth Version (PCL:YV). The ERN/Ne and Pe were analyzed with classic windowed ERP components and principal component analysis (PCA). Using linear regression analyses, PCL:YV scores were unrelated to the ERN/Ne, but were negatively related to Pe mean amplitude. Specifically, the PCL:YV Facet 4 subscale reflecting antisocial traits emerged as a significant predictor of reduced amplitude of a subcomponent underlying the Pe identified with PCA. This is the first evidence to suggest a negative relationship between adolescent psychopathy scores and Pe mean amplitude.",
   "abstract_source": "pubmed",
-  "cited_by_count": null,
-  "oa_url": null,
+  "cited_by_count": 31,
+  "oa_url": "https://www.sciencedirect.com/science/article/pii/S1878929315300864/pdf",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/26930170/",
   "keywords": [
    "Error-related processing",
@@ -9905,7 +9937,8 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "enriched": true
+  "enriched": true,
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "steele2016neuroimaging",
@@ -10054,8 +10087,8 @@
   "openalex_id": null,
   "abstract": "In this paper we propose a web-based approach for quick visualization of big data from brain magnetic resonance imaging (MRI) scans using a combination of an automated image capture and processing system, nonlinear embedding, and interactive data visualization tools. We draw upon thousands of MRI scans captured via the COllaborative Imaging and Neuroinformatics Suite (COINS). We then interface the output of several analysis pipelines based on structural and functional data to a t-distributed stochastic neighbor embedding (t-SNE) algorithm which reduces the number of dimensions for each scan in the input data set to two dimensions while preserving the local structure of data sets. Finally, we interactively display the output of this approach via a web-page, based on data driven documents (D3) JavaScript library. Two distinct approaches were used to visualize the data. In the first approach, we computed multiple quality control (QC) values from pre-processed data, which were used as inputs to the t-SNE algorithm. This approach helps in assessing the quality of each data set relative to others. In the second case, computed variables of interest (e.g., brain volume or voxel values from segmented gray matter images) were used as inputs to the t-SNE algorithm. This approach helps in identifying interesting patterns in the data sets. We demonstrate these approaches using multiple examples from over 10,000 data sets including (1) quality control measures calculated from phantom data over time, (2) quality control data from human functional MRI data across various studies, scanners, sites, (3) volumetric and density measures from human structural MRI data across various studies, scanners and sites. Results from (1) and (2) show the potential of our approach to combine t-SNE data reduction with interactive color coding of variables of interest to quickly identify visually unique clusters of data (i.e., data sets with poor QC, clustering of data by site) quickly. Results from (3) demonstrate interesting patterns of gray matter and volume, and evaluate how they map onto variables including scanners, age, and gender. In sum, the proposed approach allows researchers to rapidly identify and extract meaningful information from big data sets. Such tools are becoming increasingly important as datasets grow larger.",
   "abstract_source": "pubmed",
-  "cited_by_count": null,
-  "oa_url": null,
+  "cited_by_count": 33,
+  "oa_url": "https://www.frontiersin.org/articles/10.3389/fninf.2016.00009/pdf",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/27014049/",
   "keywords": [
    "big data",
@@ -10098,7 +10131,8 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "enriched": true
+  "enriched": true,
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "rodman2016selective",
@@ -10140,7 +10174,7 @@
   "openalex_id": null,
   "abstract": "Antisociality is commonly conceptualized as a unitary construct, but there is considerable evidence for multidimensionality. In particular, two partially dissociable symptom clusters - psychopathy and externalizing - have divergent associations to clinical and forensic outcomes and are linked to unique patterns executive dysfunction. Here, we used fMRI in a sample of incarcerated offenders to map these dimensions of antisocial behavior to brain circuits underlying two aspects of inhibitory self-control: interference suppression and response inhibition. We found that psychopathy and externalizing are characterized by unique and task-selective patterns of dysfunction. While higher levels of psychopathy predicted increased activity within a distributed fronto-parietal network for interference suppression, externalizing did not predict brain activity during attentional control. By contrast, each dimension had opposite associations to fronto-parietal activity during response inhibition. These findings provide neurobiological evidence supporting the fractionation of antisocial behavior, and identify dissociable mechanisms through which different facets predispose dysfunction and impairment.",
   "abstract_source": "pubmed",
-  "cited_by_count": null,
+  "cited_by_count": 34,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/27453803/",
   "keywords": [
@@ -10185,7 +10219,8 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "enriched": true
+  "enriched": true,
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "fink2016brain",
@@ -11040,7 +11075,7 @@
   "openalex_id": null,
   "abstract": "Psychopathy is an early-appearing risk factor for severe and chronic violence. The violence largely attributable to psychopathy constitutes a substantial portion of the societal burden to the public health and criminal justice systems, and thus necessitates significant attention from prevention experts. Yet, despite a vast base of research in psychology and criminology, the public health approach to violence has generally neglected to consider this key variable. Fundamentally, the public health approach to violence prevention is focused on achieving change at the population level to provide the most benefit to the maximum number of people. Increasing attention to the individual-level factor of psychopathy in public health could improve our ability to reduce violence at the community and societal levels. We conclude that the research literature on psychopathy points to a pressing need for a broad-based public health approach with a focus on primary prevention. Further, we consider how measuring psychopathy in public health research may benefit violence prevention, and ultimately society, in general.",
   "abstract_source": "pubmed",
-  "cited_by_count": null,
+  "cited_by_count": 149,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/29593448/",
   "keywords": [
@@ -11085,7 +11120,8 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "enriched": true
+  "enriched": true,
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "decety2015socioemotional",
@@ -11211,8 +11247,8 @@
   "openalex_id": null,
   "abstract": "Psychopathy is a personality disorder characterized by callous antisocial behavior and criminal recidivism. Here we examine whether psychopathy is associated with alterations in functional connectivity in three large-scale cortical networks. Using fMRI in 142 adult male prison inmates, we computed resting-state functional connectivity using seeds from the default mode network, frontoparietal network, and cingulo-opercular network. To determine the specificity of our findings to these cortical networks, we also calculated functional connectivity using seeds from two comparison primary sensory networks: visual and auditory networks. Regression analyses related network connectivity to overall psychopathy scores and to subscores for the \"factors\" and \"facets\" of psychopathy: Factor 1, interpersonal/affective traits; Factor 2, lifestyle/antisocial traits; Facet 1, interpersonal; Facet 2, affective; Facet 3, lifestyle; Facet 4, antisocial. Overall psychopathy severity was associated with reduced functional connectivity between lateral parietal cortex and dorsal anterior cingulate cortex. The two factor scores exhibited contrasting relationships with functional connectivity: Factor 1 scores were associated with reduced functional connectivity in the three cortical networks, whereas Factor 2 scores were associated with heightened connectivity in the same networks. This dissociation was evident particularly in the functional connectivity between anterior insula and dorsal anterior cingulate cortex. The facet scores also demonstrated distinct patterns of connectivity. We found no associations between psychopathy scores and functional connectivity within visual or auditory networks. These findings provide novel evidence on the neural correlates of psychopathy and suggest that connectivity between cortical association hubs, such as the dorsal anterior cingulate cortex, may be a neurobiological marker of the disorder.",
   "abstract_source": "pubmed",
-  "cited_by_count": null,
-  "oa_url": null,
+  "cited_by_count": 113,
+  "oa_url": "https://www.jneurosci.org/content/jneuro/35/15/6068.full.pdf",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/25878280/",
   "keywords": [
    "antisocial personality disorder",
@@ -11255,7 +11291,8 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "enriched": true
+  "enriched": true,
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "anderson2015psychopathy",
@@ -11790,7 +11827,7 @@
   "openalex_id": null,
   "abstract": "During the penalty phase of capital trials, defendants may introduce mitigating evidence that argues for a punishment \"less than death.\" In the past few years, a novel form of mitigating evidence-brain scans made possible by technological advances in neuroscience-has been proffered by defendants to support claims that brain abnormalities reduce their culpability. This exploratory study assessed the impact of neuroscience evidence on mock jurors' sentencing recommendations and impressions of a capital defendant. Using actual case facts, we manipulated diagnostic evidence presented by the defense (psychosis diagnosis; diagnosis and neuropsychological test results; or diagnosis, test results, and neuroimages) and future dangerousness evidence presented by the prosecution (low or high risk). Recommendations for death sentences were affected by the neuropsychological and neuroimaging evidence: defendants deemed at high risk for future dangerousness were less likely to be sentenced to death when jurors had this evidence than when they did not. Neuropsychological and neuroimaging evidence also had mitigating effects on impressions of the defendant. We describe study limitations and pose questions for further research.",
   "abstract_source": "pubmed",
-  "cited_by_count": null,
+  "cited_by_count": 108,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/22213023/",
   "keywords": [],
@@ -11822,7 +11859,8 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "enriched": true
+  "enriched": true,
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "clark2014reduced",
@@ -11952,8 +11990,8 @@
   "openalex_id": null,
   "abstract": "Psychopathy is a personality disorder associated with callous and impulsive behavior and criminal recidivism. It has long been theorized that psychopaths have deficits in processing reward and punishment. Here, we use structural and functional magnetic resonance imaging to examine the neural correlates of reward and loss sensitivity in a group of criminal psychopaths. Forty-one adult male prison inmates (n = 18 psychopaths and n = 23 non-psychopaths) completed a functional magnetic resonance imaging task involving the gain or loss of money. Across the entire sample of participants, monetary gains elicited robust activation within the ventral striatum (VS). Although psychopaths and non-psychopaths did not significantly differ with respect to overall levels of VS response to reward vs loss, we observed significantly different correlations between VS responses and psychopathy severity within each group. Volumetric analyses of striatal subregions revealed a similar pattern of correlations, specifically for the right accumbens area within VS. In a separate sample of inmates (n = 93 psychopaths and n = 117 non-psychopaths) who completed a self-report measure of appetitive motivation, we again found that the correlation with psychopathy severity differed between groups. These convergent results offer novel insight into the neural substrates of reward and loss processing in psychopathy.",
   "abstract_source": "pubmed",
-  "cited_by_count": null,
-  "oa_url": null,
+  "cited_by_count": 90,
+  "oa_url": "https://academic.oup.com/scan/article-pdf/9/6/794/27108984/nst054.pdf",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/23552079/",
   "keywords": [
    "fMRI",
@@ -11997,7 +12035,8 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "enriched": true
+  "enriched": true,
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "steele2014brain",
@@ -12676,7 +12715,7 @@
   "openalex_id": null,
   "abstract": "Substance use disorders (SUD) have been associated with dysfunction in reward processing, habit formation, and cognitive-behavioral control. Accordingly, neurocircuitry models of addiction highlight roles for nucleus accumbens, dorsal striatum, and prefrontal/anterior cingulate cortex. However, the precise nature of the disrupted interactions between these brain regions in SUD, and the psychological correlates thereof, remain unclear. Here we used magnetic resonance imaging to measure rest-state functional connectivity of three key striatal nuclei (nucleus accumbens, dorsal caudate, and dorsal putamen) in a sample of 40 adult male prison inmates (n = 22 diagnosed with SUD; n = 18 without SUD). Relative to the non-SUD group, the SUD group exhibited significantly lower functional connectivity between the nucleus accumbens and a network of frontal cortical regions involved in cognitive control (dorsal anterior cingulate cortex, dorsolateral prefrontal cortex, and frontal operculum). There were no group differences in functional connectivity for the dorsal caudate or dorsal putamen. Moreover, the SUD group exhibited impairments in laboratory measures of cognitive-behavioral control, and individual differences in functional connectivity between nucleus accumbens and the frontal cortical regions were related to individual differences in measures of cognitive-behavioral control across groups. The strength of the relationship between functional connectivity and cognitive control did not differ between groups. These results indicate that SUD is associated with abnormal interactions between subcortical areas that process reward (nucleus accumbens) and cortical areas that govern cognitive-behavioral control.",
   "abstract_source": "pubmed",
-  "cited_by_count": null,
+  "cited_by_count": 117,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/24510765/",
   "keywords": [
@@ -12723,7 +12762,8 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "enriched": true
+  "enriched": true,
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "cope2014psychopathy",
@@ -15542,7 +15582,7 @@
   "openalex_id": null,
   "abstract": "In this paper, our goal is to (a) survey some of the legal contexts within which violence risk assessment already plays a prominent role, (b) explore whether developments in neuroscience could potentially be used to improve our ability to predict violence, and (c) discuss whether neuropredictive models of violence create any unique legal or moral problems above and beyond the well worn problems already associated with prediction more generally. In \"Violence Risk Assessment and the Law\", we briefly examine the role currently played by predictions of violence in three high stakes legal contexts: capital sentencing (\"Violence Risk Assessment and Capital Sentencing\"), civil commitment hearings (\"Violence Risk Assessment and Civil Commitment\"), and \"sexual predator\" statutes (\"Violence Risk Assessment and Sexual Predator Statutes\"). In \"Clinical vs. Actuarial Violence Risk Assessment\", we briefly examine the distinction between traditional clinical methods of predicting violence and more recently developed actuarial methods, exemplified by the Classification of Violence Risk (COVR) software created by John Monahan and colleagues as part of the MacArthur Study of Mental Disorder and Violence [1]. In \"The Neural Correlates of Psychopathy\", we explore what neuroscience currently tells us about the neural correlates of violence, using the recent neuroscientific research on psychopathy as our focus. We also discuss some recent advances in both data collection (\"Cutting-Edge Data Collection: Genetically Informed Neuroimaging\") and data analysis (\"Cutting-Edge Data Analysis: Pattern Classification\") that we believe will play an important role when it comes to future neuroscientific research on violence. In \"The Potential Promise of Neuroprediction\", we discuss whether neuroscience could potentially be used to improve our ability to predict future violence. Finally, in \"The Potential Perils of Neuroprediction\", we explore some potential evidentiary (\"Evidentiary Issues\"), constitutional (\"Constitutional Issues\"), and moral (\"Moral Issues\") issues that may arise in the context of the neuroprediction of violence.",
   "abstract_source": "pubmed",
-  "cited_by_count": null,
+  "cited_by_count": 97,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/25083168/",
   "keywords": [
@@ -15588,7 +15628,8 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "enriched": true
+  "enriched": true,
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "baskinsommers2012characterizing",
@@ -15794,7 +15835,7 @@
   "openalex_id": null,
   "abstract": "OBJECTIVE: Psychopathy is a personality disorder associated with severely antisocial behavior and a host of cognitive and affective deficits. The neuropathological basis of the disorder has not been clearly established. Cortical thickness is a sensitive measure of brain structure that has been used to identify neurobiological abnormalities in a number of psychiatric disorders. The authors assessed cortical thickness and corresponding functional connectivity in psychopathic prison inmates. METHOD: Using T1 MRI data, the authors computed cortical thickness maps in a sample of adult male prison inmates selected on the basis of psychopathy diagnosis (21 psychopathic inmates and 31 nonpsychopathic inmates). Using restingstate functional MRI data from a subset of these inmates (20 psychopathic inmates and 20 nonpsychopathic inmates), the authors then computed functional connectivity within networks exhibiting significant thinning among psychopaths. RESULTS: Relative to nonpsychopaths, psychopaths had significantly thinner cortex in a number of regions, including the left insula and dorsal anterior cingulate cortex, the left and right precentral gyri, the left and right anterior temporal cortices, and the right inferior frontal gyrus. These neurostructural differences were not due to differences in age, IQ, or substance use. Psychopaths also exhibited a corresponding reduction in functional connectivity between the left insula and the left dorsal anterior cingulate cortex. CONCLUSIONS: Psychopathy is associated with a distinct pattern of cortical thinning and reduced functional connectivity.",
   "abstract_source": "pubmed",
-  "cited_by_count": null,
+  "cited_by_count": 170,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/22581200/",
   "keywords": [],
@@ -15831,7 +15872,8 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "enriched": true
+  "enriched": true,
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "fink2012assessment",
@@ -17035,8 +17077,8 @@
   "openalex_id": null,
   "abstract": "Linking psychopathy to a specific brain abnormality could have significant clinical, legal, and scientific implications. Theories on the neurobiological basis of the disorder typically propose dysfunction in a circuit involving ventromedial prefrontal cortex (vmPFC). However, to date there is limited brain imaging data to directly test whether psychopathy may indeed be associated with any structural or functional abnormality within this brain area. In this study, we employ two complementary imaging techniques to assess the structural and functional connectivity of vmPFC in psychopathic and non-psychopathic criminals. Using diffusion tensor imaging, we show that psychopathy is associated with reduced structural integrity in the right uncinate fasciculus, the primary white matter connection between vmPFC and anterior temporal lobe. Using functional magnetic resonance imaging, we show that psychopathy is associated with reduced functional connectivity between vmPFC and amygdala as well as between vmPFC and medial parietal cortex. Together, these data converge to implicate diminished vmPFC connectivity as a characteristic neurobiological feature of psychopathy.",
   "abstract_source": "pubmed",
-  "cited_by_count": null,
-  "oa_url": null,
+  "cited_by_count": 401,
+  "oa_url": "https://www.jneurosci.org/content/jneuro/31/48/17348.full.pdf",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/22131397/",
   "keywords": [],
   "links": [
@@ -17072,7 +17114,8 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "enriched": true
+  "enriched": true,
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "shoemaker2011practical",
@@ -17862,7 +17905,7 @@
   "openalex_id": null,
   "abstract": "OBJECTIVE: In this paper, we develop a dynamic functional network connectivity (FNC) analysis approach using correlations between windowed time-courses of different brain networks (components) estimated via spatial independent component analysis (sICA). We apply the developed method to fMRI data to evaluate it and to study task-modulation of functional connections. MATERIALS AND METHODS: We study the theoretical basis of the approach, perform a simulation analysis and apply it to fMRI data from schizophrenia patients (SP) and healthy controls (HC). Analyses on the fMRI data include: (a) group sICA to determine regions of significant task-related activity, (b) static and dynamic FNC analysis among these networks by using maximal lagged-correlation and time-frequency analysis, and (c) HC-SP group differences in functional network connections and in task-modulation of these connections. RESULTS: This new approach enables an assessment of task-modulation of connectivity and identifies meaningful inter-component linkages and differences between the two study groups during performance of an auditory oddball task (AOT). The static FNC results revealed that connectivities involving medial visual-frontal, medial temporal-medial visual, parietal-medial temporal, parietal-medial visual and medial temporal-anterior temporal were significantly greater in HC, whereas only the right lateral fronto-parietal (RLFP)-orbitofrontal connection was significantly greater in SP. The dynamic FNC revealed that task-modulation of motor-frontal, RLFP-medial temporal and posterior default mode (pDM)-parietal connections were significantly greater in SP, and task modulation of orbitofrontal-pDM and medial temporal-frontal connections were significantly greater in HC (all P < 0.05). CONCLUSION: The task-modulation of dynamic FNC provided findings and differences between the two groups that are consistent with the existing hypothesis that schizophrenia patients show less segregated motor, sensory, cognitive functions and less segregated default mode network activity when engaged with a task. Dynamic FNC, based on sICA, provided additional results which are different than, but complementary to, those of static FNC. For example, it revealed dynamic changes in default mode network connectivities with other regions which were significantly different in schizophrenia in terms of task-modulation, findings which were not possible to discover by static FNC.",
   "abstract_source": "pubmed",
-  "cited_by_count": null,
+  "cited_by_count": 668,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/20162320/",
   "keywords": [],
@@ -17900,7 +17943,8 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "enriched": true
+  "enriched": true,
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "aikins2010sex",
@@ -18541,7 +18585,7 @@
   "openalex_id": null,
   "abstract": "Processing of novel and target stimuli in the auditory target detection or 'oddball' task encompasses the chronometry of perception, attention and working memory and is reflected in scalp recorded event-related potentials (ERPs). A variety of ERP components related to target and novelty processing have been described and extensively studied, and linked to deficits of cognitive processing. However, little is known about associations of genotypes with ERP endophenotypes. Here we sought to elucidate the genetic underpinnings of auditory oddball ERP components using a novel data analysis technique. A parallel independent component analysis of the electrophysiology and single nucleotide polymorphism (SNP) data was used to extract relations between patterns of ERP components and SNP associations purely based on an analysis incorporating higher order statistics. The method allows for broader associations of genotypes with phenotypes than traditional hypothesis-driven univariate correlational analyses. We show that target detection and processing of novel stimuli are both associated with a shared cluster of genes linked to the adrenergic and dopaminergic pathways. These results provide evidence of genetic influences on normal patterns of ERP generation during auditory target detection and novelty processing at the SNP association level.",
   "abstract_source": "pubmed",
-  "cited_by_count": null,
+  "cited_by_count": 66,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/19285141/",
   "keywords": [],
@@ -18579,7 +18623,8 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "enriched": true
+  "enriched": true,
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "bates2009low",
@@ -19064,7 +19109,7 @@
   "openalex_id": null,
   "abstract": "Identifying intermediate phenotypes of genetically complex psychiatric illnesses such as schizophrenia is important. First-degree relatives of persons with schizophrenia have increased genetic risk for the disorder and tend to show deficits on working memory (WM) tasks. An open question is the relationship between such behavioral endophenotypes and the corresponding brain activation patterns revealed during functional imaging. We measured task performance during a Sternberg WM task and used functional magnetic resonance imaging (fMRI) to assess whether 23 non-affected first-degree relatives showed altered performance and functional activation compared to 43 matched healthy controls. We predicted that a significant proportion of unaffected first-degree relatives would show either aberrant task performance and/or abnormal related fMRI blood oxygen level dependent (BOLD) patterns. While task performance in the relatives was not different than that of controls they were significantly slower in responding to probes., Schizophrenia relatives displayed reduced activation, most markedly in bilateral dorsolateral/ventrolateral (DLPFC/VLPFC) prefrontal and posterior parietal cortex when encoding stimuli and in bilateral DLPFC and parietal areas during response selection. Additionally, fMRI differences in both conditions were modulated by load, with a parametric increase in between-group differences with load in several key regions during encoding and an opposite effect during response selection.",
   "abstract_source": "pubmed",
-  "cited_by_count": null,
+  "cited_by_count": 59,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/18678469/",
   "keywords": [],
@@ -19103,7 +19148,8 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "enriched": true
+  "enriched": true,
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "demirci2008review",
@@ -19221,7 +19267,7 @@
   "openalex_id": null,
   "abstract": "Disgust, an emotion related to avoiding harmful substances, has been linked to moral judgments in many behavioral studies. However, the fact that participants report feelings of disgust when thinking about feces and a heinous crime does not necessarily indicate that the same mechanisms mediate these reactions. Humans might instead have separate neural and physiological systems guiding aversive behaviors and judgments across different domains. The present interdisciplinary study used functional magnetic resonance imaging (n = 50) and behavioral assessment to investigate the biological homology of pathogen-related and moral disgust. We provide evidence that pathogen-related and sociomoral acts entrain many common as well as unique brain networks. We also investigated whether morality itself is composed of distinct neural and behavioral subdomains. We provide evidence that, despite their tendency to elicit similar ratings of moral wrongness, incestuous and nonsexual immoral acts entrain dramatically separate, while still overlapping, brain networks. These results (i) provide support for the view that the biological response of disgust is intimately tied to immorality, (ii) demonstrate that there are at least three separate domains of disgust, and (iii) suggest strongly that morality, like disgust, is not a unified psychological or neurological phenomenon.",
   "abstract_source": "pubmed",
-  "cited_by_count": null,
+  "cited_by_count": 302,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/18345982/",
   "keywords": [],
@@ -19258,7 +19304,8 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "enriched": true
+  "enriched": true,
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "harenski2008gender",
@@ -19677,7 +19724,7 @@
   "openalex_id": null,
   "abstract": "When assessed with performance measures, Emotional Intelligence (EI) correlates positively with the quality of social relationships. However, the bases of such correlations are not understood in terms of cognitive and neural information processing mechanisms. We investigated whether a performance measure of EI is related to reasoning about social situations (specifically social exchange reasoning) using versions of the Wason Card Selection Task. In an fMRI study (N=16), higher EI predicted hemodynamic responses during social reasoning in the left frontal polar and left anterior temporal brain regions, even when controlling for responses on a very closely matched task (precautionary reasoning). In a larger behavioral study (N=48), higher EI predicted faster social exchange reasoning, after controlling for precautionary reasoning. The results are the first to directly suggest that EI is mediated in part by mechanisms supporting social reasoning and validate a new approach to investigating EI in terms of more basic information processing mechanisms.",
   "abstract_source": "pubmed",
-  "cited_by_count": null,
+  "cited_by_count": 148,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/17331743/",
   "keywords": [],
@@ -19710,7 +19757,8 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "enriched": true
+  "enriched": true,
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "garrity2007aberrant",
@@ -20394,7 +20442,7 @@
   "openalex_id": null,
   "abstract": "The amygdala is implicated in emotional processing, and its rich subcortical connections have led to suggestions that processing of emotional stimuli occurs independently of attention. Using a novel attentional manipulation in conjunction with fMRI, we showed that emotion-related amygdala activity was modulated by attention, but that the degree of such modulation correlated with the personality variable harm avoidance, associated with trait anxiety. Participants ignored emotional distractors while searching through a rapid stream of pictures for a target, about which they were provided either specific or nonspecific descriptive information (e.g., \"look for a building\" versus \"look for a landscape or building\"). Thus, they employed either a specific or a nonspecific attentional set in order to find the target and ignore distractors. In response to irrelevant emotional distractors, low harm-avoidant participants had relatively little emotion-related amygdala activity regardless of whether they maintained a specific or nonspecific attentional set. High harm-avoidant participants, however, showed strong emotion-related amygdala activity when maintaining a nonspecific attentional set and lower amygdala activity when maintaining a specific attentional set. This decrease was accompanied by increased activation of the rostral anterior cingulate cortex (ACC), which is often linked with the resolution of affective interference. In addition to demonstrating individual differences in attentional modulation of the amygdala, these results may indicate that the rostral ACC is sensitive to the increased effort that high harm-avoidant individuals must recruit in order to modulate amygdala responsivity.",
   "abstract_source": "pubmed",
-  "cited_by_count": null,
+  "cited_by_count": 157,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/16492400/",
   "keywords": [],
@@ -20426,7 +20474,8 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "enriched": true
+  "enriched": true,
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "johnson2006fmri",
@@ -20536,7 +20585,7 @@
   "openalex_id": null,
   "abstract": "BACKGROUND: Patients with schizophrenia have an impaired ability to generate activity that is appropriate to current circumstances and goals. METHOD: We report a study using functional magnetic resonance imaging (fMRI) to examine cerebral activity during a three-tone auditory oddball target detection task in a sample of 28 patients with schizophrenia and 28 healthy controls. RESULTS: The patients exhibited significantly less activation in response to target stimuli relative to baseline in an extensive set of sites in association neocortex, paralimbic cortex, limbic structures and subcortical nuclei, yet demonstrated a normal level of activation in the sensorimotor cortex. Comparison of activity elicited by rare target stimuli with that elicited by equally rare novel stimuli makes it possible to distinguish cerebral activity associated with attention to behaviourally salient stimuli from activity associated with attending to other attention-capturing stimuli. This comparison revealed that the patients with schizophrenia also exhibited a deficit in activation of basal forebrain areas that mediate motivation during the processing of behaviourally salient stimuli, including the amygdala, ventral striatum, orbital frontal cortex and rostral anterior cingulate cortex. CONCLUSION: Patients with schizophrenia have a deficit in function of the brain system concerned with mediating motivation, in addition to a more general deficit in the cerebral response to attention-captivating stimuli.",
   "abstract_source": "pubmed",
-  "cited_by_count": null,
+  "cited_by_count": 71,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/16650349/",
   "keywords": [],
@@ -20570,7 +20619,8 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "enriched": true
+  "enriched": true,
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "kiehl2006cognitive",
@@ -20817,7 +20867,7 @@
   "openalex_id": null,
   "abstract": "Limited processing resources are allocated preferentially to events that are relevant for behavior. Research using the novelty \"oddball\" paradigm suggests that a widespread network of limbic, paralimbic, and association areas supports the goal-directed processing of task-relevant target events. In that paradigm, greater activity in diverse brain areas is elicited by rare task-relevant events that require a subsequent motor response than by rare task-irrelevant novel events that require no response. Both stimulus infrequency (unexpectedness) and novelty, however, may contribute to the pattern of activity observed using that paradigm. The goal of the present study was to examine the supramodal neural activity elicited by regularly occurring, equiprobable, and non-novel stimuli that differed in the subsequent behavior they prescribed. We employed event-related functional magnetic resonance imaging (fMRI) during auditory and visual versions of a Go/NoGo task. Participants made a motor response to the designated \"Go\" (target) stimulus, and no motor response to the equiprobable \"NoGo\" (nontarget) stimulus. We hypothesized that task-relevant Go events would elicit relatively greater hemodynamic activity than would NoGo events throughout a network of limbic, paralimbic, and association areas. Indeed, Go events elicited greater activity than did NoGo events in the amygdala-hippocampus, paralimbic cortex at the anterior superior temporal sulcus, insula, posterior orbitofrontal cortex, and anterior and posterior cingulate cortex, as well as in heteromodal association areas located at the temporoparietal junction, anterior intraparietal sulcus and precuneus, and premotor cortex. Paralimbic cortex offers an important site for the convergence of motivational/goal-directed influences from limbic cortex with stimulus processing and response selection mediated within the frontoparietal areas.",
   "abstract_source": "pubmed",
-  "cited_by_count": null,
+  "cited_by_count": 64,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/15593271/",
   "keywords": [],
@@ -20854,7 +20904,8 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "enriched": true
+  "enriched": true,
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "maltby2005dysfunctional",
@@ -20894,7 +20945,7 @@
   "openalex_id": null,
   "abstract": "Converging evidence suggests that hyperactivity in frontal-striatal circuits and in action-monitoring processes characterizes obsessive-compulsive disorder (OCD). It remains unclear, however, just how these abnormalities in brain function translate into the cognitive, affective, and behavioral manifestations of OCD. One possibility is that exaggerated or false error signals generated by the anterior cingulate (ACC) underlie compulsive behaviors by triggering the feeling that things are \"not just right\" even when no actual error has been made. Since recurrent compulsive behavior typically follows correct completion of a behavioral task (e.g., hand washing), ACC hyperactivity should be observed during correctly completed, high-conflict trials as well as during error trials. Frontal-striatal regions would also be expected to be activated during both trial types, as these regions are robustly associated with OCD across multiple neuroimaging paradigms. To test this hypothesis, 14 OCD patients and 14 matched controls completed a speeded reaction time task during functional magnetic resonance imaging (fMRI). Only correctly rejected, high-conflict trials produced excessive activation in both action monitoring (rostral and caudal ACC, LPFC) and frontal striatal regions (lateral orbitofrontal cortex (OFC), caudate, and thalamus) among OCD patients when compared to healthy controls. Portions of the posterior cingulate were also hyperactive among OCD patients. These results suggest that correctly rejected, high-conflict trials that require response inhibition may provide a better model than error trials of compulsive behaviors in OCD.",
   "abstract_source": "pubmed",
-  "cited_by_count": null,
+  "cited_by_count": 378,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/15627591/",
   "keywords": [],
@@ -20927,7 +20978,8 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "enriched": true
+  "enriched": true,
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "laurens2005attention",
@@ -20961,7 +21013,7 @@
   "openalex_id": null,
   "abstract": "Schizophrenia is characterised by marked disturbances of attention and information processing. Patients experience difficulty focusing on relevant cues and avoiding distraction by irrelevant stimuli. Event-related potential recordings indicate an amplitude reduction in the P3a component elicited by involuntary orienting to task-irrelevant, infrequent novel stimuli presented during auditory oddball detection in patients with schizophrenia. The goal of the present study was to elucidate the functional abnormality underlying the disturbed orienting to novel stimuli in schizophrenia. Twenty-eight stable, partially remitted, medicated patients with schizophrenia and 28 healthy control participants completed a novelty oddball variant during event-related fMRI. Relative to healthy participants, patients with schizophrenia were characterised by underactivity during novel stimulus processing in the right amygdala-hippocampus, within paralimbic cortex in the rostral anterior cingulate and posterior cingulate cortices and the right frontal operculum, and in association cortex at the right temporo-parietal-occipital junction, bilateral intraparietal sulcus, and bilateral dorsal frontal cortex. Subcortically, relative hypoactivation during novelty processing was apparent in the cerebellum, thalamus, and basal ganglia. These results suggest that patients less efficiently reorient processing resources away from the ongoing task of detecting and responding to the task-relevant target stimuli. In addition, trend results suggest that patients experienced increased distraction by novel stimuli.",
   "abstract_source": "pubmed",
-  "cited_by_count": null,
+  "cited_by_count": 125,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/15885507/",
   "keywords": [],
@@ -20994,7 +21046,8 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "enriched": true
+  "enriched": true,
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "mendrek2005dysfunction",
@@ -21032,7 +21085,7 @@
   "openalex_id": null,
   "abstract": "BACKGROUND: In a recent longitudinal study of first-episode schizophrenia patients, we found that while dysfunction of the right dorsolateral prefrontal cortex (DLPFC), right thalamus, left cerebellum and cingulate gyrus normalized with antipsychotic treatment and significant reduction in symptomatology, the left DLPFC, left thalamus, and right cerebellum remained disturbed. In the present study we investigated whether these abnormalities are also present in clinically stable, relatively well-functioning schizophrenia patients in comparison to control subjects during performance of the N-back working-memory task. METHOD: Twelve schizophrenia and 12 control subjects completed the study. The functional images collected during scanning were analyzed using a random-effects model in a restricted set of six regions of interest (ROIs). In addition, the exploratory search in the entire brain volume was performed. RESULTS: The ROI analyses revealed relative underactivation in the region of the left DLPFC and the right cerebellum, as well as overactivation in the left cerebellum. The exploratory whole-brain search exposed additional overactivation in the medial frontal, anterior cingulate, and left parietal cortices. CONCLUSIONS: The present study provides evidence of significant underactivations in stable schizophrenia patients in regions that we have previously observed to be dysfunctional in acutely psychotic and partially remitted patients, together with extensive overactivations in several regions that potentially reflect some compensatory mechanism or increased effort on the working-memory task.",
   "abstract_source": "pubmed",
-  "cited_by_count": null,
+  "cited_by_count": 92,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/15841676/",
   "keywords": [],
@@ -21065,7 +21118,8 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "enriched": true
+  "enriched": true,
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "calhoun2005semi",
@@ -21846,8 +21900,8 @@
   "openalex_id": null,
   "abstract": "BACKGROUND: A number of functional brain abnormalities have been reported in schizophrenia, but it remains to be determined which of them represent trait and state markers of the illness. AIMS: To delineate regional brain dysfunctions that remain stable and those that fluctuate during the course of schizophrenia. METHOD: A cohort of patients with first-episode schizophrenia and a matched group of control participants underwent functional magnetic resonance imaging on two occasions 6-8 weeks apart during performance of a working memory task. The patients' disease was in partial remission at the second scan. RESULTS: Relative to control participants, the function of the left dorsolateral prefrontal cortex, left thalamus and right cerebellum remained disturbed in the people with schizophrenia, whereas the dysfunction of the right dorsolateral prefrontal cortex, right thalamus, left cerebellum and cingulate gyrus normalised, with significant reduction in symptoms. CONCLUSIONS: These results suggest that dysfunction of the left fronto-thalamo-cerebellar circuitry is a relatively stable characteristic of schizophrenia, whereas disturbance of the right circuitry and cingulate gyrusis predominantly a state-related phenomenon.",
   "abstract_source": "pubmed",
-  "cited_by_count": null,
-  "oa_url": null,
+  "cited_by_count": 84,
+  "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/2E3A528A7F906D9826068A632844CBAA/S0007125000078144a.pdf/div-class-title-changes-in-distributed-neural-circuitry-function-in-patients-with-first-episode-schizophrenia-div.pdf",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/15339824/",
   "keywords": [],
   "links": [
@@ -21879,7 +21933,8 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "enriched": true
+  "enriched": true,
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "kiehl2003reproducibility",
@@ -22239,7 +22294,8 @@
   "free_keywords": [],
   "date_added": "",
   "source": "cv-2026",
-  "tag_source": "rules"
+  "tag_source": "rules",
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "ngan2002no",
@@ -22303,7 +22359,8 @@
   "free_keywords": [],
   "date_added": "",
   "source": "cv-2026",
-  "tag_source": "rules"
+  "tag_source": "rules",
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "bates2002error",
@@ -22600,8 +22657,8 @@
   "openalex_id": null,
   "abstract": "Event-related functional magnetic resonance imaging (erfMRI) was employed to measure the hemodynamic response during a Go/No-go task in 16 healthy subjects. The task was designed so that Go and No-go events were equally probable, allowing an unbiased comparison of cerebral activity during these two types of trials. In accordance with prediction, anterior cingulate was active during both the Go and No-go trials, dorsolateral and ventrolateral prefrontal cortex was more active during the No-go trials, while primary motor cortex, supplementary motor area, pre-motor cortex and cerebellum were more active during Go trials. These findings are consistent with the hypothesis that the anterior cingulate cortex is principally engaged in making and monitoring of decisions, while dorsolateral and ventral lateral prefrontal sites play a specific role in response inhibition.",
   "abstract_source": "pubmed",
-  "cited_by_count": null,
-  "oa_url": null,
+  "cited_by_count": 689,
+  "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/1097-0193%28200102%2912%3A2%3C100%3A%3AAID-HBM1007%3E3.0.CO%3B2-6?download=true",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/11169874/",
   "keywords": [],
   "links": [
@@ -22637,7 +22694,8 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "enriched": true
+  "enriched": true,
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "kiehl2001event",
@@ -23287,8 +23345,8 @@
   "openalex_id": null,
   "abstract": "Event-related brain potentials (ERPs) were recorded during two spatial-cuing experiments using nonpredictive cues. Our primary goal was to determine the electrophysiological consequences of inhibition of return (IOR). At long (> 500 msec) cue-target intervals, subjects responded more slowly to targets that appeared at or near the cued location, relative to targets that appeared on the opposite side of fixation from the cue. This behavioral IOR effect was associated with cue-validity effects on several components of the target-elicited ERP waveforms. The earliest such effect was a smaller occipital P1 on valid-cue trials, which we interpret as a P1 reduction. The P2 component was also smaller on valid-cue trials, indicating that nonpredictive spatial cues influence multiple stages of information processing at long cue-target intervals. Both of these effects were observed when sensory interactions between cue and target were likely to be negligible, indicating that they were not caused by sensory refractoriness. A different effect of cue validity, the posterior negative difference, was found when sensory interactions were likely to be greatest, indicating that it could arise from sensory refractoriness.",
   "abstract_source": "pubmed",
-  "cited_by_count": null,
-  "oa_url": null,
+  "cited_by_count": 153,
+  "oa_url": "https://link.springer.com/content/pdf/10.3758/BF03206190.pdf",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/10572468/",
   "keywords": [],
   "links": [
@@ -23319,7 +23377,8 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "enriched": true
+  "enriched": true,
+  "citations_refreshed": "2026-11-24"
  },
  {
   "id": "kiehl1999semantic",
@@ -23545,7 +23604,7 @@
   "openalex_id": null,
   "abstract": "The present study examined antisocial dispositions in 487 university students. Primary and secondary psychopathy scales were developed to assess a protopsychopathic interpersonal philosophy. An antisocial action scale also was developed for purposes of validation. The primary, secondary, and antisocial action scales were correlated with each other and with boredom susceptibility and disinhibition but not with experience seeking and thrill and adventure seeking. Secondary psychopathy was associated with trait anxiety. Multiple regression analysis revealed that the strongest predictors of antisocial action were disinhibition, primary psychopathy, secondary psychopathy, and sex, whereas thrill and adventure seeking was a negative predictor. This argues against a singular behavioral inhibition system mediating both antisocial and risk-taking behavior. These findings are also consistent with the view that psychopathy is a continuous dimension.",
   "abstract_source": "pubmed",
-  "cited_by_count": null,
+  "cited_by_count": 2203,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/7861311/",
   "keywords": [],
@@ -23577,6 +23636,7 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "enriched": true
+  "enriched": true,
+  "citations_refreshed": "2026-11-24"
  }
 ]
