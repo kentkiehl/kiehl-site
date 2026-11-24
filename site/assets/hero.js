@@ -1,7 +1,8 @@
 /* Hero graphic: the lab's mobile MRI drives around a map of the United States.
    The truck follows the cursor (or tours on its own when left alone). When it reaches a city, a few
    mid-sagittal brain "scans" pop out in bubbles and the scan counter goes up. An illustration, not a record
-   of where data were collected. Colour rule shared with the CANlab design: grey at rest, amber when active. */
+   of where data were collected. A killer whale surfaces in the Pacific: drive the truck out to her and a card with
+   an auditory brainstem response (ABR) trace opens, then the visitor is taken to the killer whale research page. Colour rule shared with the CANlab design: grey at rest, amber when active. */
 (function () {
   const canvas = document.getElementById("hero-canvas");
   if (!canvas) return;
@@ -22,6 +23,7 @@
 
   let W = 0, H = 0, dpr = 1, k = 1, ox = 0, oy = 0, outline = [], cities = [], dots = [], path = null;
   const truck = { x: 0, y: 0, vx: 0, vy: 0, dir: 1, bob: 0 };
+  const orca = { x: 0, y: 0, t: 0, near: false, splash: 0, was: 0 }, ORCA_URL = "cetacean.html"; let going = false;
   let mouse = null, lastMove = 0, tour = 0, bubbles = [], trail = [], scans = 0, running = false, last = performance.now();
   const P = (lon, lat) => { const a = albers(lon, lat); return [ox + (a[0] - x0) * k, oy + (a[1] - y0) * k]; };
 
@@ -30,15 +32,59 @@
     W = Math.max(240, r.width); H = Math.max(150, r.height); dpr = Math.min(2, window.devicePixelRatio || 1);
     canvas.width = W * dpr; canvas.height = H * dpr; canvas.style.width = W + "px"; canvas.style.height = H + "px";
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-    const pad = 14; k = Math.min((W - 2 * pad) / (x1 - x0), (H - 2 * pad - 14) / (y1 - y0));
-    ox = (W - (x1 - x0) * k) / 2; oy = (H - 14 - (y1 - y0) * k) / 2;
+    const pad = 14, padL = Math.max(30, W * 0.085); k = Math.min((W - pad - padL) / (x1 - x0), (H - 2 * pad - 14) / (y1 - y0));   // padL leaves room for the Pacific
+    ox = padL + (W - pad - padL - (x1 - x0) * k) / 2; oy = (H - 14 - (y1 - y0) * k) / 2;
     outline = US.map(p => P(p[0], p[1]));
     path = new Path2D(); outline.forEach((p, i) => i ? path.lineTo(p[0], p[1]) : path.moveTo(p[0], p[1])); path.closePath();
     cities = CITIES.map(c => { const q = P(c[1], c[2]); return { name: c[0], x: q[0], y: q[1], home: !!c[3], a: 0, cool: 0 }; });
     dots = []; const step = W < 420 ? 11 : 13;
     for (let y = step / 2; y < H; y += step) for (let x = (Math.round(y / step) % 2) * step / 2; x < W; x += step) if (ctx.isPointInPath(path, x * dpr, y * dpr)) dots.push([x, y]);
     const home = cities[0]; truck.x = home.x; truck.y = home.y;
+    const oq = P(-123.6, 33.4); orca.x = Math.max(26, oq[0] - W * 0.04); orca.y = oq[1];
   }
+
+  // The killer whale in the Pacific. j = 0 resting at the surface .. 1 top of a small jump.
+  function drawOrca(t) {
+    const s = Math.max(0.8, Math.min(1.25, W / 500)), cyc = orca.near ? 1.3 : 4.6, u = (t % cyc) / cyc, win = orca.near ? 0.75 : 0.26;
+    const j = reduce ? 0.35 : (u < win ? Math.sin(Math.PI * u / win) : 0), bob = reduce ? 0 : Math.sin(t * 2.2) * 1.2;
+    if (orca.was > 0.25 && j <= 0.25) orca.splash = 1; orca.was = j;
+    const x = orca.x, y = orca.y;
+    ctx.save(); ctx.translate(x, y); ctx.scale(s, s);
+    ctx.strokeStyle = "rgba(111,143,176,.55)"; ctx.lineWidth = 1.1; ctx.lineCap = "round";                          // open water
+    [[-30, 13, 12], [14, 16, 10], [-12, 22, 14], [-40, -6, 8], [26, 2, 9]].forEach((w, i) => { const dx = Math.sin(t * 1.3 + i) * 2; ctx.beginPath(); ctx.moveTo(w[0] + dx, w[1]); ctx.quadraticCurveTo(w[0] + dx + w[2] / 2, w[1] - 3, w[0] + dx + w[2], w[1]); ctx.stroke(); });
+    ctx.save(); ctx.beginPath(); ctx.rect(-60, -80, 120, 83); ctx.clip();                                           // only what is above the water line shows
+    ctx.translate(-2, 9 + bob - j * 17); ctx.rotate(-1.0 + j * 0.3);
+    ctx.fillStyle = "#12161d"; ctx.beginPath(); ctx.moveTo(-9, -8); ctx.lineTo(-15, -23); ctx.quadraticCurveTo(-12, -24, -2, -8.5); ctx.closePath(); ctx.fill();   // dorsal fin
+    ctx.beginPath(); ctx.ellipse(0, 0, 27, 9.5, 0, 0, 6.283); ctx.fill();                                           // body
+    ctx.beginPath(); ctx.ellipse(7, 10, 7, 3.2, 0.9, 0, 6.283); ctx.fill();                                         // flipper
+    ctx.fillStyle = "#f4f4f1"; ctx.beginPath(); ctx.moveTo(26, 2); ctx.quadraticCurveTo(14, 10.5, -10, 8.6); ctx.quadraticCurveTo(6, 4, 26, 2); ctx.fill();          // chin and belly
+    ctx.beginPath(); ctx.ellipse(15, -3.2, 4.4, 1.9, -0.15, 0, 6.283); ctx.fill();                                  // eye patch
+    ctx.fillStyle = "rgba(200,205,212,.75)"; ctx.beginPath(); ctx.ellipse(-12, -6.2, 5, 1.6, 0.2, 0, 6.283); ctx.fill();  // saddle
+    ctx.restore();
+    ctx.strokeStyle = "rgba(111,143,176,.9)"; ctx.lineWidth = 1.3;                                                  // rings where she breaks the surface
+    ctx.beginPath(); ctx.ellipse(-1, 4, 15 + j * 3, 3.4, 0, 0, 6.283); ctx.stroke();
+    if (orca.splash > 0) { const e = 1 - orca.splash; ctx.globalAlpha = orca.splash; ctx.beginPath(); ctx.ellipse(-1, 4, 16 + e * 18, 3.6 + e * 3, 0, 0, 6.283); ctx.stroke();
+      ctx.fillStyle = "rgba(111,143,176,.9)"; for (let i = 0; i < 6; i++) { const a = -2.6 + i * 0.42; ctx.beginPath(); ctx.arc(Math.cos(a) * (10 + e * 16), 2 + Math.sin(a) * (6 + e * 18) + e * e * 14, 1.3, 0, 6.283); ctx.fill(); } ctx.globalAlpha = 1; }
+    ctx.restore();
+    if (W >= 360) { ctx.fillStyle = "rgba(63,99,144,.9)"; ctx.textAlign = "center"; ctx.textBaseline = "middle"; ctx.font = `italic ${W < 420 ? 8.5 : 10}px Inter, system-ui, sans-serif`; ctx.fillText("Pacific Ocean", Math.max(36, x), y + 36 * s); }
+  }
+  // Card that opens when the truck reaches the whale: an illustrative ABR trace and a short countdown to the page.
+  const abr = ms => [[2.6, .22], [3.2, -.2], [3.9, .5], [4.5, -.32], [5.3, .95], [6.1, -1], [7.1, .28], [8, -.12]].reduce((v, g) => v + g[1] * Math.exp(-((ms - g[0]) ** 2) / 0.09), 0) + Math.sin(ms * 9) * 0.03;
+  function drawCard(t) {
+    const a = Math.min(1, orca.t / 0.25), cw = Math.min(190, W * 0.46), ch = cw * 0.56, cx = Math.min(W - cw - 6, Math.max(6, orca.x + 14)), cy = Math.max(6, orca.y - ch - 34);
+    ctx.save(); ctx.globalAlpha = a; ctx.translate(cx, cy + (1 - a) * 10);
+    ctx.fillStyle = "#0b0d11"; ctx.strokeStyle = "rgba(233,185,73,.95)"; ctx.lineWidth = 1.6; ctx.beginPath(); ctx.roundRect(0, 0, cw, ch, 8); ctx.fill(); ctx.stroke();
+    ctx.fillStyle = "#f4f4f1"; ctx.textAlign = "left"; ctx.textBaseline = "top"; ctx.font = `600 ${cw < 150 ? 8.5 : 10.5}px Inter, system-ui, sans-serif`; ctx.fillText("Killer whale brainstem response", 9, 8);
+    const gx = 9, gw = cw - 18, gy = ch * 0.56, gh = ch * 0.24;
+    ctx.strokeStyle = "rgba(255,255,255,.18)"; ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(gx, gy); ctx.lineTo(gx + gw, gy); ctx.stroke();
+    const shown = reduce ? 1 : Math.min(1, orca.t / 1.1); ctx.strokeStyle = "#e9b949"; ctx.lineWidth = 1.5; ctx.lineJoin = "round"; ctx.beginPath();
+    for (let i = 0; i <= 120 * shown; i++) { const ms = i / 12, px = gx + gw * i / 120, py = gy - abr(ms) * gh; i ? ctx.lineTo(px, py) : ctx.moveTo(px, py); } ctx.stroke();
+    ctx.fillStyle = "rgba(244,244,241,.7)"; ctx.font = `${cw < 150 ? 7.5 : 9}px Inter, system-ui, sans-serif`; ctx.textBaseline = "bottom";
+    ctx.fillText(going || orca.t > 1.2 ? "Opening killer whale research…" : "10 ms · about 1 µV · Yaka, 1999", 9, ch - 9);
+    ctx.fillStyle = "rgba(233,185,73,.95)"; ctx.fillRect(0, ch - 3, cw * Math.min(1, orca.t / 2.2), 3);
+    ctx.restore();
+  }
+  function goOrca() { if (going) return; going = true; location.href = ORCA_URL; }
 
   // One mid-sagittal slice, drawn once on an offscreen canvas and reused in every bubble
   const slice = document.createElement("canvas"); slice.width = slice.height = 96;
@@ -106,6 +152,11 @@
     trail.forEach(p => p.a -= dt * 0.45); trail = trail.filter(p => p.a > 0);
     for (const c of cities) { c.a = Math.max(0, c.a - dt * 0.5); c.cool = Math.max(0, c.cool - dt); if (!c.cool && Math.hypot(c.x - truck.x, c.y - truck.y) < 15) arrive(c); }
 
+    const dOrca = Math.hypot(orca.x - truck.x, orca.y - truck.y), driving = mouse && now - lastMove < 6000;
+    orca.near = !reduce && driving && dOrca < 34; orca.splash = Math.max(0, orca.splash - dt * 1.6);
+    orca.t = orca.near || going ? orca.t + dt : Math.max(0, orca.t - dt * 2.5);
+    if (orca.t >= 2.2) goOrca();
+
     ctx.clearRect(0, 0, W, H);
     ctx.fillStyle = "rgba(128,135,147,.34)"; for (const p of dots) { ctx.beginPath(); ctx.arc(p[0], p[1], 1.25, 0, 6.283); ctx.fill(); }
     ctx.strokeStyle = "rgba(100,107,117,.75)"; ctx.lineWidth = 1.4; ctx.lineJoin = "round"; ctx.stroke(path);
@@ -118,6 +169,7 @@
       ctx.strokeStyle = "rgba(250,248,244,.9)"; ctx.lineWidth = 1; ctx.stroke();
       if (W >= 360 || c.home) { ctx.fillStyle = c.home ? "#a3232f" : "rgba(100,107,117,.95)"; const right = c.x > W - 70; ctx.textAlign = right ? "right" : "left"; ctx.fillText(c.name, c.x + (right ? -7 : 7), c.y - (c.home ? 9 : 0)); }
     }
+    drawOrca(t);
     drawTruck(truck.x, truck.y, truck.dir, t);
     bubbles = bubbles.filter(b => b.t < b.life);
     for (const b of bubbles) {
@@ -129,6 +181,7 @@
       ctx.fillStyle = "rgba(255,255,255,.5)"; ctx.beginPath(); ctx.ellipse(b.x - r * 0.42, b.y - r * 0.5, r * 0.2, r * 0.1, -0.7, 0, 6.283); ctx.fill();
       ctx.globalAlpha = 1;
     }
+    if (orca.t > 0) drawCard(t);
     ctx.fillStyle = "rgba(100,107,117,.95)"; ctx.textAlign = "left"; ctx.textBaseline = "alphabetic"; ctx.font = "500 11px 'JetBrains Mono', ui-monospace, monospace";
     ctx.fillText(`scans collected: ${String(scans).padStart(4, "0")}`, 10, H - 6);
     if (running) requestAnimationFrame(frame);
@@ -141,7 +194,10 @@
   else if ("IntersectionObserver" in window) new IntersectionObserver(es => es.forEach(e => e.isIntersecting ? start() : stop())).observe(canvas);
   else start();
   const pos = e => { const r = canvas.getBoundingClientRect(); return { x: e.clientX - r.left, y: e.clientY - r.top }; };
-  canvas.addEventListener("pointermove", e => { mouse = pos(e); lastMove = performance.now(); });
+  const overOrca = m => Math.hypot(m.x - orca.x, m.y - orca.y) < 30;
+  canvas.addEventListener("pointermove", e => { mouse = pos(e); lastMove = performance.now(); canvas.style.cursor = overOrca(mouse) ? "pointer" : ""; });
+  canvas.addEventListener("click", e => { if (e.pointerType !== "touch" && overOrca(pos(e))) goOrca(); });   // a mouse click on the whale goes straight there; touch drives the truck over first
+  window.addEventListener("pageshow", () => { going = false; orca.t = 0; mouse = null; lastMove = 0; if (cities.length) { truck.x = cities[0].x; truck.y = cities[0].y; truck.vx = truck.vy = 0; } if (!reduce && !document.hidden) start(); });
   canvas.addEventListener("pointerdown", e => { mouse = pos(e); lastMove = performance.now(); });
   canvas.addEventListener("pointerleave", () => { lastMove = performance.now() - 4500; });
   let rt; window.addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(() => { const s = scans; build(); scans = s; if (reduce) frame(performance.now()); }, 150); });

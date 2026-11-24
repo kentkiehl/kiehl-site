@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Killer whale research | Kiehl Lab</title>
+<meta name="description" content="Killer whale research from the Kiehl Lab: recording auditory brainstem responses from two adult killer whales, Yaka and Vigga, and what brain potentials could tell us about whales next.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..600,0..100;1,9..144,300..600,0..100&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<meta property="og:site_name" content="Kiehl Lab">
+<meta property="og:title" content="Killer whale research | Kiehl Lab">
+<meta property="og:description" content="Killer whale research from the Kiehl Lab: recording auditory brainstem responses from two adult killer whales, Yaka and Vigga, and what brain potentials could tell us about whales next.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://kentkiehl.com/cetacean.html">
+<meta property="og:image" content="https://kentkiehl.com/assets/og.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://kentkiehl.com/assets/og.jpg">
+<link rel="canonical" href="https://kentkiehl.com/cetacean.html">
+<link rel="icon" href="assets/favicon.svg?v=3" type="image/svg+xml"><link rel="alternate icon" href="assets/favicon-32.png?v=3" sizes="32x32"><link rel="apple-touch-icon" href="assets/apple-touch-icon.png?v=3">
+<link rel="stylesheet" href="assets/app.css?v=4">
+<style>
+  .lead { display: grid; gap: 2rem; grid-template-columns: 1fr; align-items: start; margin-bottom: 1.2rem; }
+  @media (min-width: 860px) { .lead { grid-template-columns: minmax(0, 1.5fr) minmax(0, 300px); gap: 3rem; } }
+  .lead p { font-size: 1.06rem; color: var(--ink-2); max-width: 68ch; }
+  .lead figure { margin: 0; } .lead img { width: 100%; max-width: 320px; border-radius: var(--radius-sm); border: 1px solid var(--line); display: block; }
+  figcaption { font-size: .84rem; color: var(--muted); margin-top: .5rem; max-width: 62ch; }
+  .stats { display: grid; gap: .8rem; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); margin: 1.4rem 0 2.4rem; }
+  .stat-c { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-sm); padding: 1rem 1.1rem; }
+  .stat-c b { display: block; font-family: var(--serif); font-size: 1.9rem; font-weight: 500; color: var(--accent-deep); line-height: 1.1; margin-bottom: .3rem; } .stat-c span { font-size: .88rem; color: var(--ink-2); }
+  .sec { border-top: 1px solid var(--line); padding: 2rem 0 .6rem; } .sec h2 { font-size: 1.55rem; margin: 0 0 .7rem; } .sec p { color: var(--ink-2); max-width: 72ch; }
+  .figs { display: grid; gap: 1.6rem; grid-template-columns: 1fr; margin: 1.2rem 0 1.6rem; } @media (min-width: 900px) { .figs { grid-template-columns: 1fr 1.25fr; } }
+  .figs figure { margin: 0; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-sm); padding: 1rem 1.1rem; }
+  .figs h3 { font-size: 1.05rem; margin: 0 0 .5rem; } .figs svg { width: 100%; height: auto; display: block; }
+  .figs svg text { font-family: Inter, system-ui, sans-serif; fill: var(--ink-2); font-size: 11px; }
+  .abr-box { background: #0b0d11; border-radius: 8px; } .abr-box text { fill: #c9ced6 !important; }
+  .team { font-size: .92rem; color: var(--ink-2); padding-left: 1.1rem; } .cite { font-size: .95rem; max-width: 80ch; }
+</style>
+</head>
+<body>
+<div id="site-header"></div>
+<main class="wrap">
+  <div class="page-head"><p class="eyebrow">Cetacean research</p><h1>Recording the brain of a killer whale</h1></div>
+  <div class="lead"><div id="lede"></div><figure id="photo"></figure></div>
+  <div class="stats" id="stats"></div>
+  <div id="body"><div class="spinner">Loading…</div></div>
+</main>
+<div id="site-footer"></div>
+<script src="assets/config.js?v=4"></script>
+<script src="assets/app.js?v=3"></script>
+<script src="assets/layout.js?v=7"></script>
+<script>
+(async function () {
+  const esc = CL.esc, c = await CL.getJSON("data/cetacean.json");
+  document.getElementById("lede").innerHTML = c.lede.map(p => `<p>${esc(p)}</p>`).join("");
+  document.getElementById("photo").innerHTML = `<img src="${esc(c.photo.src)}" alt="${esc(c.photo.alt)}"><figcaption>${esc(c.photo.caption)}</figcaption>`;
+  document.getElementById("stats").innerHTML = c.stats.map(s => `<div class="stat-c"><b>${esc(s[0])}</b><span>${esc(s[1])}</span></div>`).join("");
+
+  // Illustrative ABR trace (schematic, same shape as the card on the home-page map)
+  const abr = ms => [[2.6, .22], [3.2, -.2], [3.9, .5], [4.5, -.32], [5.3, .95], [6.1, -1], [7.1, .28], [8, -.12]].reduce((v, g) => v + g[1] * Math.exp(-((ms - g[0]) ** 2) / 0.09), 0) + Math.sin(ms * 9) * 0.03;
+  let d = ""; for (let i = 0; i <= 200; i++) { const ms = i / 20; d += (i ? "L" : "M") + (40 + ms * 30).toFixed(1) + " " + (110 - abr(ms) * 62).toFixed(1); }
+  const abrSvg = `<svg class="abr-box" viewBox="0 0 360 230" role="img" aria-label="Schematic killer whale auditory brainstem response: several waves within 10 milliseconds of a tone burst, the largest about one microvolt peak to peak">
+    <line x1="40" y1="110" x2="340" y2="110" stroke="rgba(255,255,255,.2)"/>
+    ${[0, 2, 4, 6, 8, 10].map(m => `<line x1="${40 + m * 30}" y1="196" x2="${40 + m * 30}" y2="201" stroke="#8b929c"/><text x="${40 + m * 30}" y="214" text-anchor="middle">${m}</text>`).join("")}
+    <text x="190" y="227" text-anchor="middle">milliseconds after the tone burst</text>
+    <line x1="24" y1="79" x2="24" y2="141" stroke="#c9ced6"/><line x1="21" y1="79" x2="27" y2="79" stroke="#c9ced6"/><line x1="21" y1="141" x2="27" y2="141" stroke="#c9ced6"/><text x="14" y="110" text-anchor="middle" transform="rotate(-90 14 110)">0.5 µV</text>
+    <path d="${d}" fill="none" stroke="#e9b949" stroke-width="2" stroke-linejoin="round"/>
+    <text x="40" y="24" style="font-weight:600">tone burst</text><line x1="40" y1="30" x2="40" y2="100" stroke="rgba(255,255,255,.35)" stroke-dasharray="3 3"/>
+  </svg>`;
+
+  // Audiogram redrawn from Table I: log frequency axis, lower = more sensitive
+  const T = c.table, X = f => 52 + (Math.log10(f) / 2) * 388, Y = v => 242 - (v - 20) / 100 * 220;
+  const line = arr => arr.map((v, i) => v == null ? "" : (arr[i - 1] == null ? "M" : "L") + X(T.freq[i]).toFixed(1) + " " + Y(v).toFixed(1)).join("");
+  const audSvg = `<svg viewBox="0 0 460 300" role="img" aria-label="Line chart of killer whale hearing thresholds from 1 to 100 kilohertz. Behavioral and brainstem-response thresholds follow the same U-shaped curve, with best hearing near 20 kilohertz.">
+    ${[20, 40, 60, 80, 100, 120].map(v => `<line x1="52" y1="${Y(v)}" x2="440" y2="${Y(v)}" stroke="var(--line)"/><text x="46" y="${Y(v) + 4}" text-anchor="end">${v}</text>`).join("")}
+    ${[1, 2, 4, 8, 16, 32, 60, 100].map(f => `<line x1="${X(f)}" y1="242" x2="${X(f)}" y2="247" stroke="var(--muted)"/><text x="${X(f)}" y="260" text-anchor="middle">${f}</text>`).join("")}
+    <text x="246" y="280" text-anchor="middle">tone frequency (kHz)</text><text x="14" y="132" text-anchor="middle" transform="rotate(-90 14 132)">threshold (dB re 1 µPa)</text>
+    <path d="${line(T.abr)}" fill="none" stroke="var(--accent)" stroke-width="2"/><path d="${line(T.behavioral)}" fill="none" stroke="var(--steel-deep)" stroke-width="2" stroke-dasharray="6 4"/>
+    ${T.freq.map((f, i) => `<rect x="${X(f) - 3.5}" y="${Y(T.abr[i]) - 3.5}" width="7" height="7" fill="var(--accent)"><title>${f} kHz, brainstem response: ${T.abr[i]} dB</title></rect>` + (T.behavioral[i] == null ? "" : `<circle cx="${X(f)}" cy="${Y(T.behavioral[i])}" r="4" fill="var(--surface)" stroke="var(--steel-deep)" stroke-width="2"><title>${f} kHz, behavioral: ${T.behavioral[i]} dB</title></circle>`)).join("")}
+    <rect x="170" y="26" width="7" height="7" fill="var(--accent)"/><text x="184" y="34">Brainstem response (ABR)</text>
+    <circle cx="173.5" cy="48" r="4" fill="var(--surface)" stroke="var(--steel-deep)" stroke-width="2"/><text x="184" y="52">Behavioral response</text>
+    <text x="${X(20)}" y="${Y(34) + 18}" text-anchor="middle" style="font-weight:600">best hearing, 20 kHz</text>
+  </svg>`;
+  const figs = `<div class="figs"><figure><h3>The brainstem response</h3>${abrSvg}<figcaption>${esc(c.abr_caption)}</figcaption></figure>
+    <figure><h3>Two ways of measuring the same hearing</h3>${audSvg}<figcaption>${esc(c.table.caption)}</figcaption></figure></div>`;
+
+  const p = c.paper;
+  document.getElementById("body").innerHTML = c.sections.map((s, i) => `<section class="sec"><h2>${esc(s[0])}</h2>${s[1].map(x => `<p>${esc(x)}</p>`).join("")}${i === 1 ? figs : ""}</section>`).join("") +
+    `<div class="callout" style="margin:1rem 0 0;max-width:80ch"><b>Help bring this research back.</b> ${esc(c.support)}
+      <p style="margin:.9rem 0 0"><a class="btn primary" href="contact.html">Contact Dr. Kiehl</a> <a class="btn" href="donate.html">Support the research</a></p></div>
+    <section class="sec" style="margin-top:2rem"><h2>The paper</h2><p class="cite">${esc(p.cite)}</p>
+      <p><a class="btn" href="papers/${encodeURIComponent(p.id)}.html">Abstract and details</a> <a class="btn" href="https://doi.org/${esc(p.doi)}" target="_blank" rel="noopener">Journal page ↗</a> <a class="btn" href="https://pubmed.ncbi.nlm.nih.gov/${esc(p.pmid)}/" target="_blank" rel="noopener">PubMed ↗</a></p>
+      <h3 style="font-size:1.05rem;margin:1.2rem 0 .4rem">The team</h3><ul class="team">${c.team.map(t => `<li>${esc(t)}</li>`).join("")}</ul></section>`;
+})().catch(e => { document.getElementById("body").innerHTML = `<div class="empty">Could not load (${CL.esc(e.message)}).</div>`; });
+</script>
+</body>
+</html>

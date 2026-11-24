@@ -194,6 +194,21 @@
    "paragraphs": [
     "A second line of work, begun with Peter Liddle in Vancouver and continued at the Institute of Living and Yale, uses oddball, response-inhibition and error-monitoring tasks with fMRI and event-related potentials to map attention and cognitive-control systems in healthy people and in schizophrenia, bipolar disorder and other conditions, and, with Vince Calhoun, contributed to independent component analysis methods for brain imaging."
    ]
+  },
+  {
+   "id": "cetacean",
+   "title": "Killer whale hearing and brain potentials",
+   "question": "Can you record brain activity from a killer whale?",
+   "paragraphs": [
+    "Early in his career, Kiehl was part of the team that recorded auditory brainstem responses from two adult female killer whales, Yaka and Vigga, at Marine World Africa USA in Vallejo, California. The whales were trained to hold still at the surface while suction-cup electrodes picked up brain activity of about a millionth of a volt in response to brief tones. The resulting paper (Szymanski, Bain, Kiehl, Pennington, Wong & Henry, 1999) compared hearing thresholds measured from the brain with thresholds measured from behavior in the same animals, and showed that killer whales hear to at least 100 kHz, far higher than the earlier published limit of 32 kHz.",
+    "The lab hopes to return to this work with modern, portable multi-channel EEG, and is looking for partners and donors to make it possible."
+   ],
+   "more": [
+    "cetacean.html",
+    "Killer whale research"
+   ],
+   "image": "whale-kiss.jpg",
+   "image_caption": "Kent Kiehl with a killer whale at Marine World Africa USA, Vallejo, California, in the early 1990s."
   }
  ]
 }
