@@ -49,6 +49,12 @@ jobs:
         env:
           KIEHL_CONTACT_EMAIL: ${{ vars.KIEHL_CONTACT_EMAIL }}
         run: if [ "$(date -u +%u)" = "1" ]; then python -m scripts.lsrp_refresh || true; fi
+      - name: Refresh the world map of citing authors (1st of the month)
+        if: ${{ github.event_name == 'schedule' }}
+        env:
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+          KIEHL_CONTACT_EMAIL: ${{ vars.KIEHL_CONTACT_EMAIL }}
+        run: if [ "$(date -u +%d)" = "01" ]; then python -m scripts.citations_geo || true; fi
       - name: Search for new papers, tag them, refresh citations
         if: ${{ github.event_name != 'push' && inputs.skip_search != true }}
         env:

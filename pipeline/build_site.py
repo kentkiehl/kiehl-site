@@ -238,7 +238,7 @@ def main():
     json.dump([{"id": r["id"], "t": r["title"], "ab": r.get("abstract") or "", "kw": " ".join((r.get("keywords") or []) + (r.get("free_keywords") or [])), "au": " ".join(r["authors"]), "j": r.get("journal") or ""} for r in papers],
               open(site / "text.json", "w"), ensure_ascii=False, separators=(",", ":"))
     shutil.copy(config.ROOT / "pipeline" / "taxonomy.json", site / "taxonomy.json")
-    for name in ("people.json", "research.json", "resources.json", "books.json", "media.json", "cv.json", "highlights.json", "treatment.json", "lsrp.json", "cetacean.json", "news_posts.json", "news.json", "candidates.json"):
+    for name in ("people.json", "research.json", "resources.json", "books.json", "media.json", "cv.json", "highlights.json", "treatment.json", "lsrp.json", "cetacean.json", "citations_geo.json", "news_posts.json", "news.json", "candidates.json"):
         src = config.DATA / name
         if src.exists():
             shutil.copy(src, site / name)

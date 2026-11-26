@@ -47,6 +47,16 @@
   .reflist .books { margin: .3rem 0 1rem; }
   body.simple .layout { grid-template-columns: 1fr; }
   body.simple .filters, body.simple .paper-only { display: none !important; }
+  .citemap { margin: 1.2rem 0 1.4rem; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); padding: .9rem 1.1rem 1.1rem; }
+  .citemap summary { cursor: pointer; display: flex; flex-wrap: wrap; align-items: baseline; gap: .3rem 1rem; list-style: none; } .citemap summary::-webkit-details-marker { display: none; }
+  .citemap summary::after { content: "Hide map"; margin-left: auto; font-size: .82rem; color: var(--steel-deep); text-decoration: underline; text-underline-offset: 3px; } .citemap:not([open]) summary::after { content: "Show map"; }
+  .cm-t { font-family: var(--serif); font-size: 1.3rem; font-weight: 500; } .cm-s { font-size: .9rem; color: var(--ink-2); } .cm-sub { font-size: .9rem; color: var(--ink-2); max-width: 80ch; margin: .5rem 0 .8rem; }
+  .citemap .mapwrap { position: relative; max-width: 980px; margin: 0 auto; } .citemap .mapwrap svg { width: 100%; height: auto; display: block; }
+  .citemap .mapwrap path { stroke: var(--surface); stroke-width: .5; fill: var(--surface-2); transition: opacity .15s; } .citemap .mapwrap path.on:hover { opacity: .75; }
+  .citemap .tip { position: absolute; pointer-events: none; background: var(--ink); color: var(--bg); font-size: .8rem; padding: .3em .6em; border-radius: 6px; transform: translate(-50%, -130%); white-space: nowrap; display: none; z-index: 3; }
+  .cm-legend { display: flex; flex-wrap: wrap; gap: .3rem .9rem; font-size: .78rem; color: var(--ink-2); margin-top: .5rem; justify-content: center; } .cm-legend i { display: inline-block; width: 12px; height: 12px; border-radius: 3px; margin-right: .35em; vertical-align: -1px; }
+  .cm-top { list-style: none; padding: 0; margin: 1rem 0 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: .25rem 1.2rem; font-size: .88rem; }
+  .cm-top li { display: flex; justify-content: space-between; gap: .6rem; border-bottom: 1px dotted var(--line-2); padding: .15rem 0; } .cm-top span { font-variant-numeric: tabular-nums; color: var(--ink-2); }
 </style>
 </head>
 <body>
@@ -64,6 +74,13 @@
     <div class="hero-canvas-wrap" role="img" aria-label="An interactive illustration of the lab's mobile MRI truck driving around a map of the United States"><canvas id="hero-canvas"></canvas></div>
   </div>
   <div class="other-ways"><span class="lbl">Other ways to view papers:</span> <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Kiehl+KA%5BAuthor%5D&sort=date" target="_blank" rel="noopener">PubMed ↗</a> · <a href="bibliometrics.html">Bibliometrics</a> · <a href="network.html">Collaborator network</a></div>
+  <details class="citemap" id="citemap" open hidden>
+    <summary><span class="cm-t">Where this work is cited</span><span class="cm-s" id="cm-s"></span></summary>
+    <p class="cm-sub">Each paper that cites the lab's work is placed in one country: that of its corresponding author's institution. Darker countries have more citing papers. The map was created from <a href="https://openalex.org/" target="_blank" rel="noopener">OpenAlex</a>, an open index of scholarly publications, and is updated monthly.</p>
+    <div class="mapwrap"><div class="tip" id="cm-tip"></div><svg id="cm-world" role="img" aria-label="World map shaded by the number of papers from each country that cite the lab's publications"></svg><div class="cm-legend" id="cm-legend"></div></div>
+    <ol class="cm-top" id="cm-top"></ol>
+    <p class="small muted" id="cm-src" style="margin:.8rem 0 0"></p>
+  </details>
   <div id="candidates"></div>
   <div class="searchbar"><input id="q" type="search" placeholder="Search titles, abstracts and keywords, e.g. paralimbic, rearrest, uncinate fasciculus, oddball" autocomplete="off" aria-label="Search titles and abstracts"><input id="qa" type="search" placeholder="Author, e.g. Harenski or Calhoun VD" autocomplete="off" aria-label="Author" style="flex:0 1 240px"><button class="btn primary" id="go">Search</button></div>
   <div class="layout">
@@ -238,6 +255,30 @@
   if (location.hash) { const el = document.querySelector(location.hash); if (el) el.scrollIntoView({ block: "start" }); }
   if (!els.q.value) buildIndex();
 })().catch(e => { document.getElementById("results").innerHTML = `<div class="empty">Could not load data (${CL.esc(e.message)}).</div>`; });
+</script>
+<script>
+// World map of citing papers by corresponding author's country (data/citations_geo.json, refreshed monthly by scripts/citations_geo.py)
+(async function () {
+  const box = document.getElementById("citemap"); let D, W;
+  try { [D, W] = await Promise.all([CL.getJSON("data/citations_geo.json"), CL.getJSON("assets/world.json")]); } catch (e) { return; }
+  if (!D || !D.countries || !D.countries.length) return;
+  const esc = CL.esc, dn = (typeof Intl !== "undefined" && Intl.DisplayNames) ? new Intl.DisplayNames(["en"], { type: "region" }) : null;
+  const name = cc => (W.countries[cc] && W.countries[cc].n) || (dn && (() => { try { return dn.of(cc); } catch (e) { return null; } })()) || cc;
+  const by = Object.fromEntries(D.countries), STOPS = [[1, "#f6e3e2"], [10, "#ecc2be"], [50, "#de9a96"], [200, "#cc6b6c"], [1000, "#b03a43"], [4000, "#7d1a26"]];
+  const color = n => { let c = STOPS[0][1]; for (const [k, v] of STOPS) if (n >= k) c = v; return c; };
+  const svg = document.getElementById("cm-world"), tip = document.getElementById("cm-tip"), fmt = n => n.toLocaleString();
+  svg.setAttribute("viewBox", `0 0 ${W.w} ${W.h}`);
+  svg.innerHTML = Object.entries(W.countries).map(([cc, g]) => { const n = by[cc] || 0; return `<path d="${g.d}" data-n="${esc(name(cc))}" data-c="${n}" class="${n ? "on" : ""}"${n ? ` style="fill:${color(n)}"` : ""}></path>`; }).join("");
+  svg.addEventListener("pointermove", e => { const p = e.target.closest("path"); if (!p) { tip.style.display = "none"; return; } const r = svg.parentElement.getBoundingClientRect(), n = +p.dataset.c; tip.style.display = "block"; tip.style.left = (e.clientX - r.left) + "px"; tip.style.top = (e.clientY - r.top) + "px"; tip.textContent = p.dataset.n + (n ? `: ${fmt(n)} citing paper${n === 1 ? "" : "s"}` : ": none found"); });
+  svg.addEventListener("pointerleave", () => { tip.style.display = "none"; });
+  document.getElementById("cm-s").textContent = `${fmt(D.stats.citing_papers)} citing papers from ${D.stats.n_countries} countries`;
+  document.getElementById("cm-legend").innerHTML = STOPS.map(([k, v], i) => `<span><i style="background:${v}"></i>${fmt(k)}${i < STOPS.length - 1 ? "–" + fmt(STOPS[i + 1][0] - 1) : "+"}</span>`).join("");
+  document.getElementById("cm-top").innerHTML = D.countries.slice(0, 24).map(c => `<li>${esc(name(c[0]))}<span>${fmt(c[1])}</span></li>`).join("");
+  const h = D.stats.how || {}, fb = (h.first || 0) + (h.other || 0);
+  document.getElementById("cm-src").textContent = `How this map was made: citation data from ${D.source} (openalex.org), retrieved ${CL.fmtDate(D.updated)} and refreshed monthly. Covers ${fmt(D.stats.citing_papers)} papers citing ${fmt(D.stats.works_cited)} of the lab's publications; a paper citing several of them is counted once. ${fmt(D.stats.with_country)} could be placed in a country` + (fb ? ` (for ${fmt(fb)} with no corresponding author on record, the first listed author's country was used)` : "") + `. The 24 countries with the most citing papers are listed. Map: Natural Earth.`;
+  try { if (localStorage.getItem("citemap") === "closed") box.open = false; box.addEventListener("toggle", () => { try { localStorage.setItem("citemap", box.open ? "open" : "closed"); } catch (e) {} }); } catch (e) {}
+  box.hidden = false;
+})();
 </script>
 </body>
 </html>
