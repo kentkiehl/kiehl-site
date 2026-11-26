@@ -171,7 +171,7 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "citations_refreshed": "2026-11-21"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "radecki2026cortical",
@@ -462,7 +462,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-21"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "maurer2025adolescents",
@@ -717,7 +717,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-21"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "maurer2025incarcerated",
@@ -1047,7 +1047,7 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "citations_refreshed": "2026-11-21"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "maurer2024examining",
@@ -1310,7 +1310,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-21"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "brieman2024clarifying",
@@ -1391,7 +1391,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-21"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "allen2024utility",
@@ -1483,7 +1483,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-21"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "millilo2024association",
@@ -2380,7 +2380,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-21"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "cappelle2023traumatic",
@@ -2471,7 +2471,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-22"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "deming2023impaired",
@@ -2653,7 +2653,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-21"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "shold2023psychometric",
@@ -3612,7 +3612,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-21"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "allen2022hemodynamic",
@@ -3702,7 +3702,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-21"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "edwards2021psychopathy",
@@ -3811,7 +3811,7 @@
   "openalex_id": null,
   "abstract": "Fearlessness has been described among the traits associated with psychopathy; however, disparities in conceptualizations of fear and how related elements are operationalized among different measures of psychopathic traits have led to some enduring controversy. Here we address a subset of elements characterizing fearlessness represented in thrill-seeking and physical risk-taking among a large sample of incarcerated individuals (n = 688). We examine these relationships utilizing Hare's Psychopathy Checklist Revised (PCL-R), the Psychopathy Personality Inventory-Short Form (PPI-SF), and the Zuckerman Sensation Seeking Scale (SSS). Among males, the Thrill and Adventure Seeking (TAS) scale of the SSS was not related to features of the PCL-R, but was highly correlated with Fearless Dominance (FD) of the PPI-SF. Among females, TAS was only modestly correlated with PCL-R total score, but neither of the two PCL-R factors. PPI-SF FD remained a strong predictor of TAS among females. We argue for a careful consideration of the boundaries of the term \"fearlessness\" as it relates to diverse manifestations of behavior and varied conceptualizations of psychopathy. We also reiterate apparent differences between males and females in the presentation of psychopathic traits.",
   "abstract_source": "pubmed",
-  "cited_by_count": 18,
+  "cited_by_count": 19,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/33814695/",
   "keywords": [
@@ -3857,7 +3857,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-21"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "cazala2021neural",
@@ -3895,7 +3895,7 @@
   "openalex_id": null,
   "abstract": "Sexual sadism is a paraphilia that focuses on domination, humiliation, and infliction of pain on a victim to stimulate sexual arousal. Although extensively described in psychology and forensic sciences, less is known about whether the harmful acts committed by sexual sadists are accompanied by deficits in moral judgment. A limited amount of behavioral research suggests moral insensitivity in sexual sadists; however, the neural networks underlying moral judgment in sadists have not been studied. In this pilot study, 21 incarcerated male sexual offenders with (n = 11) and without (n = 10) sexual sadism were scanned with functional magnetic resonance imaging (fMRI) while they viewed pictures that did or did not depict situations considered by most individuals to represent moral transgressions, and rated their degree of moral transgression severity. Results indicated primarily overlapping neural systems underlying moral judgment in sadists and non-sadists. However, non-sadists but not sadists showed a positive correlation between moral transgression severity ratings and activity in the anterior temporal cortex (ATC). This lack of ATC engagement in sadists might be a biomarker of altered moral judgment.",
   "abstract_source": "pubmed",
-  "cited_by_count": 8,
+  "cited_by_count": 9,
   "oa_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13730244/pdf/nihms-2216324.pdf",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/33156438/",
   "keywords": [
@@ -3940,7 +3940,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-22"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "gullapalli2021blink",
@@ -5400,7 +5400,7 @@
   "openalex_id": null,
   "abstract": "The increasing visibility of neuroscience employed in legal contexts has rightfully prompted critical discourse regarding the boundaries of its utility. High profile debates include some extreme positions that either undermine the relevance of neuroscience or overstate its role in determining legal responsibility. Here we adopt a conciliatory attitude, reaffirming the current value of neuroscience in jurisprudence and addressing its role in shifting normative attitudes about culpability. Adopting a balanced perspective about the interaction between two dynamic fields (science and law) allows for more fruitful consideration of practical changes likely to improve the way we engage in legal decision-making. Neuroscience provides a useful platform for addressing nuanced and multifaceted deterministic factors promoting antisocial behavior. Ultimately, we suggest that shifting normative attitudes about culpability vis-à-vis advancing neuroscience are not likely to promote major changes in the way we assign legal responsibility. Rather, it helps us to shed our harshest retributivist instincts in favor of more pragmatic strategies for combating the most conspicuous patterns promoting mass incarceration and recidivism.",
   "abstract_source": "pubmed",
-  "cited_by_count": 10,
+  "cited_by_count": 11,
   "oa_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2020.00390/pdf",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/32231619/",
   "keywords": [
@@ -5446,7 +5446,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-21"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "fede2020meta",
@@ -6236,7 +6236,7 @@
   "openalex_id": null,
   "abstract": "Differences between males and females have been extensively documented in biological, psychological, and behavioral domains. Among these, sex differences in the rate and typology of antisocial behavior remains one of the most conspicuous and enduring patterns among humans. However, the nature and extent of sexual dimorphism in the brain among antisocial populations remains mostly unexplored. Here, we seek to understand sex differences in brain structure between incarcerated males and females in a large sample (n = 1,300) using machine learning. We apply source-based morphometry, a contemporary multivariate approach for quantifying gray matter measured with magnetic resonance imaging, and carry these parcellations forward using machine learning to classify sex. Models using components of brain gray matter volume and concentration were able to differentiate between males and females with greater than 93% generalizable accuracy. Highly differentiated components include orbitofrontal and frontopolar regions, proportionally larger in females, and anterior medial temporal regions proportionally larger in males. We also provide a complimentary analysis of a nonforensic healthy control sample and replicate our 93% sex discrimination. These findings demonstrate that the brains of males and females are highly distinguishable. Understanding sex differences in the brain has implications for elucidating variability in the incidence and progression of disease, psychopathology, and differences in psychological traits and behavior. The reliability of these differences confirms the importance of sex as a moderator of individual differences in brain structure and suggests future research should consider sex specific models.",
   "abstract_source": "pubmed",
-  "cited_by_count": 107,
+  "cited_by_count": 108,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/30430711/",
   "keywords": [
@@ -6282,7 +6282,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-21"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "thomson2019violence",
@@ -6509,7 +6509,7 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "citations_refreshed": "2026-11-21"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "anderson2019affective",
@@ -6581,7 +6581,7 @@
   "source": "cv-2026",
   "note": "Senior author note: A data error was found and corrected by the team.",
   "tag_source": "rules",
-  "citations_refreshed": "2026-11-21"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "fryer2019should",
@@ -6796,7 +6796,7 @@
   "openalex_id": null,
   "abstract": "Youth with severe conduct problems impose a significant cost on society by engaging in high levels of antisocial and aggressive behavior. Within this group, adolescents with high levels of callous- unemotional traits have been found to exhibit more severe and persistent patterns of antisocial behavior than youth with severe conduct problems but normative levels of callous-unemotional traits. Existing neuroimaging studies, along with theoretical accounts of psychopathology, suggest that dysfunction within the paralimbic cortex and limbic system may underlie elevated levels of callous-unemotional traits. The present study examines this hypothesis by investigating gray matter correlates associated with callous-unemotional traits. A sample of incarcerated male adolescents (N = 269), were assessed using voxel-based morphometry. Callous-unemotional traits were assessed using the Inventory of Callous-Unemotional traits (Frick 2004). Total callous-unemotional traits were negatively correlated with anterior temporal lobe gray matter volume (GMV). Callous traits in particular exhibited a reliable negative correlation with gray matter volume in nearly every paralimbic brain region examined. Uncaring traits were positively correlated with GMV in the orbitofrontal and anterior cingulate cortices. These findings demonstrate specific neural features within the paralimbic cortex and limbic system that accompany elevated callous-unemotional traits and serves to expand our understanding of pathophysiological mechanisms that may give rise to severe conduct problems in youth.",
   "abstract_source": "pubmed",
-  "cited_by_count": 38,
+  "cited_by_count": 40,
   "oa_url": "https://www.sciencedirect.com/science/article/pii/S2213158219300531/pdf",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/30738373/",
   "keywords": [
@@ -6843,7 +6843,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-21"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "arbabshirani2019autoconnectivity",
@@ -6940,7 +6940,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-21"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "espinoza2019resting",
@@ -8158,7 +8158,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-21"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "kiehl2018age",
@@ -9117,7 +9117,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-21"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "korponay2017impulsive2",
@@ -9431,7 +9431,7 @@
   "openalex_id": null,
   "abstract": "Spatial normalization of brains to a standardized space is a widely used approach for group studies in functional magnetic resonance imaging (fMRI) data. Commonly used template-based approaches are complicated by signal dropout and distortions in echo planar imaging (EPI) data. The most widely used software packages implement two common template-based strategies: (1) affine transformation of the EPI data to an EPI template followed by nonlinear registration to an EPI template (EPInorm) and (2) affine transformation of the EPI data to the anatomic image for a given subject, followed by nonlinear registration of the anatomic data to an anatomic template, which produces a transformation that is applied to the EPI data (T1norm). EPI distortion correction can be used to adjust for geometric distortion of EPI relative to the T1 images. However, in practice, this EPI distortion correction step is often skipped. We compare these template-based strategies empirically in four large datasets. We find that the EPInorm approach consistently shows reduced variability across subjects, especially in the case when distortion correction is not applied. EPInorm also shows lower estimates for coregistration distances among subjects (i.e., within-dataset similarity is higher). Finally, the EPInorm approach shows higher T values in a task-based dataset. Thus, the EPInorm approach appears to amplify the power of the sample compared to the T1norm approach when not using distortion correction (i.e., the EPInorm boosts the effective sample size by 12-25%). In sum, these results argue for the use of EPInorm over the T1norm when no distortion correction is used. Hum Brain Mapp 38:5331-5342, 2017. © 2017 The Authors Human Brain Mapping Published by Wiley Periodicals, Inc.",
   "abstract_source": "pubmed",
-  "cited_by_count": 361,
+  "cited_by_count": 360,
   "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/hbm.23737",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/28745021/",
   "keywords": [
@@ -9474,7 +9474,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-22"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "korponay2017brain",
@@ -10365,7 +10365,7 @@
   "openalex_id": null,
   "abstract": "Advanced statistical modeling has become a prominent feature in psychological science and can be a useful approach for representing the neural architecture linked to psychopathology. Psychopathy, a disorder characterized by dysfunction in interpersonal-affective and impulsive-antisocial domains, is associated with widespread neural abnormalities. Several imaging studies suggest that underlying structural deficits in paralimbic regions are associated with psychopathy. Although these studies are useful, they make assumptions about the organization of the brain and its relevance to individuals displaying psychopathic features. Capitalizing on statistical modeling, in the present study (N = 254), we used latent-variable methods to examine the structure of gray-matter volume in male offenders, and assessed the latent relations between psychopathy and gray-matter factors reflecting paralimbic and nonparalimbic regions. Results revealed good fit for a 4-factor gray-matter paralimbic model and these first-order factors were accounted for by a superordinate paralimbic \"system\" factor. Moreover, a superordinate psychopathy factor significantly predicted the paralimbic, but not the nonparalimbic factor. The latent-variable paralimbic model, specifically linked with psychopathy, goes beyond understanding single brain regions within the system and provides evidence for psychopathy-related gray-matter volume reductions in the paralimbic system as a whole. (PsycINFO Database Record",
   "abstract_source": "pubmed",
-  "cited_by_count": 45,
+  "cited_by_count": 46,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/27269123/",
   "keywords": [],
@@ -10405,7 +10405,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-21"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "fede2016abnormal",
@@ -10879,7 +10879,7 @@
   "openalex_id": null,
   "abstract": "BACKGROUND: The symptoms that contribute to the clinical diagnosis of depression likely emerge from, or are related to, underlying cognitive deficits. To understand this relationship further, we examined the relationship between self-reported somatic and cognitive-affective Beck'sDepression Inventory-II (BDI-II) symptoms and aspects of cognitive control reflected in error event-related potential (ERP) responses. METHODS: Task and assessment data were analyzed within 51 individuals. The group contained a broad distribution of depressive symptoms, as assessed by BDI-II scores. ERPs were collected following error responses within a go/no-go task. Individual error ERP amplitudes were estimated by conducting group independent component analysis (ICA) on the electroencephalographic (EEG) time series and analyzing the individual reconstructed source epochs. Source error amplitudes were correlated with the subset of BDI-II scores representing somatic and cognitive-affective symptoms. RESULTS: We demonstrate a negative relationship between somatic depression symptoms (i.e. fatigue or loss of energy) (after regressing out cognitive-affective scores, age and IQ) and the central-parietal ERP response that peaks at 359 ms. The peak amplitudes within this ERP response were not significantly related to cognitive-affective symptom severity (after regressing out the somatic symptom scores, age, and IQ). LIMITATIONS: These findings were obtained within a population of female adults from a maximum-security correctional facility. Thus, additional research is required to verify that they generalize to the broad population. CONCLUSIONS: These results suggest that individuals with greater somatic depression symptoms demonstrate a reduced awareness of behavioral errors, and help clarify the relationship between clinical measures of self-reported depression symptoms and cognitive control.",
   "abstract_source": "pubmed",
-  "cited_by_count": 32,
+  "cited_by_count": 34,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/25451400/",
   "keywords": [
@@ -10926,7 +10926,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-21"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "walters2015paralimbic",
@@ -11353,7 +11353,7 @@
   "openalex_id": null,
   "abstract": "Psychopathy is a disorder accompanied by cognitive deficits including abnormalities in attention. Prior studies examining cognitive features of psychopaths using ERPs have produced some inconsistent results. We examined psychopathy-related differences in ERPs during an auditory oddball task in a sample of incarcerated adult males. We extend previous work by deriving ERPs with principal component analysis (PCA) and relate these to the four facets of Hare's Psychopathy Checklist Revised (PCL-R). Features of psychopathy were associated with increased target N1 amplitude (facets 1, 4), decreased target P3 amplitude (facet 1), and reduced slow wave amplitude for frequent standard stimuli (facets 1, 3, 4). We conclude that employing PCA and examining PCL-R facets improve sensitivity and help clarify previously reported associations. Furthermore, attenuated slow wave during standards may be a novel marker for psychopaths' abnormalities in attention.",
   "abstract_source": "pubmed",
-  "cited_by_count": 38,
+  "cited_by_count": 37,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/25912522/",
   "keywords": [
@@ -11400,7 +11400,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-21"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "wolf2015interpersonal",
@@ -11773,7 +11773,7 @@
   "openalex_id": null,
   "abstract": "Investigations into the neurobiology of moral cognition are often done by examining clinical populations characterized by diminished moral emotions and a proclivity toward immoral behavior. Psychopathy is the most common disorder studied for this purpose. Although cocaine abuse is highly co-morbid with psychopathy and cocaine-dependent individuals exhibit many of the same abnormalities in socio-affective processing as psychopaths, this population has received relatively little attention in moral psychology. To address this issue, the authors used functional magnetic resonance imaging (fMRI) to record hemodynamic activity in 306 incarcerated male adults, stratified into regular cocaine users (n = 87) and a matched sample of non-cocaine users (n = 87), while viewing pictures that did or did not depict immoral actions and determining whether each depicted scenario occurred indoors or outdoors. Consistent with expectations, cocaine users showed abnormal neural activity in several frontostriatial regions during implicit moral picture processing compared to their non-cocaine using peers. This included reduced moral/non-moral picture discrimination in the vACC, vmPFC, lOFC, and left vSTR. Additionally, psychopathy was negatively correlated with activity in an overlapping region of the ACC and right lateralized vSTR. These results suggest that regular cocaine abuse may be associated with affective deficits which can impact relatively high-level processes like moral cognition.",
   "abstract_source": "pubmed",
-  "cited_by_count": 24,
+  "cited_by_count": 23,
   "oa_url": "https://www.frontiersin.org/articles/10.3389/fnhum.2015.00565/pdf",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/26528169/",
   "keywords": [
@@ -11818,7 +11818,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-21"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "saks2014impact",
@@ -12203,7 +12203,7 @@
   "openalex_id": null,
   "abstract": "FMRI data are acquired as complex-valued spatiotemporal images. Despite the fact that several studies have identified the presence of novel information in the phase images, they are usually discarded due to their noisy nature. Several approaches have been devised to incorporate magnitude and phase data, but none of them has performed between-group inference or classification. Multiple kernel learning (MKL) is a powerful field of machine learning that finds an automatic combination of kernel functions that can be applied to multiple data sources. By analyzing this combination of kernels, the most informative data sources can be found, hence providing a better understanding of the analyzed learning task. This paper presents a methodology based on a new MKL algorithm (ν-MKL) capable of achieving a tunable sparse selection of features' sets (brain regions' patterns) that improves the classification accuracy rate of healthy controls and schizophrenia patients by 5% when phase data is included. In addition, the proposed method achieves accuracy rates that are equivalent to those obtained by the state of the art lp-norm MKL algorithm on the schizophrenia dataset and we argue that it better identifies the brain regions that show discriminative activation between groups. This claim is supported by the more accurate detection achieved by ν-MKL of the degree of information present on regions of spatial maps extracted from a simulated fMRI dataset. In summary, we present an MKL-based methodology that improves schizophrenia characterization by using both magnitude and phase fMRI data and is also capable of detecting the brain regions that convey most of the discriminative information between patients and controls.",
   "abstract_source": "pubmed",
-  "cited_by_count": 75,
+  "cited_by_count": 73,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/24225489/",
   "keywords": [
@@ -12249,7 +12249,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-22"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "gaudet2014functional",
@@ -12514,7 +12514,7 @@
   "openalex_id": null,
   "abstract": "Psychopathy is a mental disorder marked by deficient emotional responses, lack of empathy, and poor behavioral controls, commonly resulting in persistent antisocial deviance and criminal behavior. Accumulating research suggests that psychopathy follows a developmental trajectory with strong genetic influences, and which precipitates deleterious effects on widespread functional networks, particularly within paralimbic regions of the brain. While traditional therapeutic interventions commonly administered in prisons and forensic institutions have been notoriously ineffective at combating these outcomes, alternative strategies informed by an understanding of these specific neuropsychological obstacles to healthy development, and which target younger individuals with nascent symptoms of psychopathy are more promising. Here we review recent neurobehavioral and neuroimaging literature that informs our understanding of the brain systems compromised in psychopathy, and apply these data to a broader understanding of its developmental course, ultimately promoting more proactive intervention strategies profiting from adaptive neuroplasticity in youth.",
   "abstract_source": "pubmed",
-  "cited_by_count": 170,
+  "cited_by_count": 180,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/23542910/",
   "keywords": [
@@ -12559,7 +12559,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-21"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "anderson2014psychopathy2",
@@ -12591,7 +12591,7 @@
   "openalex_id": null,
   "abstract": "Psychopaths can be alarmingly violent, both in the frequency with which they engage in violence and the gratuitous extent of their violent acts. Indeed, one principal utility of the clinical construct of psychopathy is in predicting future violent behavior in criminal offenders. Aggression is a complex construct that intersects psychopathy at many levels. This chapter provides a review of psychopathy as a clinical construct including the most prominent cognitive and neurobiological models, which serve to account for its pathophysiology. We then describe how the brain abnormalities implicated in psychopathy may lead to diverse behavioral outcomes, which can include aggression in its many forms.",
   "abstract_source": "pubmed",
-  "cited_by_count": 87,
+  "cited_by_count": 90,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/24306955/",
   "keywords": [],
@@ -12630,7 +12630,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-21"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "decety2014neural",
@@ -12924,7 +12924,7 @@
   "openalex_id": null,
   "abstract": "A recently published study by the present authors reported evidence that functional changes in the anterior cingulate cortex within a sample of 96 criminal offenders who were engaged in a Go/No-Go impulse control task significantly predicted their rearrest following release from prison. In an extended analysis, we use discrimination and calibration techniques to test the accuracy of these predictions relative to more traditional models and their ability to generalize to new observations in both full and reduced models. Modest to strong discrimination and calibration accuracy were found, providing additional support for the utility of neurobiological measures in predicting rearrest.",
   "abstract_source": "pubmed",
-  "cited_by_count": 45,
+  "cited_by_count": 47,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/24720689/",
   "keywords": [
@@ -12969,7 +12969,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-21"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "steele2014large",
@@ -13309,7 +13309,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-21"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "harenski2014neural",
@@ -13509,7 +13509,7 @@
   "openalex_id": null,
   "abstract": "",
   "abstract_source": null,
-  "cited_by_count": 65,
+  "cited_by_count": 67,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/26379315/",
   "keywords": [],
@@ -13549,7 +13549,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-21"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "juarez2013intrinsic",
@@ -13670,7 +13670,7 @@
   "openalex_id": null,
   "abstract": "Functional connectivity (FC) examines temporal statistical dependencies among distant brain regions by means of seed-based analysis or independent component analysis (ICA). Spatial ICA also makes it possible to investigate FC at the network level, termed functional network connectivity (FNC). The dynamics of each network (ICA component), which may consist of several remote regions is described by the ICA time-course of that network; hence, FNC studies statistical dependencies among ICA time-courses. In this article, we compare comprehensively FNC in the resting state and during performance of an auditory oddball (AOD) task in 28 healthy subjects on relevant (nonartifactual) brain networks. The results show global FNC decrease during the performance of the task. In addition, we show that specific networks enlarge and/or demonstrate higher activity during the performance of the task. The results suggest that performing an active task like AOD may be facilitated by recruiting more neurons and higher activation of related networks rather than collaboration among different brain networks. We also evaluated the impact of temporal filtering on FNC analyses. Results showed that the results are not significantly affected by filtering.",
   "abstract_source": "pubmed",
-  "cited_by_count": 123,
+  "cited_by_count": 124,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/22736522/",
   "keywords": [
@@ -13712,7 +13712,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-21"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "sui2013three",
@@ -13998,7 +13998,7 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "citations_refreshed": "2026-11-21"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "kiehl2013handbook",
@@ -14257,7 +14257,7 @@
   "openalex_id": null,
   "abstract": "Identification of factors that predict recurrent antisocial behavior is integral to the social sciences, criminal justice procedures, and the effective treatment of high-risk individuals. Here we show that error-related brain activity elicited during performance of an inhibitory task prospectively predicted subsequent rearrest among adult offenders within 4 y of release (N = 96). The odds that an offender with relatively low anterior cingulate activity would be rearrested were approximately double that of an offender with high activity in this region, holding constant other observed risk factors. These results suggest a potential neurocognitive biomarker for persistent antisocial behavior.",
   "abstract_source": "pubmed",
-  "cited_by_count": 388,
+  "cited_by_count": 386,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/23536303/",
   "keywords": [],
@@ -14296,7 +14296,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-21"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "decety2013brain",
@@ -14574,7 +14574,7 @@
   "openalex_id": null,
   "abstract": "There is a growing interest in automatic classification of mental disorders based on neuroimaging data. Small training data sets (subjects) and very large amount of high dimensional data make it a challenging task to design robust and accurate classifiers for heterogeneous disorders such as schizophrenia. Most previous studies considered structural MRI, diffusion tensor imaging and task-based fMRI for this purpose. However, resting-state data has been rarely used in discrimination of schizophrenia patients from healthy controls. Resting data are of great interest, since they are relatively easy to collect, and not confounded by behavioral performance on a task. Several linear and non-linear classification methods were trained using a training dataset and evaluate with a separate testing dataset. Results show that classification with high accuracy is achievable using simple non-linear discriminative methods such as k-nearest neighbors (KNNs) which is very promising. We compare and report detailed results of each classifier as well as statistical analysis and evaluation of each single feature. To our knowledge our effects represent the first use of resting-state functional network connectivity (FNC) features to classify schizophrenia.",
   "abstract_source": "pubmed",
-  "cited_by_count": 202,
+  "cited_by_count": 196,
   "oa_url": "https://www.frontiersin.org/articles/10.3389/fnins.2013.00133/pdf",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/23966903/",
   "keywords": [
@@ -14619,7 +14619,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-21"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "fryer2013deficient",
@@ -15220,7 +15220,7 @@
   "openalex_id": null,
   "abstract": "Psychopaths commit a disproportionate amount of violent crime, and this places a substantial economic and emotional burden on society. Elucidation of the neural correlates of psychopathy may lead to improved management and treatment of the condition. Although some methodological issues remain, the neuroimaging literature is generally converging on a set of brain regions and circuits that are consistently implicated in the condition: the orbitofrontal cortex, amygdala, and the anterior and posterior cingulate and adjacent (para)limbic structures. We discuss these findings in the context of extant theories of psychopathy and highlight the potential legal and policy implications of this body of work.",
   "abstract_source": "pubmed",
-  "cited_by_count": 278,
+  "cited_by_count": 282,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/22177031/",
   "keywords": [],
@@ -15259,7 +15259,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-21"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "harenski2012neural",
@@ -15704,7 +15704,7 @@
   "openalex_id": null,
   "abstract": "Externalizing traits are characterized by exaggerated emotional (e.g., frustration, anger) and behavioral (e.g., drug seeking, reactive aggression) reactions to motivationally significant stimuli. Explanations for this exaggerated reactivity emphasize attention, executive function, and affective processes, but the associations among these processes are rarely investigated. To examine these interactions, we measure fear potentiated startle (FPS; Experiment 1) and neural activation (Experiment 2) in an instructed fear paradigm that manipulates attentional focus, demands on executive functioning, and emotion. In both studies, exaggerated emotional reactivity associated with externalizing was specific to conditions that focused attention on threat information and placed minimal demands on executive functioning. Results suggest that a crucial cognition-emotion interaction affecting externalizing is the over-prioritization and over-allocation of attention to motivationally significant information, which in turn, may impair executive functions and affective regulation.",
   "abstract_source": "pubmed",
-  "cited_by_count": 32,
+  "cited_by_count": 31,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/22579718/",
   "keywords": [],
@@ -15743,7 +15743,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-21"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "du2012high",
@@ -16225,7 +16225,7 @@
   "openalex_id": null,
   "abstract": "As the size of functional and structural MRI datasets expands, it becomes increasingly important to establish a baseline from which diagnostic relevance may be determined, a processing strategy that efficiently prepares data for analysis, and a statistical approach that identifies important effects in a manner that is both robust and reproducible. In this paper, we introduce a multivariate analytic approach that optimizes sensitivity and reduces unnecessary testing. We demonstrate the utility of this mega-analytic approach by identifying the effects of age and gender on the resting-state networks (RSNs) of 603 healthy adolescents and adults (mean age: 23.4 years, range: 12-71 years). Data were collected on the same scanner, preprocessed using an automated analysis pipeline based in SPM, and studied using group independent component analysis. RSNs were identified and evaluated in terms of three primary outcome measures: time course spectral power, spatial map intensity, and functional network connectivity. Results revealed robust effects of age on all three outcome measures, largely indicating decreases in network coherence and connectivity with increasing age. Gender effects were of smaller magnitude but suggested stronger intra-network connectivity in females and more inter-network connectivity in males, particularly with regard to sensorimotor networks. These findings, along with the analysis approach and statistical framework described here, provide a useful baseline for future investigations of brain networks in health and disease.",
   "abstract_source": "pubmed",
-  "cited_by_count": 1410,
+  "cited_by_count": 1412,
   "oa_url": "https://www.frontiersin.org/articles/10.3389/fnsys.2011.00002/pdf",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/21442040/",
   "keywords": [
@@ -16269,7 +16269,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-21"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "swanson2011lateral",
@@ -16863,7 +16863,7 @@
   "openalex_id": null,
   "abstract": "The cognitive deficits associated with schizophrenia are commonly believed to arise from the abnormal temporal integration of information, however a quantitative approach to assess network coordination is lacking. Here, we propose to use cross-frequency modulation (cfM), the dependence of local high-frequency activity on the phase of widespread low-frequency oscillations, as an indicator of network coordination and functional integration. In an exploratory analysis based on pre-existing data, we measured cfM from multi-channel EEG recordings acquired while schizophrenia patients (n = 47) and healthy controls (n = 130) performed an auditory oddball task. Novel application of independent component analysis (ICA) to modulation data delineated components with specific spatial and spectral profiles, the weights of which showed covariation with diagnosis. Global cfM was significantly greater in healthy controls (F(1,175) = 9.25, P < 0.005), while modulation at fronto-temporal electrodes was greater in patients (F(1,175) = 17.5, P < 0.0001). We further found that the weights of schizophrenia-relevant components were associated with genetic polymorphisms at previously identified risk loci. Global cfM decreased with copies of 957C allele in the gene for the dopamine D2 receptor (r = -0.20, P < 0.01) across all subjects. Additionally, greater \"aberrant\" fronto-temporal modulation in schizophrenia patients was correlated with several polymorphisms in the gene for the α2-subunit of the GABA(A) receptor (GABRA2) as well as the total number of risk alleles in GABRA2 (r = 0.45, P < 0.01). Overall, our results indicate great promise for this approach in establishing patterns of cfM in health and disease and elucidating the roles of oscillatory interactions in functional connectivity.",
   "abstract_source": "pubmed",
-  "cited_by_count": 100,
+  "cited_by_count": 98,
   "oa_url": "https://www.frontiersin.org/articles/10.3389/fnsys.2011.00059/pdf",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/21808609/",
   "keywords": [
@@ -16909,7 +16909,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-21"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "yu2011altered",
@@ -17288,7 +17288,7 @@
   "openalex_id": null,
   "abstract": "Intrinsic functional brain networks (INs) are regions showing temporal coherence with one another. These INs are present in the context of a task (as opposed to an undirected task such as rest), albeit modulated to a degree both spatially and temporally. Prominent networks include the default mode, attentional fronto-parietal, executive control, bilateral temporal lobe, and motor networks. The characterization of INs has recently gained considerable momentum, however; most previous studies evaluate only a small subset of the INs (e.g., default mode). In this paper we use independent component analysis to study INs decomposed from functional magnetic resonance imaging data collected in a large group of schizophrenia patients, healthy controls, and individuals with bipolar disorder, while performing an auditory oddball task. Schizophrenia and bipolar disorder share significant overlap in clinical symptoms, brain characteristics, and risk genes which motivates our goal of identifying whether functional imaging data can differentiate the two disorders. We tested for group differences in properties of all identified INs including spatial maps, spectra, and functional network connectivity. A small set of default mode, temporal lobe, and frontal networks with default mode regions appearing to play a key role in all comparisons. Bipolar subjects showed more prominent changes in ventromedial and prefrontal default mode regions whereas schizophrenia patients showed changes in posterior default mode regions. Anti-correlations between left parietal areas and dorsolateral prefrontal cortical areas were different in bipolar and schizophrenia patients and amplitude was significantly different from healthy controls in both patient groups. Patients exhibited similar frequency behavior across multiple networks with decreased low frequency power. In summary, a comprehensive analysis of INs reveals a key role for the default mode in both schizophrenia and bipolar disorder.",
   "abstract_source": "pubmed",
-  "cited_by_count": 274,
+  "cited_by_count": 271,
   "oa_url": "https://www.frontiersin.org/articles/10.3389/fpsyt.2011.00075/pdf",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/22291663/",
   "keywords": [
@@ -17334,7 +17334,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-21"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "yu2011modular",
@@ -17609,7 +17609,7 @@
   "openalex_id": null,
   "abstract": "Functional magnetic resonance imaging (fMRI) data are acquired as a complex image pair including magnitude and phase information. The vast majority of fMRI experiments do not attempt to take advantage of the time varying phase information. The phase of the MRI signal is related to the local magnetic field changes, suggesting it may contain useful information about the source of hemodynamic activity. Analysis of phase data acquired from different fMRI experiments has shown the presence of activity in response to various stimuli. However, there have been no studies that have examined phase data in a larger group of subjects for multiple types of fMRI tasks nor have studies examined phase changes due to event-related stimuli. In this paper, we evaluate the correspondence between the magnitude and phase changes at a group level in a block-design motor tapping task and in an event-related auditory oddball task. The results for both block-design and event-related tasks indicate the presence of task-related information in the phase data with phase-only and magnitude-only approaches showing signal changes in the expected brain regions. Although there is more overall activity detected with magnitude data, the phase-only analysis also reveals activity in regions expected to be involved in the task, some of which were not significantly activated in the magnitude-only analysis, suggesting that the phase might provide some unique information. In addition, the phase can potentially increase sensitivity within regions also showing magnitude changes. Future work should focus on additional methods for combining the magnitude and phase data.",
   "abstract_source": "pubmed",
-  "cited_by_count": 63,
+  "cited_by_count": 62,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/19900561/",
   "keywords": [],
@@ -17647,7 +17647,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-21"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "harenski2010neuroimaging",
@@ -17790,7 +17790,7 @@
   "openalex_id": null,
   "abstract": "PURPOSE: The purpose of this paper is to explore the issue of violence with respect to white-collar criminals. DESIGN/METHODOLOGY/APPROACH: The analysis is conceptual, focusing on the historical underpinnings of white-collar crime and reviewing the evolution of white-collar criminals. FINDINGS: Findings suggest that white-collar criminals do display violent tendencies and, contrary to popular belief, can become dangerous individuals. PRACTICAL IMPLICATIONS: The paper represents an extremely useful and practical source for fraud examiners and other white-collar crime investigators. Raising the mvareness of investigators dealing with white-collar criminals may prevent them from becoming victims of a violent act. ORIGINALITY/VALUE: The paper fulfills a need to highlight a dangerous trend with white-collar criminals in that they may be driven to violence against those involved in investigating their crimes.",
   "abstract_source": "pubmed",
-  "cited_by_count": 55,
+  "cited_by_count": 56,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/25414590/",
   "keywords": [
@@ -17831,7 +17831,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-21"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "joshi2010anatomical",
@@ -18056,7 +18056,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-21"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "calhoun2010aberrant",
@@ -18132,7 +18132,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-21"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "ermer2010psychopaths",
@@ -18738,7 +18738,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-21"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "kim2008method",
@@ -19002,7 +19002,7 @@
   "openalex_id": null,
   "abstract": "Brain regions which exhibit temporally coherent fluctuations, have been increasingly studied using functional magnetic resonance imaging (fMRI). Such networks are often identified in the context of an fMRI scan collected during rest (and thus are called \"resting state networks\"); however, they are also present during (and modulated by) the performance of a cognitive task. In this article, we will refer to such networks as temporally coherent networks (TCNs). Although there is still some debate over the physiological source of these fluctuations, TCNs are being studied in a variety of ways. Recent studies have examined ways TCNs can be used to identify patterns associated with various brain disorders (e.g. schizophrenia, autism or Alzheimer's disease). Independent component analysis (ICA) is one method being used to identify TCNs. ICA is a data driven approach which is especially useful for decomposing activation during complex cognitive tasks where multiple operations occur simultaneously. In this article we review recent TCN studies with emphasis on those that use ICA. We also present new results showing that TCNs are robust, and can be consistently identified at rest and during performance of a cognitive task in healthy individuals and in patients with schizophrenia. In addition, multiple TCNs show temporal and spatial modulation during the cognitive task versus rest. In summary, TCNs show considerable promise as potential imaging biological markers of brain diseases, though each network needs to be studied in more detail.",
   "abstract_source": "pubmed",
-  "cited_by_count": 598,
+  "cited_by_count": 595,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/18438867/",
   "keywords": [],
@@ -19040,7 +19040,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-21"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "dien2008fmri",
@@ -19460,7 +19460,7 @@
   "openalex_id": null,
   "abstract": "Schizophrenia and bipolar disorder are currently diagnosed on the basis of psychiatric symptoms and longitudinal course. The determination of a reliable, biologically-based diagnostic indicator of these diseases (a biomarker) could provide the groundwork for developing more rigorous tools for differential diagnosis and treatment assignment. Recently, methods have been used to identify distinct sets of brain regions or \"spatial modes\" exhibiting temporally coherent brain activity. Using functional magnetic resonance imaging (fMRI) data and a multivariate analysis method, independent component analysis, we combined the temporal lobe and the default modes to discriminate subjects with bipolar disorder, chronic schizophrenia, and healthy controls. Temporal lobe and default mode networks were reliably identified in all participants. Classification results on an independent set of individuals revealed an average sensitivity and specificity of 90 and 95%, respectively. The use of coherent brain networks such as the temporal lobe and default mode networks may provide a more reliable measure of disease state than task-correlated fMRI activity. A combination of two such hemodynamic brain networks shows promise as a biomarker for schizophrenia and bipolar disorder.",
   "abstract_source": "pubmed",
-  "cited_by_count": 366,
+  "cited_by_count": 359,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/17894392/",
   "keywords": [],
@@ -19500,7 +19500,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-21"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "kiehl2007reply",
@@ -20279,7 +20279,7 @@
   "openalex_id": null,
   "abstract": "Event-related potential (ERP) studies of the brain's response to infrequent, target (oddball) stimuli elicit a sequence of physiological events, the most prominent and well studied being a complex, the P300 (or P3) peaking approximately 300 ms post-stimulus for simple stimuli and slightly later for more complex stimuli. Localization of the neural generators of the human oddball response remains challenging due to the lack of a single imaging technique with good spatial and temporal resolution. Here, we use independent component analyses to fuse ERP and fMRI modalities in order to examine the dynamics of the auditory oddball response with high spatiotemporal resolution across the entire brain. Initial activations in auditory and motor planning regions are followed by auditory association cortex and motor execution regions. The P3 response is associated with brainstem, temporal lobe, and medial frontal activity and finally a late temporal lobe \"evaluative\" response. We show that fusing imaging modalities with different advantages can provide new information about the brain.",
   "abstract_source": "pubmed",
-  "cited_by_count": 222,
+  "cited_by_count": 223,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/16246587/",
   "keywords": [],
@@ -20314,7 +20314,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-21"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "kiehl2006psychopathy",
@@ -20417,7 +20417,7 @@
   "openalex_id": null,
   "abstract": "The acquisition of both structural MRI (sMRI) and functional MRI (fMRI) data for a given study is a very common practice. However, these data are typically examined in separate analyses, rather than in a combined model. We propose a novel methodology to perform independent component analysis across image modalities, specifically, gray matter images and fMRI activation images as well as a joint histogram visualization technique. Joint independent component analysis (jICA) is used to decompose a matrix with a given row consisting of an fMRI activation image resulting from auditory oddball target stimuli and an sMRI gray matter segmentation image, collected from the same individual. We analyzed data collected on a group of schizophrenia patients and healthy controls using the jICA approach. Spatially independent joint-components are estimated and resulting components were further analyzed only if they showed a significant difference between patients and controls. The main finding was that group differences in bilateral parietal and frontal as well as posterior temporal regions in gray matter were associated with bilateral temporal regions activated by the auditory oddball target stimuli. A finding of less patient gray matter and less hemodynamic activity for target detection in these bilateral anterior temporal lobe regions was consistent with previous work. An unexpected corollary to this finding was that, in the regions showing the largest group differences, gray matter concentrations were larger in patients vs. controls, suggesting that more gray matter may be related to less functional connectivity in the auditory oddball fMRI task.",
   "abstract_source": "pubmed",
-  "cited_by_count": 277,
+  "cited_by_count": 274,
   "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/hbm.20166?download=true",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/16108017/",
   "keywords": [],
@@ -20457,7 +20457,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-21"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "most2006attentional",
@@ -20776,7 +20776,7 @@
   "openalex_id": null,
   "abstract": "It is becoming common to collect data from multiple functional magnetic resonance imaging (fMRI) paradigms on a single individual. The data from these experiments are typically analyzed separately and sometimes directly subtracted from one another on a voxel-by-voxel basis. These comparative approaches, although useful, do not directly attempt to examine potential commonalities between tasks and between voxels. To remedy this we propose a method to extract maximally spatially independent maps for each task that are \"coupled\" together by a shared loading parameter. We first compute an activation map for each task and each individual as \"features,\" which are then used to perform joint independent component analysis (jICA) on the group data. We demonstrate our approach on a data set derived from healthy controls and schizophrenia patients, each of which carried out an auditory oddball task and a Sternberg working memory task. Our analysis approach revealed two interesting findings in the data that were missed with traditional analyses. First, consistent with our hypotheses, schizophrenia patients demonstrate \"decreased\" connectivity in a joint network including portions of regions implicated in two prevalent models of schizophrenia. A second finding is that for the voxels identified by the jICA analysis, the correlation between the two tasks was significantly higher in patients than in controls. This finding suggests that schizophrenia patients activate \"more similarly\" for both tasks than do controls. A possible synthesis of both findings is that patients are activating less, but also activating with a less-unique set of regions for these very different tasks. Both of the findings described support the claim that examination of joint activation across multiple tasks can enable new questions to be posed about fMRI data. Our approach can also be applied to data using more than two tasks. It thus provides a way to integrate and probe brain networks using a variety of tasks and may increase our understanding of coordinated brain networks and the impact of pathology upon them.",
   "abstract_source": "pubmed",
-  "cited_by_count": 177,
+  "cited_by_count": 176,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/16342150/",
   "keywords": [],
@@ -20815,7 +20815,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-21"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "kiehl2006brain",
@@ -21209,7 +21209,7 @@
   "openalex_id": null,
   "abstract": "Independent component analysis (ICA) is a data-driven approach utilizing high-order statistical moments to find maximally independent sources that has found fruitful application in functional magnetic resonance imaging (fMRI). Being a blind source separation technique, ICA does not require any explicit constraints upon the fMRI time courses. However, for some fMRI data analysis applications, such as for the analysis of an event-related paradigm, it would be useful to flexibly incorporate paradigm information into the ICA analysis. In this paper, we present an approach for constrained or semi-blind ICA (sbICA) analysis of event-related fMRI data by imposing regularization on certain estimated time courses using the paradigm information. We demonstrate the performance of our approach using both simulations and fMRI data from a three-stimulus auditory oddball paradigm. Simulation results suggest that (1) a regression approach slightly outperforms ICA when prior information is accurate and ICA outperforms the general linear model (GLM)-based approach when prior information is not completely accurate, (2) prior information improves the robustness of ICA in the presence of noise, and (3) ICA analysis using prior information with temporal constraints can outperform a regression approach when the prior information is not completely accurate. Using fMRI data, we compare a regression-based conjunction analysis of target and novel stimuli, both of which elicit an orienting response, to an sbICA approach utilizing both the target and novel stimuli to constrain the ICA time courses. Results show similar positive associations for both GLM and sbICA, but sbICA detects additional negative associates consistent with regions implicated in a default mode of brain activity. This suggests that task-related default mode decreases have a more \"complex\" signal that benefits from a flexible modeling approach. Compared with a traditional GLM approach, the sbICA approach provides a flexible way to analyze fMRI data that reduces the assumptions placed upon the hemodynamic response of the brain. The advantages and limitations of our technique are discussed in detail in the manuscript to provide guidelines to the reader for developing useful applications. The use of prior time course information in a spatial ICA analysis, which combines elements of both a regression approach and a blind ICA approach, may prove to be a useful tool for fMRI analysis.",
   "abstract_source": "pubmed",
-  "cited_by_count": 183,
+  "cited_by_count": 180,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/15784432/",
   "keywords": [],
@@ -21244,7 +21244,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-21"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "stevens2005hemispheric",
@@ -21572,7 +21572,7 @@
   "openalex_id": null,
   "abstract": "The aim of this study was to determine if error negativity/error-related negativity (N(e)/ERN), error positivity (P(e)), correct response negativity (CRN) or correct response positivity (P(c)) amplitude are influenced by state changes in schizophrenia. Event-related potentials (ERPs) were recorded from nine schizophrenic patients while they performed a simple go/no-go task during the early stages of an acute episode and again following 6 weeks of treatment with antipsychotics. ERPs were also recorded from nine healthy participants while they performed the same task. Response-locked potentials were computed for errors of commission and for correct responses. Scores for reality distortion syndrome, psychomotor poverty syndrome and disorganization syndrome were determined for the schizophrenic participants before and after treatment using the Signs and Symptoms of Psychotic Illness (SSPI) Scale. N(e)/ERN amplitude was significantly reduced, compared with that in healthy participants, in the schizophrenic patients when acutely ill, and increased significantly following treatment. N(e)/ERN amplitude remained significantly larger in the healthy group than in the patients with schizophrenia after treatment. This study suggests that N(e)/ERN and CRN amplitude are modulated by clinical state in schizophrenia and provides further support to findings that decreased N(e)/ERN amplitude is a potentially useful trait marker for schizophrenia, while P(c) and P(e) amplitude are not abnormal.",
   "abstract_source": "pubmed",
-  "cited_by_count": 125,
+  "cited_by_count": 127,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/15003441/",
   "keywords": [],
@@ -21606,7 +21606,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-21"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "bolla2004prefrontal",
@@ -21656,7 +21656,7 @@
   "openalex_id": null,
   "abstract": "The anterior cingulate cortex (ACC) and lateral prefrontal (LPFC) cortex are brain regions important to executive cognitive functions (ECF). We determined ACC and LPFC function in 23-day abstinent cocaine abusers using positron emission tomography (PET H(2)(15)O) during performance of a modified version of the Stroop Task. Cocaine abusers showed less activation than non-drug-using comparison subjects in the left ACC and the right LPFC and greater activation in the right ACC. Average amount of cocaine used per week was negatively correlated with activity in the rostral ACC and right LPFC. Disruption of ECF in substance abusers could interfere with attempts to stop drug use and undermine treatment. Since impairment in ECF may be a common feature of various neuropsychiatric disorders, these findings have applicability beyond the neurobiology of addiction.",
   "abstract_source": "pubmed",
-  "cited_by_count": 295,
+  "cited_by_count": 292,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/15616172/",
   "keywords": [],
@@ -21695,7 +21695,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-21"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "kiehl2004temporal",
@@ -21842,7 +21842,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-21"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "calhoun2004fmri",
@@ -21879,7 +21879,7 @@
   "openalex_id": null,
   "abstract": "Functional magnetic resonance imaging (fMRI) data are often analyzed using the general linear model employing a hypothesized neural model convolved with a hemodynamic response function. Mismatches between this hemodynamic model and the data can be induced by spatially varying delays or slice-timing differences. It is common practice to desensitize the analysis to such delays by incorporation of the hemodynamic model plus its temporal derivative. The rationale often used is that additional variance will be captured and regressed out from the data. Though this is true, it ignores the potential for amplitude bias induced by small model mismatches due to, for example, variable hemodynamic delays and is not helpful for \"random effects\" analyses which typically do not account for the first level variance at all. Amplitude bias is due to the use of only the nonderivative portion of the model in the final test for significant amplitudes. We propose instead testing an amplitude value that is a function of both the nonderivative and the derivative terms of the model. Using simulations, we show that the proposed amplitude test does not suffer from delay-induced bias and that a model incorporating temporal derivatives is a more natural test for amplitude differences. The proposed test is applied in a random-effects analysis of 100 subjects. It reveals increased amplitudes in areas consistent with the task, with the largest increases in regions with greater hemodynamic delays.",
   "abstract_source": "pubmed",
-  "cited_by_count": 234,
+  "cited_by_count": 233,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/15110015/",
   "keywords": [],
@@ -21914,7 +21914,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-21"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "mendrek2004changes",
@@ -22178,7 +22178,7 @@
   "openalex_id": null,
   "abstract": "Cocaine abusers demonstrate faulty decision-making as manifested by their inability to discontinue self-destructive drug-seeking behaviors. The orbitofrontal cortex (OFC) plays an important role in decision-making. In this preliminary study we tested whether 25-day-abstinent cocaine abusers show alterations in normalized cerebral blood flow (rCBF) in the OFC using PET with (15)O during the Iowa Gambling Task (a decision-making task). This task measures the ability to weigh short-term rewards against long-term losses. A control task matched the sensorimotor aspects of the task but did not require decision-making. Cocaine abusers (N = 13) showed greater activation during performance of the Iowa Gambling Task in the right OFC and less activation in the right dorsolateral prefrontal cortex (DLPFC) and left medial prefrontal cortex (MPFC) compared to a control group (N = 13). Better Iowa Gambling Task performance was associated with greater activation in the right OFC in both groups. Also, the amount of cocaine used (grams/week) prior to the 25 days of enforced abstinence was negatively correlated with activation in the left OFC. Greater activation in the OFC in cocaine abusers compared to a control group may reflect differences in the anticipation of reward while less activation in the DLPFC and MPFC may reflect differences in planning and working memory. These findings suggest that cocaine abusers show persistent functional abnormalities in prefrontal neural networks involved in decision-making and these effects are related to cocaine abuse. Compromised decision-making could contribute to the development of addiction and undermine attempts at abstinence.",
   "abstract_source": "pubmed",
-  "cited_by_count": 657,
+  "cited_by_count": 658,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/12880834/",
   "keywords": [],
@@ -22218,7 +22218,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-21"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "bates2002increased",
@@ -22281,7 +22281,7 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "citations_refreshed": "2026-11-21"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "ngan2002decreased",
@@ -22452,7 +22452,7 @@
   "openalex_id": null,
   "abstract": "OBJECTIVES: To examine error-related negativity (ERN) and correct response negativity (CRN) in schizophrenia in light of two previous conflicting reports, and to determine their relation to disorganization, psychomotor poverty and reality distortion. METHODS: Event-related potentials were recorded from 21 schizophrenic and 21 control participants who performed a simple go/no-go task. Response-locked potentials were computed for errors of commission and for correct-hits. Scores for reality distortion syndrome, psychomotor poverty syndrome and disorganization syndrome were determined for each schizophrenic participant using the Signs and Symptoms of Psychotic Illness (SSPI) scale. RESULTS: ERN produced during error trials and CRN produced during correct trials were significantly larger in the control participant group than in the schizophrenic participant group. In the schizophrenic patients, ERN amplitude was negatively correlated with psychomotor poverty syndrome score and CRN amplitude was negatively correlated with disorganization syndrome score. CONCLUSIONS: Decreased ERN and CRN in the schizophrenic participant group suggests abnormal internal behavior monitoring in schizophrenic patients. Patients with high disorganization symptoms may employ an abnormal strategy for comparing actual response outcome with desired response outcome, while patients with psychomotor poverty may be less emotionally responsive to errors.",
   "abstract_source": "pubmed",
-  "cited_by_count": 193,
+  "cited_by_count": 194,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/12169328/",
   "keywords": [],
@@ -22486,7 +22486,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-21"
+  "citations_refreshed": "2026-11-26"
  },
  {
   "id": "kiehl2002reading",
