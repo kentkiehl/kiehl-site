@@ -50,4 +50,6 @@
 
   // Cookie-free analytics (Cloudflare Web Analytics) once a token is configured
   if (C.cfAnalyticsToken) { const s = document.createElement("script"); s.defer = true; s.src = "https://static.cloudflareinsights.com/beacon.min.js"; s.setAttribute("data-cf-beacon", JSON.stringify({ token: C.cfAnalyticsToken })); document.head.appendChild(s); }
+  // Private visit counter (GoatCounter, no cookies). Counts only on the live site, not previews or local copies.
+  if (C.goatcounterCode && /(^|\.)kentkiehl\.com$/.test(location.hostname)) { const g = document.createElement("script"); g.async = true; g.src = "https://gc.zgo.at/count.js"; g.setAttribute("data-goatcounter", "https://" + C.goatcounterCode + ".goatcounter.com/count"); document.head.appendChild(g); }
 })();

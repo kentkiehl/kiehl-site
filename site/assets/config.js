@@ -4,6 +4,8 @@ window.SITE_CONFIG = {
   siteUrl: "https://kentkiehl.com",
   // Cloudflare Web Analytics token (cookie-free). Empty disables the beacon; see README "Analytics".
   cfAnalyticsToken: "",
+  // GoatCounter site code (cookie-free visit counter; private dashboard at https://<code>.goatcounter.com). Empty disables it.
+  goatcounterCode: "kkiehl",
   // Address of an embeddable donation form; empty shows only the link to mrn.org/donate (see donate.html)
   donateEmbedUrl: ""
 };
