@@ -85,7 +85,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-23"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "allen2026incarcerated",
@@ -4276,7 +4276,7 @@
   "openalex_id": null,
   "abstract": "BACKGROUND: While psychosis is a risk factor for violence, the majority of individuals who perpetrate aggression do not present psychotic symptoms. Pathological aggressive behavior is associated with brain gray matter differences, which, in turn, has shown a relationship with increased psychopathic traits. However, no study, to our knowledge, has ever investigated gray matter differences in forensic psychiatric patients with psychosis compared with incarcerated individuals without psychosis matched on levels of psychopathic traits. Here, we employed source-based morphometry (SBM) to investigate gray matter differences in these two populations. METHODS: We scanned 137 participants comprising two offender subgroups: 69, non-psychotic incarcerated offenders and 68, psychotic, forensic psychiatric patients. Groups showed no difference in age, race, ethnicity, handedness, and Hare Psychopathy Checklist-Revised scores. Source-based morphometry was utilized to identify spatially distinct sets of brain regions where gray matter volumes covaried between groups. SBM is a data-driven, multivariate technique that uses independent components analysis to categorize groups of voxels that display similar variance patterns (e.g., components) that are compared across groups. RESULTS: SBM identified four components that differed between groups. These findings indicated greater loading weights in the superior, transverse, and middle temporal gyrus and anterior cingulate in the non-psychotic versus psychotic group; greater loading weights in the basal ganglia in the psychotic versus non-psychotic group; greater loading weights in the frontal pole, precuneus, and visual cortex among psychotic versus non-psychotic offenders; and greater loading weights in the thalamus and parahippocampal gyrus in psychotic versus non-psychotic groups. CONCLUSIONS: Two different offender groups that perpetrate violence and show comparable levels of psychopathic traits evidenced different gray matter volumes. We suggest that future studies of violent offenders with psychosis take psychopathic traits into account to refine neural phenotypes.",
   "abstract_source": "pubmed",
-  "cited_by_count": 13,
+  "cited_by_count": 14,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/34215145/",
   "keywords": [],
@@ -4315,7 +4315,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-23"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "irvinvitela2021reduced",
@@ -4405,7 +4405,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-23"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "maurer2021dimensions",
@@ -4705,7 +4705,7 @@
   "openalex_id": null,
   "abstract": "AIM: To further investigate the neuroanatomical correlates of child sexual offending and disentangle them from the neural correlates of pedophilia, using a multivariate analytical approach in order to minimize loss of statistical power. METHODS: This study presents structural MRI data on gray matter in an incarcerated, male population of 22 pedophilic and 21 non-pedophilic child sexual offenders, and 20 violent non-sexual offender controls, based on a multivariate whole-brain approach using source-based morphometry. RESULTS: We identify a network of several neuroanatomical regions exhibiting interrelated reduced gray matter in both child sexual offender groups relative to controls, comprising extensive clusters in the bilateral cerebellum and frontal lobe, as well as smaller clusters in the bilateral parietal, temporal, and occipital lobes, the bilateral basal ganglia, the medial cingulate and the hippocampus. CONCLUSION: Our results speak to the interpretation that there are inter- and possibly connectivity-related brain structural abnormalities in child sexual offenders that are not (only) pertaining to pedophilia per se. Interpretations and limitations of the present data are discussed and recommendations for future works are given.",
   "abstract_source": "pubmed",
-  "cited_by_count": 12,
+  "cited_by_count": 13,
   "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/pcn.13292",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/34346537/",
   "keywords": [
@@ -4747,7 +4747,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-23"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "panta2021classifying",
@@ -5241,7 +5241,7 @@
   "openalex_id": null,
   "abstract": "Relative to the general population, criminal offenders have a higher risk of suicide. Neurobiological deficits related to suicidal behavior have been identified in the general population, but unexamined in offenders to date. We examined the association between brain morphology and suicidal behavior in adult male criminal offenders. Brain morphology was examined using voxel-based morphometry (VBM) and source-based morphometry (SBM), a multivariate alternative to VBM which analyzes brain volume in between-subject spatially independent networks. Results showed that offenders with past suicide attempts (n = 19), relative to offenders without past suicide attempts (n = 19) and non-offenders (n = 26), had reduced gray matter in an SBM component that comprised the posterior cingulate, dorsal prefrontal cortex, and amygdala. The SBM source weights were significantly associated with suicide attempts independent of other suicide risk variables (e.g., depression). VBM results were similar to the SBM results but less robust. The results reveal a potential neurobiological marker of vulnerability to suicidal behavior among criminal offenders and illustrate the utility of multivariate methods of gray matter analyses.",
   "abstract_source": "pubmed",
-  "cited_by_count": 28,
+  "cited_by_count": 20,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/30215220/",
   "keywords": [
@@ -5286,7 +5286,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-23"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "maurer2020youth",
@@ -7429,7 +7429,7 @@
   "openalex_id": null,
   "abstract": "Psychotic disorders are associated with neurobehavioral impairments in mental state attribution (mentalizing). These impairments are most severe in psychotic patients with elevated symptom levels, particularly negative and cognitive symptoms. There have been few studies of functional connectivity related to mentalizing in psychotic disorders and associations with symptoms. We conducted a functional MRI study of affective mentalizing in individuals with psychotic disorders and varying symptom levels (positive, negative, cognitive). Participants were drawn from an adjudicated inpatient forensic psychiatric population (criminal offenders). Functional MRI scans were acquired using a 32-channel ultra-fast multiband imaging sequence. Mentalizing task performance and functional connectivity were assessed in psychotic criminal offenders (n = 46) and nonpsychotic offenders (n = 41). Temporal coherent brain networks were estimated with group independent component analysis (ICA). Relative to nonpsychotic offenders, psychotic offenders showed impaired task performance and reduced activation in a component comprising the dorsomedial prefrontal cortex, superior temporal gyrus, and ventrolateral prefrontal cortex. Positive and cognitive symptoms were inversely correlated with component activity and task performance. The results are discussed with reference to potential mechanisms underlying impaired social cognition in psychotic disorders and across symptom types.",
   "abstract_source": "pubmed",
-  "cited_by_count": 16,
+  "cited_by_count": 15,
   "oa_url": "https://www.sciencedirect.com/science/article/am/pii/S0925492717300574",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/29146299/",
   "keywords": [
@@ -7473,7 +7473,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-23"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "maurer2018investigating",
@@ -8214,7 +8214,7 @@
   "openalex_id": null,
   "abstract": "Age is one of the best predictors of antisocial behavior. Risk models of recidivism often combine chronological age with demographic, social and psychological features to aid in judicial decision-making. Here we use independent component analyses (ICA) and machine learning techniques to demonstrate the utility of using brain-based measures of cerebral aging to predict recidivism. First, we developed a brain-age model that predicts chronological age based on structural MRI data from incarcerated males (n = 1332). We then test the model's ability to predict recidivism in a new sample of offenders with longitudinal outcome data (n = 93). Consistent with hypotheses, inclusion of brain-age measures of the inferior frontal cortex and anterior-medial temporal lobes (i.e., amygdala) improved prediction models when compared with models using chronological age; and models that combined psychological, behavioral, and neuroimaging measures provided the most robust prediction of recidivism. These results verify the utility of brain measures in predicting future behavior, and suggest that brain-based data may more precisely account for important variation when compared with traditional proxy measures such as chronological age. This work also identifies new brain systems that contribute to recidivism which has clinical implications for treatment development.",
   "abstract_source": "pubmed",
-  "cited_by_count": 67,
+  "cited_by_count": 71,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/30013925/",
   "keywords": [
@@ -8259,7 +8259,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-23"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "miskovich2018abnormal",
@@ -8856,7 +8856,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-23"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "korponay2017impulsive",
@@ -8900,7 +8900,7 @@
   "openalex_id": null,
   "abstract": "BACKGROUND: Psychopathy is a mental health disorder characterized by callous and impulsive antisocial behavior, and is associated with a high incidence of violent crime, substance abuse, and recidivism. Recent studies suggest that the striatum may be a key component of the neurobiological basis for the disorder, though structural findings have been mixed and functional connectivity of the striatum in psychopathy has yet to be fully examined. METHODS: We performed a multimodal neuroimaging study of striatum volume and functional connectivity in psychopathy, using a large sample of adult male prison inmates (N=124). We conducted volumetric analyses in striatal subnuclei, and subsequently assessed resting-state functional connectivity in areas where volume was related to psychopathy severity. RESULTS: Total PCL-R and Factor 2 scores (which index the impulsive/antisocial traits of psychopathy) were associated with larger striatal subnuclei volumes and increased volume in focal areas throughout the striatum, particularly in the nucleus accumbens and putamen bilaterally. Furthermore, at many of the striatal areas where volume was positively associated with Factor 2 scores, psychopathy severity was also associated with abnormal functional connectivity with other brain regions, including dorsolateral prefrontal cortex, ventral midbrain and other areas of the striatum. The results were not attributable to age, race, IQ, substance use history, or intracranial volume. CONCLUSION: These findings associate the impulsive/antisocial dimension of psychopathy with enlarged striatal subnuclei and aberrant functional connectivity between the striatum and other brain regions. Furthermore, the co-localization of volumetric and functional connectivity findings suggests that these neural abnormalities may be pathophysiologically linked.",
   "abstract_source": "pubmed",
-  "cited_by_count": 64,
+  "cited_by_count": 63,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/28367514/",
   "keywords": [
@@ -8947,7 +8947,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-23"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "thijssen2017functional",
@@ -9161,7 +9161,7 @@
   "openalex_id": null,
   "abstract": "Psychopathy is a personality disorder characterized by callous lack of empathy, impulsive antisocial behavior, and criminal recidivism. Studies of brain structure and function in psychopathy have frequently identified abnormalities in the prefrontal cortex. However, findings have not yet converged to yield a clear relationship between specific subregions of prefrontal cortex and particular psychopathic traits. We performed a multimodal neuroimaging study of prefrontal cortex volume and functional connectivity in psychopathy, using a sample of adult male prison inmates (N = 124). We conducted volumetric analyses in prefrontal subregions, and subsequently assessed resting-state functional connectivity in areas where volume was related to psychopathy severity. We found that overall psychopathy severity and Factor 2 scores (which index the impulsive/antisocial traits of psychopathy) were associated with larger prefrontal subregion volumes, particularly in the medial orbitofrontal cortex and dorsolateral prefrontal cortex. Furthermore, Factor 2 scores were also positively correlated with functional connectivity between several areas of the prefrontal cortex. The results were not attributable to age, race, IQ, substance use history, or brain volume. Collectively, these findings provide evidence for co-localized increases in prefrontal cortex volume and intra-prefrontal functional connectivity in relation to impulsive/antisocial psychopathic traits.",
   "abstract_source": "pubmed",
-  "cited_by_count": 89,
+  "cited_by_count": 92,
   "oa_url": "https://academic.oup.com/scan/article-pdf/12/7/1169/27104823/nsx042.pdf",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/28402565/",
   "keywords": [
@@ -9209,7 +9209,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-23"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "hosking2017disrupted",
@@ -9253,7 +9253,7 @@
   "openalex_id": null,
   "abstract": "Psychopathy is a personality disorder with strong links to criminal behavior. While research on psychopathy has focused largely on socio-affective dysfunction, recent data suggest that aberrant decision making may also play an important role. Yet, the circuit-level mechanisms underlying maladaptive decision making in psychopathy remain unclear. Here, we used a multi-modality functional imaging approach to identify these mechanisms in a population of adult male incarcerated offenders. Psychopathy was associated with stronger subjective value-related activity within the nucleus accumbens (NAcc) during inter-temporal choice and with weaker intrinsic functional connectivity between NAcc and ventromedial prefrontal cortex (vmPFC). NAcc-vmPFC connectivity strength was negatively correlated with NAcc subjective value-related activity; however, this putative regulatory pattern was abolished as psychopathy severity increased. Finally, weaker cortico-striatal regulation predicted more frequent criminal convictions. These data suggest that cortico-striatal circuit dysregulation drives maladaptive decision making in psychopathy, supporting the notion that reward system dysfunction comprises an important neurobiological risk factor.",
   "abstract_source": "pubmed",
-  "cited_by_count": 103,
+  "cited_by_count": 104,
   "oa_url": "http://www.cell.com/article/S0896627317305548/pdf",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/28683266/",
   "keywords": [
@@ -9302,7 +9302,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-23"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "thijssen2017regular",
@@ -9513,7 +9513,7 @@
   "openalex_id": null,
   "abstract": "BACKGROUND: Human neuroimaging studies indicate that the loss of brain volume associated with substance abuse may be recovered during abstinence. Subcortical and prefrontal cortical regions involved in reward and decision-making are among the regions most consistently implicated in damage and recovery from substance abuse, but the relative capacities of these different brain regions to recover volume during abstinence remains unclear, and it is unknown whether recovery capacities depend on the substance that was abused. METHODS: Voxel-based morphometry in a prison inmate sample (n=107) of long-term abstinent former regular users (FRUs) and former light users (FLUs) of alcohol, cocaine, and/or cannabis. Cross-sectional indicators of volume recovery were operationalized as 1) positive correlation between abstinence duration and volume in FRUs and 2) absence of lower volume in FRUs compared to FLUs. RESULTS: In FRUs of alcohol, abstinence duration positively correlated with volume in subcortical regions (particularly the putamen and amygdala) but not prefrontal regions; lower prefrontal but not subcortical volume was observed in FRUs compared to FLUs. In FRUs of cocaine, abstinence duration positively correlated with volume in both subcortical regions (particularly the nucleus accumbens) and prefrontal regions; lower volume was not observed in either subcortical or prefrontal regions in FRUs. In FRUs of cannabis, abstinence duration positively correlated with subcortical but not prefrontal volume; lower prefrontal but not subcortical volume was observed in FRUs. CONCLUSIONS: Subcortical structures displayed indicators of volume recovery across FRUs of all three substances, whereas prefrontal regions displayed indicators of volume recovery only in FRUs of cocaine.",
   "abstract_source": "pubmed",
-  "cited_by_count": 27,
+  "cited_by_count": 28,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/29308437/",
   "keywords": [
@@ -9558,7 +9558,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-23"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "reidy2017development",
@@ -10538,7 +10538,7 @@
   "openalex_id": null,
   "abstract": "Psychopathic individuals are prone to act on urges without adequate consideration of future consequences or the rights of other individuals. One interpretation of this behavior is that it reflects abnormal selective attention (i.e., a failure to process information that is incongruent with their primary focus of attention; Hiatt, Schmitt, & Newman, Neuropsychology, 18, 50-59, 2004). Unfortunately, it is unclear whether this selective attention abnormality reflects top-down endogenous influences, such as the strength or specificity of attention focus (i.e., top-down set) apart from other, more exogenous (bottom-up), effects on attention. To explore this question, we used an early visual event-related potential (N2pc) in combination with a modified visual search task designed to assess the effect of early endogenous (i.e., top-down) attention on the processing of set-congruent information. The task was administered to a sample of 70 incarcerated adult males, who were assigned to high, intermediate, and low psychopathy groups using Hare's Psychopathy Checklist-Revised (Hare, 2003). Based on the assumption that their failure to process set-incongruent information reflects the exaggerated effects of endogenous attention, we predicted that participants with high psychopathy scores would show an exaggerated N2pc response to set-congruent information. The results supported the hypothesis and provide novel electrophysiological evidence that psychopathy is associated with exaggerated endogenous attention effects during early stages of processing. Further research is needed to examine the implications of this finding for the well-established failure of psychopathic individuals to process set-incongruent information and inhibit inappropriate responses.",
   "abstract_source": "pubmed",
-  "cited_by_count": 23,
+  "cited_by_count": 24,
   "oa_url": "https://link.springer.com/content/pdf/10.3758/s13415-016-0430-7.pdf",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/27225501/",
   "keywords": [
@@ -10583,7 +10583,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-23"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "fede2016distinct",
@@ -10713,7 +10713,7 @@
   "openalex_id": null,
   "abstract": "Emotional intelligence (EI) is the ability to perceive, manage, and reason about emotions and to use this information to guide thinking and behavior adaptively. Youth with callous-unemotional (CU) traits demonstrate a variety of affective deficits, including impairment in recognition of emotion and reduced emotional responsiveness to distress or pain in others. We examined the association between ability EI and CU traits in a sample of incarcerated adolescents (n = 141) using an expert-rater device (Psychopathy Checklist Youth Version (PCL-YV; Manual for the Hare psychopathy checklist: Youth version. Multi-Health Systems, Toronto, 2003) and self-report assessments of CU traits. EI was assessed using the Mayer-Salovey-Caruso Emotional Intelligence Test-Youth Version, Research Version (MSCEIT-YV-R; MSCEIT YV: Mayer-Salovey-Caruso emotional intelligence test: Youth version, research version 1.0. Multi-Health Systems, Toronto, Ontario, 2005). Similar to findings in adult forensic populations, high levels of CU traits in incarcerated adolescents were associated with lower EI, particularly higher order EI skills. Identifying impairment on EI abilities may have important implications for emerging treatment and intervention developments for youth with high levels of CU traits.",
   "abstract_source": "pubmed",
-  "cited_by_count": 50,
+  "cited_by_count": 52,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/26779640/",
   "keywords": [
@@ -10760,7 +10760,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-23"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "freeman2015posteromedial",
@@ -12420,7 +12420,7 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "citations_refreshed": "2026-11-23"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "kiehl2014psychopathy",
@@ -12482,7 +12482,7 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "citations_refreshed": "2026-11-23"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "anderson2014psychopathy",
@@ -13343,7 +13343,7 @@
   "openalex_id": null,
   "abstract": "Neuroimaging studies have found that adult male psychopaths show reduced engagement of limbic and paralimbic circuitry while making moral judgments. The goal of this study was to investigate whether these findings extend to adolescent males with psychopathic traits. Functional MRI was used to record hemodynamic activity in 111 incarcerated male adolescents while they viewed unpleasant pictures that did or did not depict moral transgressions and rated each on \"moral violation severity\". Adolescents were assessed for psychopathic traits using the Psychopathy Checklist-Youth Version (PCL-YV), Kiddie Schedule for Affective Disorders and Schizophrenia-Present and Lifetime Version (KSADS-PL) Conduct Disorder supplement, and Inventory of Callous and Unemotional Traits-Youth Version (ICU-Y). While viewing pictures depicting moral transgressions, CD scores were negatively correlated with hemodynamic responses in the anterior temporal cortex. Adolescents scoring low on the ICU-Y showed a positive correlation between right amygdala responses and severity of violation ratings; those with high ICU-Y scores showed a negative correlation. While viewing unpleasant pictures with and without moral transgressions, PCL-YV scores were negatively correlated with hemodynamic responses in the left amygdala. Overall, the results are consistent with those previously found in adult male psychopaths, but vary depending on the type of psychopathy assessment.",
   "abstract_source": "pubmed",
-  "cited_by_count": 58,
+  "cited_by_count": 57,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/25279855/",
   "keywords": [
@@ -13391,7 +13391,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-23"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "harenski2014neuroimaging",
@@ -13475,7 +13475,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-23"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "aharoni2014what",
@@ -13583,7 +13583,7 @@
   "openalex_id": null,
   "abstract": "BACKGROUND: Psychopathy is a personality disorder associated with impairments in decision-making, empathy, and impulsivity. Recent brain imaging studies suggest that psychopathy is associated with abnormalities in limbic/paralimbic brain regions. To date, no studies have examined functional brain connectivity measures using independent component analyses (ICA) in adults with psychopathy. Here, we test hypotheses regarding paralimbic connectivity in adult incarcerated individuals stratified by psychopathy scores. METHODS: One hundred and two prison inmates were rated using the Hare Psychopathy Checklist-Revised (PCL-R). FMRI data were collected while subjects performed an auditory target detection \"oddball\" task. FMRI data were analyzed using group ICA to identify functional networks responding to the oddball task correlating with psychopathy scores. RESULTS: Components demonstrating significant correlations with psychopathy included a default mode network, a frontoparietal component, and a visual/posterior cingulate component. Modulation trends correlated strongly with factor 2 (impulsivity) and total PCL-R scores in the frontoparietal and visual/posterior cingulate networks, and with factor 1 (affective) scores within the default mode network. The posterior cingulate region factored significantly in the modulation trends observed. CONCLUSION: Consistent with the hypothesis of limbic/paralimbic abnormalities associated with psychopathy, modulation trends correlated strongly with PCL-R scores. There is strong evidence to implicate the posterior cingulate in aberrant functional connectivity associated with the manifestation of psychopathic symptoms. Future investigations comparing functional trends associated with the posterior cingulate in psychopathic subjects may provide further insight into the manifestation of this disorder.",
   "abstract_source": "pubmed",
-  "cited_by_count": 80,
+  "cited_by_count": 79,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/22431294/",
   "keywords": [
@@ -13632,7 +13632,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-23"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "arbabshirani2013functional",
@@ -14060,7 +14060,7 @@
   "source": "cv-2026",
   "editors": true,
   "tag_source": "rules",
-  "citations_refreshed": "2026-11-23"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "ermer2013aberrant",
@@ -14923,7 +14923,7 @@
   "openalex_id": null,
   "abstract": "Psychopathic behavior has long been attributed to a fundamental deficit in fear that arises from impaired amygdala function. Growing evidence has demonstrated that fear-potentiated startle (FPS) and other psychopathy-related deficits are moderated by focus of attention, but to date, no work on adult psychopathy has examined attentional modulation of the amygdala or concomitant recruitment of relevant attention-related circuitry. Consistent with previous FPS findings, here we report that psychopathy-related differences in amygdala activation appear and disappear as a function of goal-directed attention. Specifically, decreased amygdala activity was observed in psychopathic offenders only when attention was engaged in an alternative goal-relevant task prior to presenting threat-relevant information. Under this condition, psychopaths also exhibited greater activation in selective-attention regions of the lateral prefrontal cortex (LPFC) than did nonpsychopaths, and this increased LPFC activation mediated psychopathy's association with decreased amygdala activation. In contrast, when explicitly attending to threat, amygdala activation did not differ in psychopaths and nonpsychopaths. This pattern of amygdala activation highlights the potential role of LPFC in mediating the failure of psychopathic individuals to process fear and other important information when it is peripheral to the primary focus of goal-directed attention.",
   "abstract_source": "pubmed",
-  "cited_by_count": 152,
+  "cited_by_count": 154,
   "oa_url": "https://link.springer.com/content/pdf/10.3758/s13415-013-0172-8.pdf",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/23712665/",
   "keywords": [],
@@ -14963,7 +14963,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-23"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "aharoni2012can",
@@ -15335,7 +15335,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-23"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "ermer2012emotional",
@@ -15449,7 +15449,7 @@
   "openalex_id": null,
   "abstract": "CONTEXT: Sexual sadism is a psychiatric disorder in which sexual pleasure is derived from inflicting pain, suffering, or humiliation on others. While the psychological and forensic aspects of sexual sadism have been well characterized, little is known about the neurocognitive circuitry associated with the disorder. Sexual sadists show increased peripheral sexual arousal when observing other individuals in pain. The neural mechanisms underlying this unusual response are not well understood. We predicted that sadists relative to nonsadists would show increased responses in brain regions associated with sexual arousal (amygdala, hypothalamus, and ventral striatum) and affective pain processing (anterior cingulate and anterior insula) during pain observation. OBJECTIVE: To study the neural correlates of pain observation in sadists and nonsadists. DESIGN: Case-control cross-sectional study. Sadists and nonsadists viewed 50 social scenes, 25 that depicted a person in pain (eg, one person stabbing another person's hand with scissors) and 25 thematically matched no-pain pictures (eg, one person stabbing a table with scissors, with another person's hand nearby). Pain severity ratings (range, 0 [none] to 4 [severe]) were acquired following each picture presentation. SETTING: Sand Ridge Secure Treatment Center, Mauston, Wisconsin. PARTICIPANTS: Fifteen violent sexual offenders, including 8 sadists and 7 nonsadists (defined using the Severe Sexual Sadism Scale) who were matched for age, IQ, and education. MAIN OUTCOME MEASURES: Hemodynamic response revealed by functional magnetic resonance imaging and pain severity ratings. RESULTS: Sadists relative to nonsadists showed greater amygdala activation when viewing pain pictures. They also rated pain pictures higher on pain severity than nonsadists. Sadists but not nonsadists showed a positive correlation between pain severity ratings and activity in the anterior insula. CONCLUSION: These results provide neurobehavioral evidence of unusually heightened sensitivity to the pain of others in sadists.",
   "abstract_source": "pubmed",
-  "cited_by_count": 80,
+  "cited_by_count": 81,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/22393220/",
   "keywords": [],
@@ -15487,7 +15487,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-23"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "segall2012correspondence",
@@ -16099,7 +16099,7 @@
   "openalex_id": null,
   "abstract": "The manuscript surveys the history of psychopathic personality, from its origins in psychiatric folklore to its modern assessment in the forensic arena. Individuals with psychopathic personality, or psychopaths, have a disproportionate impact on the criminal justice system. Psychopaths are twenty to twenty-five times more likely than non-psychopaths to be in prison, four to eight times more likely to violently recidivate compared to non-psychopaths, and are resistant to most forms of treatment. This article presents the most current clinical efforts and neuroscience research in the field of psychopathy. Given psychopathy's enormous impact on society in general and on the criminal justice system in particular, there are significant benefits to increasing awareness of the condition. This review also highlights a recent, compelling and cost-effective treatment program that has shown a significant reduction in violent recidivism in youth on a putative trajectory to psychopathic personality.",
   "abstract_source": "pubmed",
-  "cited_by_count": 371,
+  "cited_by_count": 370,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/24944437/",
   "keywords": [],
@@ -16131,7 +16131,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-23"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "allen2011baseline",
@@ -16821,7 +16821,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-23"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "allen2011components",
@@ -17081,7 +17081,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-23"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "motzkin2011reduced",
@@ -17492,7 +17492,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-23"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "harenski2010functional",
@@ -17528,7 +17528,7 @@
   "openalex_id": null,
   "abstract": "Prior functional imaging studies of moral processing have utilized 'explicit' moral tasks that involve moral deliberation (e.g., reading statements such as 'he shot the victim' and rating the moral appropriateness of the behavior) or 'implicit' moral tasks that involve moral intuition (e.g., reading similar statements and memorizing them for a test but not rating their moral appropriateness). Although the neural mechanisms underlying moral deliberation and moral intuition may differ, these have not been directly compared. Studies using explicit moral tasks have reported increased activity in several regions, most consistently the medial prefrontal cortex and temporo-parietal junction. In the few studies that have utilized implicit moral tasks, medial prefrontal activity has been less consistent, suggesting the medial prefrontal cortex is more critical for moral deliberation than moral intuition. Thus, we hypothesized that medial prefrontal activity would be increased during an explicit, but not an implicit, moral task. Participants (n=28) were scanned using fMRI while viewing 50 unpleasant pictures, half of which depicted moral violations. Half of the participants rated pictures on moral violation severity (explicit task) while the other half indicated whether pictures occurred indoors or outdoors (implicit task). As predicted, participants performing the explicit, but not the implicit, task showed increased ventromedial prefrontal activity while viewing moral pictures. Both groups showed increased temporo-parietal junction activity while viewing moral pictures. These results suggest that the ventromedial prefrontal cortex may contribute more to moral deliberation than moral intuition, whereas the temporo-parietal junction may contribute more to moral intuition than moral deliberation.",
   "abstract_source": "pubmed",
-  "cited_by_count": 73,
+  "cited_by_count": 69,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/19878727/",
   "keywords": [],
@@ -17567,7 +17567,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-23"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "arja2010changes",
@@ -17708,7 +17708,7 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "citations_refreshed": "2026-11-23"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "kiehl2010can",
@@ -17760,7 +17760,7 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "citations_refreshed": "2026-11-23"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "brody2010white",
@@ -17869,7 +17869,7 @@
   "openalex_id": null,
   "abstract": "Non-negative matrix factorization (NMF) is an excellent tool for unsupervised parts-based learning, but proves to be ineffective when parts of a whole follow a specific pattern. Analyzing such local changes is particularly important when studying anatomical transformations. We propose a supervised method that incorporates a regression constraint into the NMF framework and learns maximally changing parts in the basis images, called Regression based NMF (RNMF). The algorithm is made robust against outliers by learning the distribution of the input manifold space, where the data resides. One of our main goals is to achieve good region localization. By incorporating a gradient smoothing and independence constraint into the factorized bases, contiguous local regions are captured. We apply our technique to a synthetic dataset and structural MRI brain images of subjects with varying ages. RNMF finds the localized regions which are expected to be highly changing over age to be manifested in its significant basis and it also achieves the best performance compared to other statistical regression and dimensionality reduction techniques.",
   "abstract_source": "pubmed",
-  "cited_by_count": 8,
+  "cited_by_count": 9,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/24943130/",
   "keywords": [],
@@ -17907,7 +17907,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-23"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "sakoglu2010method",
@@ -18817,7 +18817,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-23"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "shane2008neural",
@@ -18932,7 +18932,7 @@
   "openalex_id": null,
   "abstract": "We utilized a discrete dynamic Bayesian network (dDBN) approach (Burge, J., Lane, T., Link, H., Qiu, S., Clark, V.P., 2007. Discrete dynamic Bayesian network analysis of fMRI data. Hum Brain Mapp.) to determine differences in brain regions between patients with schizophrenia and healthy controls on a measure of effective connectivity, termed the approximate conditional likelihood score (ACL) (Burge, J., Lane, T., 2005. Learning Class-Discriminative Dynamic Bayesian Networks. Proceedings of the International Conference on Machine Learning, Bonn, Germany, pp. 97-104.). The ACL score represents a class-discriminative measure of effective connectivity by measuring the relative likelihood of the correlation between brain regions in one group versus another. The algorithm is capable of finding non-linear relationships between brain regions because it uses discrete rather than continuous values and attempts to model temporal relationships with a first-order Markov and stationary assumption constraint (Papoulis, A., 1991. Probability, random variables, and stochastic processes. McGraw-Hill, New York.). Since Bayesian networks are overly sensitive to noisy data, we introduced an independent component analysis (ICA) filtering approach that attempted to reduce the noise found in fMRI data by unmixing the raw datasets into a set of independent spatial component maps. Components that represented noise were removed and the remaining components reconstructed into the dimensions of the original fMRI datasets. We applied the dDBN algorithm to a group of 35 patients with schizophrenia and 35 matched healthy controls using an ICA filtered and unfiltered approach. We determined that filtering the data significantly improved the magnitude of the ACL score. Patients showed the greatest ACL scores in several regions, most markedly the cerebellar vermis and hemispheres. Our findings suggest that schizophrenia patients exhibit weaker connectivity than healthy controls in multiple regions, including bilateral temporal, frontal, and cerebellar regions during an auditory paradigm.",
   "abstract_source": "pubmed",
-  "cited_by_count": 60,
+  "cited_by_count": 61,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/18602482/",
   "keywords": [],
@@ -18970,7 +18970,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-23"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "calhoun2008modulation",
@@ -19554,7 +19554,7 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "citations_refreshed": "2026-11-23"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "kiehl2007without",
@@ -19609,7 +19609,7 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "citations_refreshed": "2026-11-23"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "shane2007psychopathy",
@@ -20103,7 +20103,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-23"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "stevens2007fmri",
@@ -20377,7 +20377,7 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "citations_refreshed": "2026-11-23"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "calhoun2006method",
@@ -20569,7 +20569,7 @@
   "openalex_id": null,
   "abstract": "BACKGROUND: Previous neuroimaging studies of working memory (WM) in schizophrenia, typically focusing on dorsolateral prefrontal cortex, yield conflicting results, possibly because of varied choice of tasks and analysis techniques. We examined neural function changes at several WM loads to derive a more complete picture of WM dysfunction in schizophrenia. METHODS: We used a version of the Sternberg Item Recognition Paradigm to test WM function at five distinct loads. Eighteen schizophrenia patients and 18 matched healthy controls were scanned with functional magnetic resonance imaging at 3 Tesla. RESULTS: Patterns of both overactivation and underactivation in patients were observed depending on WM load. Patients' activation was generally less responsive to load changes than control subjects', and different patterns of between-group differences were observed for memory encoding and retrieval. In the specific case of successful retrieval, patients recruited additional neural circuits unused by control subjects. Behavioral effects were generally consistent with these imaging results. CONCLUSIONS: Differential findings of overactivation and underactivation may be attributable to patients' decreased ability to focus and allocate neural resources at task-appropriate levels. Additionally, differences between encoding and retrieval suggest that WM dysfunction may be manifested differently during the distinct phases of encoding, maintenance, and retrieval.",
   "abstract_source": "pubmed",
-  "cited_by_count": 143,
+  "cited_by_count": 145,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/16503328/",
   "keywords": [],
@@ -20603,7 +20603,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-23"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "liddle2006abnormal",
@@ -20700,7 +20700,7 @@
   "openalex_id": null,
   "abstract": "Psychopathy is a complex personality disorder that includes interpersonal and affective traits such as glibness, lack of empathy, guilt or remorse, shallow affect, and irresponsibility, and behavioral characteristics such as impulsivity, poor behavioral control, and promiscuity. Much is known about the assessment of psychopathy; however, relatively little is understood about the relevant brain disturbances. The present review integrates data from studies of behavioral and cognitive changes associated with focal brain lesions or insults and results from psychophysiology, cognitive psychology and cognitive and affective neuroscience in health and psychopathy. The review illustrates that the brain regions implicated in psychopathy include the orbital frontal cortex, insula, anterior and posterior cingulate, amygdala, parahippocampal gyrus, and anterior superior temporal gyrus. The relevant functional neuroanatomy of psychopathy thus includes limbic and paralimbic structures that may be collectively termed 'the paralimbic system'. The paralimbic system dysfunction model of psychopathy is discussed as it relates to the extant literature on psychopathy.",
   "abstract_source": "pubmed",
-  "cited_by_count": 679,
+  "cited_by_count": 690,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/16712954/",
   "keywords": [],
@@ -20738,7 +20738,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-23"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "calhoun2006method2",
@@ -20851,7 +20851,7 @@
   "openalex_id": null,
   "abstract": "Psychopathy is associated with abnormalities in attention and orienting. However, few studies have examined the neural systems underlying these processes. To address this issue, the authors recorded event-related potentials (ERPs) while 80 incarcerated men, classified as psychopathic or nonpsychopathic via the Hare Psychopathy Checklist--Revised (R. D. Hare, 1991, 2003), completed an auditory oddball task. Consistent with hypotheses, processing of targets elicited larger frontocentral negativities (N550) in psychopaths than in nonpsychopaths. Psychopaths also showed an enlarged N2 and reduced P3 during target detection. Similar ERP modulations have been reported in patients with amygdala and temporal lobe damage. The data are interpreted as supporting the hypothesis that psychopathy may be related to dysfunction of the paralimbic system--a system that includes parts of the temporal and frontal lobes.",
   "abstract_source": "pubmed",
-  "cited_by_count": 128,
+  "cited_by_count": 127,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/16866585/",
   "keywords": [],
@@ -20885,7 +20885,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-23"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "laurens2005supramodal",
@@ -20957,7 +20957,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-24"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "maltby2005dysfunctional",
@@ -21065,7 +21065,7 @@
   "openalex_id": null,
   "abstract": "Schizophrenia is characterised by marked disturbances of attention and information processing. Patients experience difficulty focusing on relevant cues and avoiding distraction by irrelevant stimuli. Event-related potential recordings indicate an amplitude reduction in the P3a component elicited by involuntary orienting to task-irrelevant, infrequent novel stimuli presented during auditory oddball detection in patients with schizophrenia. The goal of the present study was to elucidate the functional abnormality underlying the disturbed orienting to novel stimuli in schizophrenia. Twenty-eight stable, partially remitted, medicated patients with schizophrenia and 28 healthy control participants completed a novelty oddball variant during event-related fMRI. Relative to healthy participants, patients with schizophrenia were characterised by underactivity during novel stimulus processing in the right amygdala-hippocampus, within paralimbic cortex in the rostral anterior cingulate and posterior cingulate cortices and the right frontal operculum, and in association cortex at the right temporo-parietal-occipital junction, bilateral intraparietal sulcus, and bilateral dorsal frontal cortex. Subcortically, relative hypoactivation during novelty processing was apparent in the cerebellum, thalamus, and basal ganglia. These results suggest that patients less efficiently reorient processing resources away from the ongoing task of detecting and responding to the task-relevant target stimuli. In addition, trend results suggest that patients experienced increased distraction by novel stimuli.",
   "abstract_source": "pubmed",
-  "cited_by_count": 125,
+  "cited_by_count": 126,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/15885507/",
   "keywords": [],
@@ -21099,7 +21099,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-24"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "mendrek2005dysfunction",
@@ -21357,7 +21357,7 @@
   "openalex_id": null,
   "abstract": "Recent hemodynamic imaging studies have shown that processing of low probability task-relevant target stimuli (i.e., oddballs) and low probability task-irrelevant novel stimuli elicit widespread activity in diverse, spatially distributed cortical and subcortical systems. The nature of this distributed response supports the model that processing of salient and novel stimuli engages many brain regions regardless of whether said regions were necessary for task performance. However, these latter neuroimaging studies largely employed small sample sizes and fixed-effect analyses, limiting the characterization and inference of the results. The present study addressed these issues by collecting a large sample size (n = 100) and employed random effects statistical models. Analyses were also conducted to determine the inter-subject reliability of the hemodynamic response and the effects of gender and age on target detection and novelty processing. Group data demonstrated highly significant activation in all 34 specified regions of interest for target detection and all 24 specified regions of interest for processing of novel stimuli. Neither age nor gender systematically influenced the results. These data are discussed within the context of a model that proposes that the mammalian brain has evolved to adopt a strategy of engaging distributed neuronal systems when processing salient stimuli despite the low probability that many of these brain regions are required for successful task performance. This process may be termed 'adaptive reflexive processing.' The implications of these results for interpreting functional MRI studies are discussed.",
   "abstract_source": "pubmed",
-  "cited_by_count": 264,
+  "cited_by_count": 261,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/15808990/",
   "keywords": [],
@@ -21391,7 +21391,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-23"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "kiehl2005abnormal",
@@ -21469,7 +21469,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-23"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "stevens2005fmri",
@@ -21733,7 +21733,7 @@
   "openalex_id": null,
   "abstract": "We tested the hypothesis that psychopathy is associated with abnormalities in semantic processing of linguistic information. Functional magnetic resonance imaging (fMRI) was used to elucidate and characterize the neural architecture underlying lexico-semantic processes in criminal psychopathic individuals and in a group of matched control participants. Participants performed a lexical decision task in which blocks of linguistic stimuli alternated with a resting baseline condition. In each lexical decision block, the stimuli were either concrete words and pseudowords or abstract words and pseudowords. Consistent with our hypothesis, psychopathic individuals, relative to controls, showed poorer behavioral performance for processing abstract words. Analysis of the fMRI data for both groups indicated that processing of word stimuli, compared with the resting baseline condition, was associated with neural activation in bilateral fusiform gyrus, anterior cingulate, left middle temporal gyrus, right posterior superior temporal gyrus, and left and right inferior frontal gyrus. Analyses confirmed our prediction that psychopathic individuals would fail to show the appropriate neural differentiation between abstract and concrete stimuli in the right anterior temporal gyrus and surrounding cortex. The results are consistent with other studies of semantic processing in psychopathy and support the theory that psychopathy is associated with right hemisphere abnormalities for processing conceptually abstract material.",
   "abstract_source": "pubmed",
-  "cited_by_count": 215,
+  "cited_by_count": 155,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/14972366/",
   "keywords": [],
@@ -21768,7 +21768,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-23"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "calhoun2004aberrant",
@@ -22018,7 +22018,7 @@
   "openalex_id": null,
   "abstract": "Determining the reliability and reproducibility of the hemodynamic response is important for the interpretation and understanding of the results of functional magnetic resonance imaging (fMRI) experiments. We describe a whole brain fMRI study designed to examine the reproducibility of the event-related hemodynamic response elicited by low-probability task-relevant target stimuli and low-probability task-irrelevant novel stimuli assessed 6 weeks apart. Reliable activation was observed during test and retest for processing of target stimuli in multiple frontal, temporal, parietal, cerebellar, and subcortical sites. Novel stimuli elicited reliable activation during test and retest in lateral frontal cortex, inferior parietal lobule, and lateral temporal cortex, though there was evidence of habituation at some cortical sites. The patterns of activation associated with target detection and novelty processing are consistent with the intracranial distribution of the neural sources generated during similar tasks and replicate the results of previous event-related fMRI studies. The observed pattern of results supports the hypothesis that the hemodynamic response to target and novel stimuli is highly reproducible over the 6-week test-retest period.",
   "abstract_source": "pubmed",
-  "cited_by_count": 103,
+  "cited_by_count": 102,
   "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/hbm.10074?download=true",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/12454911/",
   "keywords": [],
@@ -22057,7 +22057,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-23"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "laurens2003rostral",
@@ -22130,7 +22130,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-23"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "bolla2003orbitofrontal",
@@ -22520,7 +22520,7 @@
   "openalex_id": null,
   "abstract": "We report a random-effects analysis of an event-related fMRI study (n = 28) of cerebral activity during the reading of sentences that ended with a word that was either congruent or incongruent with the previous sentence context. Event-related potential studies have shown that this task elicits a late negativity peaking around 400 ms poststimulus (N400) that is larger for incongruent than for congruent sentence endings. A direct comparison of the activation for incongruent words versus that for congruent words revealed significantly greater activation for incongruent words than congruent words in bilateral inferior frontal and inferio-medial temporal cortex, left lateral frontal cortex, left posterior fusiform gyrus, bilateral motor cortex, and supplementary motor area. These results are consistent with data from intracranial electrical recording studies of the N400 electrical potential. The results are discussed as they relate to the localization of the cerebral sites underlying semantic processing in general and the localization of the scalp recorded N400 event-related potential in particular.",
   "abstract_source": "pubmed",
-  "cited_by_count": 109,
+  "cited_by_count": 107,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/12377158/",
   "keywords": [],
@@ -22548,7 +22548,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-23"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "kiehl2001event2",
@@ -22612,7 +22612,7 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "citations_refreshed": "2026-11-23"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "kiehl2001neural",
@@ -22650,7 +22650,7 @@
   "openalex_id": null,
   "abstract": "We used event-related functional magnetic resonance imaging (erfMRI) techniques to examine the cerebral sites involved with target detection and novelty processing of auditory stimuli. Consistent with the results from a recent erfMRI study in the visual modality, target processing was associated with activation bilaterally in the anterior superior temporal gyrus, inferior and middle frontal gyrus, inferior and superior parietal lobules, anterior and posterior cingulate, thalamus, caudate, and the amygdala/hippocampal complex. Analyses of the novel stimuli revealed activation bilaterally in the inferior frontal gyrus, insula, inferior parietal lobule, and in the inferior, middle, and superior temporal gyri. These data suggest that the scalp recorded event-related potentials (e.g., N2 and P3) elicited during similar tasks reflect an ensemble of neural generators located in spatially remote cortical areas.",
   "abstract_source": "pubmed",
-  "cited_by_count": 446,
+  "cited_by_count": 419,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/11321614/",
   "keywords": [],
@@ -22677,7 +22677,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-23"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "liddle2001event",
@@ -22711,7 +22711,7 @@
   "openalex_id": null,
   "abstract": "Event-related functional magnetic resonance imaging (erfMRI) was employed to measure the hemodynamic response during a Go/No-go task in 16 healthy subjects. The task was designed so that Go and No-go events were equally probable, allowing an unbiased comparison of cerebral activity during these two types of trials. In accordance with prediction, anterior cingulate was active during both the Go and No-go trials, dorsolateral and ventrolateral prefrontal cortex was more active during the No-go trials, while primary motor cortex, supplementary motor area, pre-motor cortex and cerebellum were more active during Go trials. These findings are consistent with the hypothesis that the anterior cingulate cortex is principally engaged in making and monitoring of decisions, while dorsolateral and ventral lateral prefrontal sites play a specific role in response inhibition.",
   "abstract_source": "pubmed",
-  "cited_by_count": 689,
+  "cited_by_count": 680,
   "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/1097-0193%28200102%2912%3A2%3C100%3A%3AAID-HBM1007%3E3.0.CO%3B2-6?download=true",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/11169874/",
   "keywords": [],
@@ -22749,7 +22749,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-24"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "kiehl2001event",
@@ -22779,7 +22779,7 @@
   "openalex_id": null,
   "abstract": "Schizophrenia is a diffuse brain disease that affects many facets of cognitive function. One of the most replicated findings in the neurobiology of schizophrenia is that the event-related potentials to auditory oddball stimuli are abnormal, effects believed to be related to abnormalities in attentional and memory processes. Although event-related potentials provide excellent resolution regarding the time course of information processing, such studies are poor at characterizing the spatial location of these abnormalities. To address this issue, we used event-related functional magnetic resonance imaging techniques to elucidate the neural areas underlying target detection in schizophrenia. Consistent with recent event-related functional magnetic resonance imaging results, target processing by control participants was associated with bilateral activation in the anterior superior temporal gyri, inferior and superior parietal lobules, and activation in anterior and posterior cingulate, thalamus, and right lateral frontal cortex. For the schizophrenic patients, selective deficits were observed in both the extent and strength of activation associated with target processing in the right lateral frontal cortex, thalamus, bilateral anterior superior temporal gyrus, anterior and posterior cingulate, and right inferior and superior parietal lobules. These findings are consistent with the evidence for abnormal processing of oddball stimuli suggested by event-related potential studies in schizophrenic patients, but provide much more detailed evidence regarding the anatomical sites implicated. These data are consistent with the hypothesis that schizophrenia is characterized by a widespread pathological process affecting many cerebral areas, including association cortex and thalamus.",
   "abstract_source": "pubmed",
-  "cited_by_count": 221,
+  "cited_by_count": 220,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/11295369/",
   "keywords": [],
@@ -22813,7 +22813,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-23"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "desjardins2001removal",
@@ -22987,7 +22987,7 @@
   "openalex_id": null,
   "abstract": "BACKGROUND: Psychopathy is a complex personality disorder of unknown etiology. Central to the disorder are anomalies or difficulties in affective processing. METHODS: Functional magnetic resonance imaging was used to elucidate the neurobiological correlates of these anomalies in criminal psychopaths during performance of an affective memory task. RESULTS: Compared with criminal nonpsychopaths and noncriminal control participants, criminal psychopaths showed significantly less affect-related activity in the amygdala/hippocampal formation, parahippocampal gyrus, ventral striatum, and in the anterior and posterior cingulate gyri. Psychopathic criminals also showed evidence of overactivation in the bilateral fronto-temporal cortex for processing affective stimuli. CONCLUSIONS: These data suggest that the affective abnormalities so often observed in psychopathic offenders may be linked to deficient or weakened input from limbic structures.",
   "abstract_source": "pubmed",
-  "cited_by_count": 902,
+  "cited_by_count": 910,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/11704074/",
   "keywords": [],
@@ -23022,7 +23022,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-23"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "kiehl2000error",
@@ -23054,7 +23054,7 @@
   "openalex_id": null,
   "abstract": "The anterior cingulate is believed to play a crucial role in the regulation of thought and action. Recent evidence suggests that the anterior cingulate may play a role in the detection of inappropriate responses. We used event-related functional magnetic resonance imaging techniques to examine the neural responses to appropriate (correct rejects and correct hits) and inappropriate (errors of commission) behavioral responses during a go/no-go task. Analyses of the inappropriate responses revealed extensive activation in the rostral anterior cingulate cortex and in the left lateral frontal cortex. These areas were not activated for correctly classified trials (correct rejects and correct hits). These data suggest that the rostral anterior cingulate and left lateral frontal cortex are integral components of the brain's error checking system.",
   "abstract_source": "pubmed",
-  "cited_by_count": 755,
+  "cited_by_count": 739,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/10731771/",
   "keywords": [],
@@ -23081,7 +23081,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-23"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "kiehl2000event",
@@ -23117,7 +23117,7 @@
   "openalex_id": null,
   "abstract": "BACKGROUND: Schizophrenia and psychopathy are both characterized by impulsive, poorly planned behavior. This behavior may originate from a weak or poorly coordinated response inhibition system. We tested the hypothesis that schizophrenia and psychopathy are associated with abnormal neural processing during the suppression of inappropriate responses. METHODS: The participants were schizophrenic patients, nonpsychotic psychopaths, and nonpsychotic, nonpsychopathic control subjects (defined by the Hare Psychopathy Checklist-Revised), all incarcerated in a maximum security psychiatric facility. We recorded behavioral responses and event-related potentials (ERPs) during a Go/No Go task. RESULTS: Schizophrenic patients made more errors of commission than did the nonpsychopathic offenders. As expected, the nonpsychopathic nonpsychotic participants showed greater frontal ERP negativity (N275) to the No Go stimuli than to the Go stimuli. This effect was small in the schizophrenic patients and absent in the psychopaths. For the nonpsychopaths, the P375 ERP component was larger on Go than on No Go trials, a difference that was absent in schizophrenic patients and in the opposite direction in psychopaths. CONCLUSIONS: These findings support the hypothesis that the neural processes involved in response inhibition are abnormal in both schizophrenia and psychopathy; however, the nature of these processes appears to be different in the two disorders.",
   "abstract_source": "pubmed",
-  "cited_by_count": 338,
+  "cited_by_count": 336,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/10924664/",
   "keywords": [],
@@ -23152,7 +23152,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-23"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "kiehl1999neural",
@@ -23190,7 +23190,7 @@
   "openalex_id": null,
   "abstract": "The purpose of this study was to delineate the neural pathways involved in processing concrete and abstract words using functional magnetic resonance imaging (fMRI). Word and pseudoword stimuli were presented visually, one at a time, and the participant was required to make a lexical decision. Lexical decision epochs alternated with a resting baseline. In each lexical decision epoch, the stimuli were either concrete words and pseudowords, or abstract words and pseudowords. Behavioral data indicated that, as with previous research, concrete word stimuli were processed more efficiently than abstract word stimuli. Analysis of the fMRI data indicated that processing of word stimuli, compared to the baseline condition, was associated with neural activation in the bilateral fusiform gyrus, anterior cingulate, left middle temporal gyrus, right posterior superior temporal gyrus, and left and right inferior frontal gyrus. A direct comparison between the abstract and concrete stimuli epochs yielded a significant area of activation in the right anterior temporal cortex. The results are consistent with recent positron emission tomography work showing right hemisphere activation during processing of abstract representations of language. The results are interpreted as support for a right hemisphere neural pathway in the processing of abstract word representations.",
   "abstract_source": "pubmed",
-  "cited_by_count": 270,
+  "cited_by_count": 267,
   "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/%28SICI%291097-0193%281999%297%3A4%3C225%3A%3AAID-HBM1%3E3.0.CO%3B2-P",
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/10408766/",
   "keywords": [],
@@ -23229,7 +23229,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-23"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "kiehl1999reduced",
@@ -23263,7 +23263,7 @@
   "openalex_id": null,
   "abstract": "BACKGROUND: Clinicians have long recognized that psychopaths show deficits in cognitive function, but there have been few experimental studies exploring these deficits. We present here the first in a series of event-related potential (ERP) experiments designed to elucidate and characterize the neural correlates of cognitive processes of psychopaths. METHODS: We recorded ERPs from a topographic array from 11 psychopathic and 10 nonpsychopathic prison inmates, assessed with the Hare Psychopathy Checklist-Revised, during performance of a visual oddball task. ERPs to target (25% of trials) and nontarget (75% of trials) visual stimuli were analyzed. RESULTS: Consistent with previous research, there were no group differences in the latency or amplitude of the ERPs for the nontarget stimuli. For nonpsychopaths, the P300 amplitude was larger when elicited by the target stimuli than when elicited by the nontarget stimuli. In contrast, psychopaths failed to show reliable P300 amplitude differences between the target and nontarget conditions. Psychopaths had a smaller amplitude P300 to target stimuli than did nonpsychopaths. In addition, the amplitude of the P300 was less lateralized in psychopaths than in nonpsychopaths. Psychopaths also had a larger centrofrontal negative wave (N550) during the target condition than did nonpsychopaths. CONCLUSIONS: The results of this study indicate that there are substantial differences between psychopaths and others in the processing of even simple cognitive tasks and provide support for information processing models of psychopathy.",
   "abstract_source": "pubmed",
-  "cited_by_count": 190,
+  "cited_by_count": 185,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/10356633/",
   "keywords": [],
@@ -23298,7 +23298,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-23"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "szymanski1999killer",
@@ -23468,7 +23468,7 @@
   "openalex_id": null,
   "abstract": "We tested the hypothesis that psychopathy is associated with abnormal processing of semantic and affective verbal information. In Task 1, a lexical decision task, and in Task 2, a word identification task, participants responded faster to concrete than to abstract words. In Task 2, psychopaths made more errors identifying abstract words than concrete words. In Task 3, a word identification task, participants responded faster to positive than to negative words. In all three tasks, nonpsychopaths showed the expected event-related potential (ERP) differentiation between word stimuli, whereas psychopaths did not. In each task, the ERPs of the psychopaths included a large centrofrontal negative-going wave (N350); this wave was absent or very small in the nonpsychopaths. The interpretation and significance of these differences are discussed.",
   "abstract_source": "pubmed",
-  "cited_by_count": 246,
+  "cited_by_count": 237,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/10554590/",
   "keywords": [],
@@ -23497,7 +23497,7 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-23"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "forster1998functional",
@@ -23628,7 +23628,7 @@
   "date_added": "",
   "source": "cv-2026",
   "tag_source": "rules",
-  "citations_refreshed": "2026-11-23"
+  "citations_refreshed": "2026-11-28"
  },
  {
   "id": "levenson1995assessing",
@@ -23660,7 +23660,7 @@
   "openalex_id": null,
   "abstract": "The present study examined antisocial dispositions in 487 university students. Primary and secondary psychopathy scales were developed to assess a protopsychopathic interpersonal philosophy. An antisocial action scale also was developed for purposes of validation. The primary, secondary, and antisocial action scales were correlated with each other and with boredom susceptibility and disinhibition but not with experience seeking and thrill and adventure seeking. Secondary psychopathy was associated with trait anxiety. Multiple regression analysis revealed that the strongest predictors of antisocial action were disinhibition, primary psychopathy, secondary psychopathy, and sex, whereas thrill and adventure seeking was a negative predictor. This argues against a singular behavioral inhibition system mediating both antisocial and risk-taking behavior. These findings are also consistent with the view that psychopathy is a continuous dimension.",
   "abstract_source": "pubmed",
-  "cited_by_count": 2203,
+  "cited_by_count": 2204,
   "oa_url": null,
   "landing_url": "https://pubmed.ncbi.nlm.nih.gov/7861311/",
   "keywords": [],
@@ -23693,6 +23693,6 @@
   "source": "cv-2026",
   "tag_source": "rules",
   "enriched": true,
-  "citations_refreshed": "2026-11-24"
+  "citations_refreshed": "2026-11-28"
  }
 ]
